@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Wetter</title>
+
+    <link rel="stylesheet" href="./style.css">   
+
+    <script src="./script.js"></script>  
+</head>
+	<body>
+      <div class="container">
+        <div class="WeatherForm">
+            <div class="Searchbar">
+                <input id="Searchcity" placeholder="Stadt eingeben..." for="text"></input>
+                <img id="btnSearch" onclick="checkWeather()" src="./img/search.png">
+            </div>
+            <div class="DisplayWeather">
+                <img id="imgTemp" src="">
+                <h1 id="temp">7°C</h1>
+                <h2 id="city"></h2>
+            </div>
+            <div class="PlaceStats">
+                <div class="PlaceHumidity">
+                    <div class="AlignStats">
+                        <img class="imgStats" src="./img/nass.png">
+                        <p id="percentage">48%</p>
+                    </div>             
+                    <p>Feuchtigkeit</p> 
+                </div>           
+                <div class="PlaceWindSpeed">
+                    <div class="AlignStats">
+                        <img class="imgStats" src="./img/wind.png">
+                        <p id="kmh">10.29 km/h</p>
+                    </div>       
+                    <p>Geschwindigkeit</p>
+                </div>       
+            </div>         
+        </div>
+      </div>
+	</body>
+</html>
