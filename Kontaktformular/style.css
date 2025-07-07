@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    
+}
+.PlaceFormular{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+
+}
+label{
+    margin-top: 20px;
+    font-size:25px;
+}
+input{
+    font-size:20px;
+    width: 317px;
+    padding: 0;
+}
+.btn-btn-primary{
+    width: 322px;
+}
+textarea{
+    font-size:20px;
+    resize: none;
+    width: 316px;
+    height: 150px;
+}
