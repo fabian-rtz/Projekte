@@ -1,0 +1,229 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\f.reitz\\Desktop\\Storage\\Web Projekte\\Projekte\\KinoTicketSystem\\KinoTicketSystem\\KinoTicketSystem\\wwwroot\\css\\Buchungsbestätigung.css",
+      "PackagePath": "staticwebassets\\css\\Buchungsbestätigung.css"
+    },
+    {
+      "Id": "C:\\Users\\f.reitz\\Desktop\\Storage\\Web Projekte\\Projekte\\KinoTicketSystem\\KinoTicketSystem\\KinoTicketSystem\\wwwroot\\css\\HomeScreen.css",
+      "PackagePath": "staticwebassets\\css\\HomeScreen.css"
+    },
+    {
+      "Id": "C:\\Users\\f.reitz\\Desktop\\Storage\\Web Projekte\\Projekte\\KinoTicketSystem\\KinoTicketSystem\\KinoTicketSystem\\wwwroot\\css\\Loadingbar.css",
+      "PackagePath": "staticwebassets\\css\\Loadingbar.css"
+    },
+    {
+      "Id": "C:\\Users\\f.reitz\\Desktop\\Storage\\Web Projekte\\Projekte\\KinoTicketSystem\\KinoTicketSystem\\KinoTicketSystem\\wwwroot\\css\\Saal_1.css",
+      "PackagePath": "staticwebassets\\css\\Saal_1.css"
+    },
+    {
+      "Id": "C:\\Users\\f.reitz\\Desktop\\Storage\\Web Projekte\\Projekte\\KinoTicketSystem\\KinoTicketSystem\\KinoTicketSystem\\wwwroot\\css\\Saal_1_Summary.css",
+      "PackagePath": "staticwebassets\\css\\Saal_1_Summary.css"
+    },
+    {
+      "Id": "C:\\Users\\f.reitz\\Desktop\\Storage\\Web Projekte\\Projekte\\KinoTicketSystem\\KinoTicketSystem\\KinoTicketSystem\\wwwroot\\css\\Saal_2.css",
+      "PackagePath": "staticwebassets\\css\\Saal_2.css"
+    },
+    {
+      "Id": "C:\\Users\\f.reitz\\Desktop\\Storage\\Web Projekte\\Projekte\\KinoTicketSystem\\KinoTicketSystem\\KinoTicketSystem\\wwwroot\\css\\Saal_2_Summary.css",
+      "PackagePath": "staticwebassets\\css\\Saal_2_Summary.css"
+    },
+    {
+      "Id": "C:\\Users\\f.reitz\\Desktop\\Storage\\Web Projekte\\Projekte\\KinoTicketSystem\\KinoTicketSystem\\KinoTicketSystem\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\f.reitz\\Desktop\\Storage\\Web Projekte\\Projekte\\KinoTicketSystem\\KinoTicketSystem\\KinoTicketSystem\\wwwroot\\html\\Buchungsbestätigung.html",
+      "PackagePath": "staticwebassets\\html\\Buchungsbestätigung.html"
+    },
+    {
+      "Id": "C:\\Users\\f.reitz\\Desktop\\Storage\\Web Projekte\\Projekte\\KinoTicketSystem\\KinoTicketSystem\\KinoTicketSystem\\wwwroot\\html\\HomeScreen.html",
+      "PackagePath": "staticwebassets\\html\\HomeScreen.html"
+    },
+    {
+      "Id": "C:\\Users\\f.reitz\\Desktop\\Storage\\Web Projekte\\Projekte\\KinoTicketSystem\\KinoTicketSystem\\KinoTicketSystem\\wwwroot\\html\\Loadingbar.html",
+      "PackagePath": "staticwebassets\\html\\Loadingbar.html"
+    },
+    {
+      "Id": "C:\\Users\\f.reitz\\Desktop\\Storage\\Web Projekte\\Projekte\\KinoTicketSystem\\KinoTicketSystem\\KinoTicketSystem\\wwwroot\\html\\Saal_1.html",
+      "PackagePath": "staticwebassets\\html\\Saal_1.html"
+    },
+    {
+      "Id": "C:\\Users\\f.reitz\\Desktop\\Storage\\Web Projekte\\Projekte\\KinoTicketSystem\\KinoTicketSystem\\KinoTicketSystem\\wwwroot\\html\\Saal_1_Summary.html",
+      "PackagePath": "staticwebassets\\html\\Saal_1_Summary.html"
+    },
+    {
+      "Id": "C:\\Users\\f.reitz\\Desktop\\Storage\\Web Projekte\\Projekte\\KinoTicketSystem\\KinoTicketSystem\\KinoTicketSystem\\wwwroot\\html\\Saal_2.html",
+      "PackagePath": "staticwebassets\\html\\Saal_2.html"
+    },
+    {
+      "Id": "C:\\Users\\f.reitz\\Desktop\\Storage\\Web Projekte\\Projekte\\KinoTicketSystem\\KinoTicketSystem\\KinoTicketSystem\\wwwroot\\html\\Saal_2_Summary.html",
+      "PackagePath": "staticwebassets\\html\\Saal_2_Summary.html"
+    },
+    {
+      "Id": "C:\\Users\\f.reitz\\Desktop\\Storage\\Web Projekte\\Projekte\\KinoTicketSystem\\KinoTicketSystem\\KinoTicketSystem\\wwwroot\\html\\index.html",
+      "PackagePath": "staticwebassets\\html\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\f.reitz\\Desktop\\Storage\\Web Projekte\\Projekte\\KinoTicketSystem\\KinoTicketSystem\\KinoTicketSystem\\wwwroot\\img\\Allesfu╠êrdieKatz.webp",
+      "PackagePath": "staticwebassets\\img\\Allesfu╠êrdieKatz.webp"
+    },
+    {
+      "Id": "C:\\Users\\f.reitz\\Desktop\\Storage\\Web Projekte\\Projekte\\KinoTicketSystem\\KinoTicketSystem\\KinoTicketSystem\\wwwroot\\img\\Ausgewählt.png",
+      "PackagePath": "staticwebassets\\img\\Ausgewählt.png"
+    },
+    {
+      "Id": "C:\\Users\\f.reitz\\Desktop\\Storage\\Web Projekte\\Projekte\\KinoTicketSystem\\KinoTicketSystem\\KinoTicketSystem\\wwwroot\\img\\Besetzt.png",
+      "PackagePath": "staticwebassets\\img\\Besetzt.png"
+    },
+    {
+      "Id": "C:\\Users\\f.reitz\\Desktop\\Storage\\Web Projekte\\Projekte\\KinoTicketSystem\\KinoTicketSystem\\KinoTicketSystem\\wwwroot\\img\\BetterMan.webp",
+      "PackagePath": "staticwebassets\\img\\BetterMan.webp"
+    },
+    {
+      "Id": "C:\\Users\\f.reitz\\Desktop\\Storage\\Web Projekte\\Projekte\\KinoTicketSystem\\KinoTicketSystem\\KinoTicketSystem\\wwwroot\\img\\BigBrain.webp",
+      "PackagePath": "staticwebassets\\img\\BigBrain.webp"
+    },
+    {
+      "Id": "C:\\Users\\f.reitz\\Desktop\\Storage\\Web Projekte\\Projekte\\KinoTicketSystem\\KinoTicketSystem\\KinoTicketSystem\\wwwroot\\img\\Blockiert.png",
+      "PackagePath": "staticwebassets\\img\\Blockiert.png"
+    },
+    {
+      "Id": "C:\\Users\\f.reitz\\Desktop\\Storage\\Web Projekte\\Projekte\\KinoTicketSystem\\KinoTicketSystem\\KinoTicketSystem\\wwwroot\\img\\CriminalSquad.webp",
+      "PackagePath": "staticwebassets\\img\\CriminalSquad.webp"
+    },
+    {
+      "Id": "C:\\Users\\f.reitz\\Desktop\\Storage\\Web Projekte\\Projekte\\KinoTicketSystem\\KinoTicketSystem\\KinoTicketSystem\\wwwroot\\img\\GhostInTheShell.webp",
+      "PackagePath": "staticwebassets\\img\\GhostInTheShell.webp"
+    },
+    {
+      "Id": "C:\\Users\\f.reitz\\Desktop\\Storage\\Web Projekte\\Projekte\\KinoTicketSystem\\KinoTicketSystem\\KinoTicketSystem\\wwwroot\\img\\LebenIstJetzt.webp",
+      "PackagePath": "staticwebassets\\img\\LebenIstJetzt.webp"
+    },
+    {
+      "Id": "C:\\Users\\f.reitz\\Desktop\\Storage\\Web Projekte\\Projekte\\KinoTicketSystem\\KinoTicketSystem\\KinoTicketSystem\\wwwroot\\img\\Loge.png",
+      "PackagePath": "staticwebassets\\img\\Loge.png"
+    },
+    {
+      "Id": "C:\\Users\\f.reitz\\Desktop\\Storage\\Web Projekte\\Projekte\\KinoTicketSystem\\KinoTicketSystem\\KinoTicketSystem\\wwwroot\\img\\Nosferatu.webp",
+      "PackagePath": "staticwebassets\\img\\Nosferatu.webp"
+    },
+    {
+      "Id": "C:\\Users\\f.reitz\\Desktop\\Storage\\Web Projekte\\Projekte\\KinoTicketSystem\\KinoTicketSystem\\KinoTicketSystem\\wwwroot\\img\\Parkett.png",
+      "PackagePath": "staticwebassets\\img\\Parkett.png"
+    },
+    {
+      "Id": "C:\\Users\\f.reitz\\Desktop\\Storage\\Web Projekte\\Projekte\\KinoTicketSystem\\KinoTicketSystem\\KinoTicketSystem\\wwwroot\\img\\Premium.png",
+      "PackagePath": "staticwebassets\\img\\Premium.png"
+    },
+    {
+      "Id": "C:\\Users\\f.reitz\\Desktop\\Storage\\Web Projekte\\Projekte\\KinoTicketSystem\\KinoTicketSystem\\KinoTicketSystem\\wwwroot\\img\\booking-not-selected.png",
+      "PackagePath": "staticwebassets\\img\\booking-not-selected.png"
+    },
+    {
+      "Id": "C:\\Users\\f.reitz\\Desktop\\Storage\\Web Projekte\\Projekte\\KinoTicketSystem\\KinoTicketSystem\\KinoTicketSystem\\wwwroot\\img\\booking-selected.png",
+      "PackagePath": "staticwebassets\\img\\booking-selected.png"
+    },
+    {
+      "Id": "C:\\Users\\f.reitz\\Desktop\\Storage\\Web Projekte\\Projekte\\KinoTicketSystem\\KinoTicketSystem\\KinoTicketSystem\\wwwroot\\img\\clock.png",
+      "PackagePath": "staticwebassets\\img\\clock.png"
+    },
+    {
+      "Id": "C:\\Users\\f.reitz\\Desktop\\Storage\\Web Projekte\\Projekte\\KinoTicketSystem\\KinoTicketSystem\\KinoTicketSystem\\wwwroot\\img\\credit-card.png",
+      "PackagePath": "staticwebassets\\img\\credit-card.png"
+    },
+    {
+      "Id": "C:\\Users\\f.reitz\\Desktop\\Storage\\Web Projekte\\Projekte\\KinoTicketSystem\\KinoTicketSystem\\KinoTicketSystem\\wwwroot\\img\\greater-than.png",
+      "PackagePath": "staticwebassets\\img\\greater-than.png"
+    },
+    {
+      "Id": "C:\\Users\\f.reitz\\Desktop\\Storage\\Web Projekte\\Projekte\\KinoTicketSystem\\KinoTicketSystem\\KinoTicketSystem\\wwwroot\\img\\info.png",
+      "PackagePath": "staticwebassets\\img\\info.png"
+    },
+    {
+      "Id": "C:\\Users\\f.reitz\\Desktop\\Storage\\Web Projekte\\Projekte\\KinoTicketSystem\\KinoTicketSystem\\KinoTicketSystem\\wwwroot\\img\\profile.png",
+      "PackagePath": "staticwebassets\\img\\profile.png"
+    },
+    {
+      "Id": "C:\\Users\\f.reitz\\Desktop\\Storage\\Web Projekte\\Projekte\\KinoTicketSystem\\KinoTicketSystem\\KinoTicketSystem\\wwwroot\\img\\pwd.png",
+      "PackagePath": "staticwebassets\\img\\pwd.png"
+    },
+    {
+      "Id": "C:\\Users\\f.reitz\\Desktop\\Storage\\Web Projekte\\Projekte\\KinoTicketSystem\\KinoTicketSystem\\KinoTicketSystem\\wwwroot\\img\\summary-not-selected.png",
+      "PackagePath": "staticwebassets\\img\\summary-not-selected.png"
+    },
+    {
+      "Id": "C:\\Users\\f.reitz\\Desktop\\Storage\\Web Projekte\\Projekte\\KinoTicketSystem\\KinoTicketSystem\\KinoTicketSystem\\wwwroot\\img\\summary-selected.png",
+      "PackagePath": "staticwebassets\\img\\summary-selected.png"
+    },
+    {
+      "Id": "C:\\Users\\f.reitz\\Desktop\\Storage\\Web Projekte\\Projekte\\KinoTicketSystem\\KinoTicketSystem\\KinoTicketSystem\\wwwroot\\img\\tag.png",
+      "PackagePath": "staticwebassets\\img\\tag.png"
+    },
+    {
+      "Id": "C:\\Users\\f.reitz\\Desktop\\Storage\\Web Projekte\\Projekte\\KinoTicketSystem\\KinoTicketSystem\\KinoTicketSystem\\wwwroot\\img\\ticket-not-selected.png",
+      "PackagePath": "staticwebassets\\img\\ticket-not-selected.png"
+    },
+    {
+      "Id": "C:\\Users\\f.reitz\\Desktop\\Storage\\Web Projekte\\Projekte\\KinoTicketSystem\\KinoTicketSystem\\KinoTicketSystem\\wwwroot\\img\\ticket-selected.png",
+      "PackagePath": "staticwebassets\\img\\ticket-selected.png"
+    },
+    {
+      "Id": "C:\\Users\\f.reitz\\Desktop\\Storage\\Web Projekte\\Projekte\\KinoTicketSystem\\KinoTicketSystem\\KinoTicketSystem\\wwwroot\\img\\user.png",
+      "PackagePath": "staticwebassets\\img\\user.png"
+    },
+    {
+      "Id": "C:\\Users\\f.reitz\\Desktop\\Storage\\Web Projekte\\Projekte\\KinoTicketSystem\\KinoTicketSystem\\KinoTicketSystem\\wwwroot\\js\\Buchungsbestätigung.js",
+      "PackagePath": "staticwebassets\\js\\Buchungsbestätigung.js"
+    },
+    {
+      "Id": "C:\\Users\\f.reitz\\Desktop\\Storage\\Web Projekte\\Projekte\\KinoTicketSystem\\KinoTicketSystem\\KinoTicketSystem\\wwwroot\\js\\Homescreen.js",
+      "PackagePath": "staticwebassets\\js\\Homescreen.js"
+    },
+    {
+      "Id": "C:\\Users\\f.reitz\\Desktop\\Storage\\Web Projekte\\Projekte\\KinoTicketSystem\\KinoTicketSystem\\KinoTicketSystem\\wwwroot\\js\\Saal_1.js",
+      "PackagePath": "staticwebassets\\js\\Saal_1.js"
+    },
+    {
+      "Id": "C:\\Users\\f.reitz\\Desktop\\Storage\\Web Projekte\\Projekte\\KinoTicketSystem\\KinoTicketSystem\\KinoTicketSystem\\wwwroot\\js\\Saal_1_Summary.js",
+      "PackagePath": "staticwebassets\\js\\Saal_1_Summary.js"
+    },
+    {
+      "Id": "C:\\Users\\f.reitz\\Desktop\\Storage\\Web Projekte\\Projekte\\KinoTicketSystem\\KinoTicketSystem\\KinoTicketSystem\\wwwroot\\js\\Saal_2.js",
+      "PackagePath": "staticwebassets\\js\\Saal_2.js"
+    },
+    {
+      "Id": "C:\\Users\\f.reitz\\Desktop\\Storage\\Web Projekte\\Projekte\\KinoTicketSystem\\KinoTicketSystem\\KinoTicketSystem\\wwwroot\\js\\Saal_2_Summary.js",
+      "PackagePath": "staticwebassets\\js\\Saal_2_Summary.js"
+    },
+    {
+      "Id": "C:\\Users\\f.reitz\\Desktop\\Storage\\Web Projekte\\Projekte\\KinoTicketSystem\\KinoTicketSystem\\KinoTicketSystem\\wwwroot\\js\\redirect.js",
+      "PackagePath": "staticwebassets\\js\\redirect.js"
+    },
+    {
+      "Id": "C:\\Users\\f.reitz\\Desktop\\Storage\\Web Projekte\\Projekte\\KinoTicketSystem\\KinoTicketSystem\\KinoTicketSystem\\wwwroot\\js\\script.js",
+      "PackagePath": "staticwebassets\\js\\script.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.KinoTicketSystem.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.KinoTicketSystem.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.KinoTicketSystem.props",
+      "PackagePath": "build\\KinoTicketSystem.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.KinoTicketSystem.props",
+      "PackagePath": "buildMultiTargeting\\KinoTicketSystem.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.KinoTicketSystem.props",
+      "PackagePath": "buildTransitive\\KinoTicketSystem.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

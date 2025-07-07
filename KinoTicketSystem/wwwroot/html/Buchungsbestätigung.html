@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/Buchungsbestätigung.css">
+    <script src="../js/Buchungsbestätigung.js" defer></script>
+    <title>Buchungsbestätigung</title>
+</head>
+<body>
+    <div class="content-header-bg">
+        <h1>Buchungsbestätigung</h1>
+    </div>
+    <div class="place-content">
+        <div class="content-main-bg"> 
+            <h2>Vielen Dank für ihre Buchung</h2>
+            <h3>Hiermit erhalt sie ihre Bestätigung</h3>
+            <div class="order-side">
+                <div class="left-side">
+                    <h4>Information</h4>
+                    <p id="filmname">1x Filmname</p>
+                    <p id="time">Uhrzeit</p>
+                    <p id="date">Datum</p>
+                    <p id="hall">Saal</p>
+                    <p id="seat">Sitzplatz</p>
+                </div>
+                <div class="right-side">
+                    <h4>Lieferadresse</h4>
+                    <p id ="name">Vorname Nachname</p>
+                    <p id ="email">Email-Adresse</p>
+                    <p id ="straße">Straße Hausnummer</p>
+                    <p id ="ort">PLZ Ort</p>
+                    <p>--per Email versendet--</p>
+                </div>
+            </div>
+            <div class="ticket-view">        
+                <div class="Header">
+                    <img class="QR-Code" src="https://api.qrserver.com/v1/create-qr-code/?data=HelloWorld&amp;" alt="" />
+                    <p id="filmnameTicket" class="filmname">Filmname</p>
+                </div>
+                <div class="ticket-info_1">
+                    <p id= "nameTicket" class="name">Vorname Nachname</p>
+                </div>
+                <div class="ticket-info_2">    
+                    <p id="timedateTicket">Uhrzeit Datum</p>
+                    <p id="hallTicket">Saal</p>
+                    <p id="seatTicket">Sitzplatz</p>
+                </div>
+           
+               
+            </div>
+           
+        </div>
+         <div class="content-ticket-bg">       
+            <div class="content-ticket_1">   
+                <img class ="ticket-img" src="../img/ticket-not-selected.png" alt="">          
+                <p id="ticket-count">0 Tickets</p>
+                <p id="total-price">0 €</p>              
+            </div>        
+            <div class="content-ticket_3">
+                <img class ="ticket-img" src="../img/summary-not-selected.png" alt="">
+                <p>Deine Daten</p>
+            </div>
+            <div class="content-ticket_4">
+                <img class ="ticket-img" src="../img/booking-selected.png" alt="">
+                <p>Buchungsbestätigung</p>
+            </div>
+         </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/HomeScreen.css">
+    <script src="../js/Homescreen.js" ></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="Main-bg">
+        <div class="Main-container">             
+                <div class="Tag">
+                    <p>Demnächst im Kino</p>
+                </div>
+                <div class="Film-container">
+                    <button id="newMovieButton" class="newMovie" onclick="DisplayFormCreate()">+</button>
+                    <div id="movies-container"></div>
+                </div>
+        </div>
+    </div>
+    <div class="createFilm" id="createFilm">
+        <div class="placeFlexDirection">
+            <button id="createImgBtn" onclick="createImg()">+</button>
+            <div class="placeattribute">
+                <input type="text" id="inputTitle"  class="inputTitle" placeholder="Titel">
+                <div class="createfilm-attribute">
+                    <input type="text" id="attributeLength" class="attribute" placeholder="Länge">
+                    <input type="text" id="attributeFsk" class="attribute-2" placeholder="FSK">
+                    <input type="text" id="attributeGenre" class="attribute-3" placeholder="Genre">
+                </div>
+                <div class="hall-info" id="hallInfoContainer">
+                    <div class="hall-row">
+                        <input type="date" value="" id= "attributeDate" class="attribute-hall" placeholder="Datum">
+                        <select id="attributeHall" class="attribute-hall-DropDown">
+                            <option value="" disabled selected>Wähle einen Saal</option>
+                            <option value="1">Saal 1</option>
+                            <option value="2">Saal 2</option>
+                        </select>
+                        <input type="time" id= "attributeTime" class="attribute-hall-time">
+                    </div>
+                    <button id="addHallInfoBtn" onclick="addHallInfo()">+</button>
+                </div>
+            </div>
+        </div>
+        <div class="placeBtn">
+            <button id="SubmitInfo" onclick="submitMovie(1)">Erstellen</button>
+        </div>
+       
+    </div>
+</body>
+</html>

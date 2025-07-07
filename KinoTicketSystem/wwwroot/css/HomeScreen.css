@@ -1,0 +1,280 @@
+body{
+    margin: 0;
+}
+img{
+    height: 49px;
+}
+p{
+   font-size: 15px;
+   font-family: "Edu AU VIC WA NT Pre", serif;
+   padding: 5px 10px 5px 10px;
+   margin: 0;
+}
+.AlignBtn{
+    display: flex;
+    justify-content: space-around;
+}
+input:focus{
+    outline: none;
+}
+button {
+    padding: 10px 20px; 
+    background-color: rgb(169, 179, 252);
+    color: white; 
+    border: none; 
+    border-radius: 12px; 
+    font-size: 30px; 
+    cursor: pointer; 
+    transition: all 0.3s ease; 
+    width: 120px;
+    height: 120px;
+}
+button:hover {
+    box-shadow: 5px 5px 10px #888888;
+    transform: translateY(-2px); 
+}
+button:active {
+    transform: scale(0.90); 
+}
+input{
+    height: 40px;
+    margin-left: -10px;
+    border: 0;
+    background-color: rgb(169, 179, 252);
+    padding: 0;
+    width: 250px;
+    font-size: 15px;
+    color: white;
+}
+.Main-bg{
+    background-image: linear-gradient(to bottom right, rgb(169, 179, 252), rgb(36, 32, 80));
+    height: 100vh;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.Main-container {
+    display: flex;
+    height: 90vh;
+    background-color: white;
+    width: 75%;
+    border-radius: 20px;
+    flex-direction: column;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    overflow: hidden; 
+}
+
+.Film-container {
+    height: calc(90vh - 60px); 
+    margin: 20px 125px;
+    overflow-y: auto; 
+    padding: 20px; 
+}
+
+.AlignItems{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15px;
+}
+label{   
+     color: black;
+}
+
+.Tag{
+    background-color: rgb(169, 179, 252);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-top: 20px;
+    color: white;
+    width: 150px;
+}
+
+.img_movie{
+    height: 450px;
+    width: 300px;
+    margin-right:25px;
+}
+.film-info{
+    display: flex;
+    
+    margin-bottom:150px;
+}
+.film-attribute{
+    display: flex;
+    
+}
+.img-att{
+    height:10px;
+    margin: 0;
+    margin:5px;
+}
+.img-con{
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+}
+.att-inf{
+    padding: 0;
+}
+.time-container{
+    display: flex;
+}
+.time-inf{
+    margin: 5px;
+}
+.newMovie{
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    padding: 0;
+}
+
+.changeMovie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 25px;
+    margin: 5px;
+    padding: 0;
+   
+}
+.createFilm {
+    background-color: white;
+    height: 750px;
+    width: 60%;
+    position: absolute;
+    border-radius: 15px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.3);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+    padding: 20px; 
+    align-items: flex-start; /* Oberkante der Inhalte ausrichten */
+    display: none;
+    
+}
+
+#createImgBtn {
+    height: 420px;
+    width: 320px;
+    font-size: 50px;
+    padding: 0;
+    margin-top: 50px; 
+    margin-bottom: 100px; 
+}
+
+#createImgBtn img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.placeattribute {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; /* Nimmt den verbleibenden Platz ein */
+    margin-left: 20px; /* Abstand zum Button */
+}
+
+.inputTitle {
+    background-color: white;
+    color: black;
+    font-size: 25px;
+    border: 1px solid black;
+    padding: 5px;
+    width: 100%; 
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+.attribute,.attribute-2,.attribute-3 {  
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    height: 20px; 
+    width: 50px;
+}
+.attribute-2,.attribute-3 {  
+ margin-left: 50px;
+}
+.attribute-hall,.attribute-hall-time,.attribute-hall-DropDown {  
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    height: 30px; 
+    width: 180px;
+}
+.attribute-hall-time{
+    height: 150px; 
+    text-align: center;
+    font-size: 25px; 
+}
+.attribute-hall-DropDown{
+    height: 40px; 
+    width: 193px;
+    margin-left: -10px;
+}
+.createfilm-attribute {
+    display: flex;  
+    margin-top: 20px;
+}
+
+.hall-info {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px; 
+}
+
+.hall-row {
+    display: flex;
+    gap: 10px; 
+    flex-direction: column;
+    width: 200px;
+}
+
+#addHallInfoBtn {
+    height: 265px;
+    width: 200px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(169, 179, 252);
+    border: 1px solid black;
+    border-radius: 5px;
+   
+    cursor: pointer;
+    transition: all 0.2s;
+}
+#addHallInfoBtn:hover {
+    background-color: rgb(124, 139, 255);
+}
+.placeFlexDirection{
+    display: flex;
+    width: 100%;
+}
+.placeBtn{
+    display: flex; /* Flexbox aktivieren */
+    width: 100%; /* Breite auf 100% setzen */
+    align-items: center; /* Inhalte vertikal zentrieren */
+    justify-content: center; /* Optional: Inhalte horizontal zentrieren */
+}
+#SubmitInfo{
+    height: 60px;
+    width: 200px;
+}
+
+

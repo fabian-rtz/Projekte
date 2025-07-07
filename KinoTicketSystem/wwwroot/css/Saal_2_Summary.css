@@ -1,0 +1,176 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to bottom right, rgb(169, 179, 252), rgb(36, 32, 80));
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+h3{
+    margin-top: 30px;
+}
+h4{
+    margin: 0;
+    margin-bottom: 20px;
+}
+img {
+    height: 25px;
+}
+form {
+    display: flex; 
+    flex-direction: column;  
+    align-items: center;
+    margin: 0; 
+    padding: 0; 
+}
+.ticket-img{
+    height: 50px;
+}
+.row{
+    margin: 10px;
+}
+.content-main-bg .InputField{
+    margin: 0;
+    margin-right: 25px;
+    margin-left: 25px;
+    border: none; 
+    border-bottom: 2px solid rgb(0, 0, 0); 
+    border-radius: 3px;
+    text-align:center;
+
+}
+.Mastercard-Payment{
+   
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    
+}
+.content-header-bg {
+    width: 70%; 
+    height: 10vh;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    margin: 0 auto; 
+    justify-content: center;
+   
+}
+.pay-methode {
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: center;
+    text-align: center;
+   
+}
+input:focus { 
+    outline: none; 
+}
+
+.fastpay{
+    display: flex;
+    gap: 5px;
+}
+.fastpay .Paypal{
+  background-color: rgb(0, 89, 255);
+  color: white;
+}
+.fastpay .AmazonPay{
+    background-color: rgb(255, 196, 0);
+}
+.pay-methode .radio {
+    margin:0px;
+    margin-right: 10px; 
+}
+.content-header-bg h1 {
+    color: white;
+    font-size: 24px;
+}
+
+
+.place-content {
+    display: flex;
+    flex-grow: 1;
+    width: 70%; 
+    margin: 0 auto; 
+    height: calc(100vh - 126.89px); 
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.content-main-bg {
+    flex: 4;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    overflow-y: auto; 
+    justify-content: center;
+}
+
+
+.content-ticket-bg {
+    flex: 1; 
+    background-color: rgb(36, 32, 80);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    overflow-y: auto; 
+    border-left: 1px solid rgba(255, 255, 255, 0.2); 
+}
+
+.place-btn{
+    align-self: end;
+}
+
+.content-ticket_1{
+    display: flex;
+    margin-bottom: 15px;
+    gap: 45px;
+}
+
+.content-ticket_3{
+    margin-top: 64px;
+    display: flex;
+    margin-bottom: 30px;
+    gap: 20px;
+}
+.content-ticket_4{
+    margin-top: 64px;
+    display: flex;
+    margin-bottom: 30px;
+    gap: 20px;
+    align-items: center;
+   
+}
+.SubmitBtn{
+    margin-top: 50px;
+    background-color: rgb(0, 255, 98);
+}
+button{
+    height: 50px;
+    width: 125px;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    gap: 7px;
+    border: none;
+    transition: transform 100ms ; 
+}
+button:hover{
+    transform: scale(1.05); 
+}
+button:active{
+    transform: scale(0.95); 
+}
+

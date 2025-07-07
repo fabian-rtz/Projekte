@@ -1,0 +1,616 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/css/Buchungsbestätigung.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\Buchungsbestätigung.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-3WJMRgwZJML6yynt2JOO6gtbqFd7b4u\u002BpazTIYEAJe0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2613"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00223WJMRgwZJML6yynt2JOO6gtbqFd7b4u\u002BpazTIYEAJe0=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/css/Buchungsbestätigung.fptbmjr6l3.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\Buchungsbestätigung.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"fptbmjr6l3"},{"Name":"integrity","Value":"sha256-3WJMRgwZJML6yynt2JOO6gtbqFd7b4u\u002BpazTIYEAJe0="},{"Name":"label","Value":"_content/KinoTicketSystem/css/Buchungsbest\u00E4tigung.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2613"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00223WJMRgwZJML6yynt2JOO6gtbqFd7b4u\u002BpazTIYEAJe0=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/css/HomeScreen.6cntyysjn2.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\HomeScreen.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"6cntyysjn2"},{"Name":"integrity","Value":"sha256-ZsVJuefsi74MSO9TpXSa5HLtG7Id\u002B2fGLEOXGRtPBgQ="},{"Name":"label","Value":"_content/KinoTicketSystem/css/HomeScreen.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5354"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022ZsVJuefsi74MSO9TpXSa5HLtG7Id\u002B2fGLEOXGRtPBgQ=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 08:03:56 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/css/HomeScreen.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\HomeScreen.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ZsVJuefsi74MSO9TpXSa5HLtG7Id\u002B2fGLEOXGRtPBgQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5354"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022ZsVJuefsi74MSO9TpXSa5HLtG7Id\u002B2fGLEOXGRtPBgQ=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 08:03:56 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/css/Loadingbar.9loqe30su0.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\Loadingbar.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"9loqe30su0"},{"Name":"integrity","Value":"sha256-A0d56ZYrw52ovozJjwtpgl8o4rhEYoBeiG9iKBFK\u002BjI="},{"Name":"label","Value":"_content/KinoTicketSystem/css/Loadingbar.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1117"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022A0d56ZYrw52ovozJjwtpgl8o4rhEYoBeiG9iKBFK\u002BjI=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/css/Loadingbar.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\Loadingbar.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-A0d56ZYrw52ovozJjwtpgl8o4rhEYoBeiG9iKBFK\u002BjI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1117"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022A0d56ZYrw52ovozJjwtpgl8o4rhEYoBeiG9iKBFK\u002BjI=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/css/Saal_1.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\Saal_1.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-xDliHRzRcm5XXafxPdMFJ7acwnUWQNi\u002BMjg2i0Enfq0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3757"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022xDliHRzRcm5XXafxPdMFJ7acwnUWQNi\u002BMjg2i0Enfq0=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/css/Saal_1.g9jt3onqko.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\Saal_1.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"g9jt3onqko"},{"Name":"integrity","Value":"sha256-xDliHRzRcm5XXafxPdMFJ7acwnUWQNi\u002BMjg2i0Enfq0="},{"Name":"label","Value":"_content/KinoTicketSystem/css/Saal_1.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3757"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022xDliHRzRcm5XXafxPdMFJ7acwnUWQNi\u002BMjg2i0Enfq0=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/css/Saal_1_Summary.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\Saal_1_Summary.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-6pSL7CkC8gVmtFF2YN\u002B8bGykLZyqcsSzDG9Vzyd6rcA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3138"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00226pSL7CkC8gVmtFF2YN\u002B8bGykLZyqcsSzDG9Vzyd6rcA=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/css/Saal_1_Summary.ujau44rp6x.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\Saal_1_Summary.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ujau44rp6x"},{"Name":"integrity","Value":"sha256-6pSL7CkC8gVmtFF2YN\u002B8bGykLZyqcsSzDG9Vzyd6rcA="},{"Name":"label","Value":"_content/KinoTicketSystem/css/Saal_1_Summary.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3138"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00226pSL7CkC8gVmtFF2YN\u002B8bGykLZyqcsSzDG9Vzyd6rcA=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/css/Saal_2.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\Saal_2.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-c89AwR0XiO5WuKCd9fZ6RZqFBJKZsfxYFAm\u002B3GkekMg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3672"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022c89AwR0XiO5WuKCd9fZ6RZqFBJKZsfxYFAm\u002B3GkekMg=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/css/Saal_2.nrtromxrim.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\Saal_2.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"nrtromxrim"},{"Name":"integrity","Value":"sha256-c89AwR0XiO5WuKCd9fZ6RZqFBJKZsfxYFAm\u002B3GkekMg="},{"Name":"label","Value":"_content/KinoTicketSystem/css/Saal_2.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3672"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022c89AwR0XiO5WuKCd9fZ6RZqFBJKZsfxYFAm\u002B3GkekMg=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/css/Saal_2_Summary.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\Saal_2_Summary.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-6pSL7CkC8gVmtFF2YN\u002B8bGykLZyqcsSzDG9Vzyd6rcA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3138"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00226pSL7CkC8gVmtFF2YN\u002B8bGykLZyqcsSzDG9Vzyd6rcA=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/css/Saal_2_Summary.ujau44rp6x.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\Saal_2_Summary.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ujau44rp6x"},{"Name":"integrity","Value":"sha256-6pSL7CkC8gVmtFF2YN\u002B8bGykLZyqcsSzDG9Vzyd6rcA="},{"Name":"label","Value":"_content/KinoTicketSystem/css/Saal_2_Summary.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3138"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00226pSL7CkC8gVmtFF2YN\u002B8bGykLZyqcsSzDG9Vzyd6rcA=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/css/style.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\style.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-i0Et6vp9PesIil5Cg\u002BBbqo2KWlBF3zwsvGuj3p7boCM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1915"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022i0Et6vp9PesIil5Cg\u002BBbqo2KWlBF3zwsvGuj3p7boCM=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/css/style.ji3bv7em0d.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\style.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ji3bv7em0d"},{"Name":"integrity","Value":"sha256-i0Et6vp9PesIil5Cg\u002BBbqo2KWlBF3zwsvGuj3p7boCM="},{"Name":"label","Value":"_content/KinoTicketSystem/css/style.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1915"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022i0Et6vp9PesIil5Cg\u002BBbqo2KWlBF3zwsvGuj3p7boCM=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/html/Buchungsbestätigung.cduyuuiog4.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\html\Buchungsbestätigung.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"cduyuuiog4"},{"Name":"integrity","Value":"sha256-QAQuWrJDF5sJTOAQ1nqyV5M8Pbe5pUylDkkh7ImJNpc="},{"Name":"label","Value":"_content/KinoTicketSystem/html/Buchungsbest\u00E4tigung.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2918"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022QAQuWrJDF5sJTOAQ1nqyV5M8Pbe5pUylDkkh7ImJNpc=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 14:16:19 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/html/Buchungsbestätigung.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\html\Buchungsbestätigung.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-QAQuWrJDF5sJTOAQ1nqyV5M8Pbe5pUylDkkh7ImJNpc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2918"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022QAQuWrJDF5sJTOAQ1nqyV5M8Pbe5pUylDkkh7ImJNpc=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 14:16:19 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/html/HomeScreen.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\html\HomeScreen.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-v2TAFm6\u002BfDRYIL7WTFHdZFytipuJAxjxXOnxi2KcDfg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2408"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022v2TAFm6\u002BfDRYIL7WTFHdZFytipuJAxjxXOnxi2KcDfg=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 12:51:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/html/HomeScreen.vwamoftonq.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\html\HomeScreen.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"vwamoftonq"},{"Name":"integrity","Value":"sha256-v2TAFm6\u002BfDRYIL7WTFHdZFytipuJAxjxXOnxi2KcDfg="},{"Name":"label","Value":"_content/KinoTicketSystem/html/HomeScreen.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2408"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022v2TAFm6\u002BfDRYIL7WTFHdZFytipuJAxjxXOnxi2KcDfg=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 12:51:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/html/index.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\html\index.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-WUMNagkvH3fa6Rpoo2r96SAVOPzJEOLGioWaMBu8SPg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1392"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022WUMNagkvH3fa6Rpoo2r96SAVOPzJEOLGioWaMBu8SPg=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/html/index.jt0mrptt73.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\html\index.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"jt0mrptt73"},{"Name":"integrity","Value":"sha256-WUMNagkvH3fa6Rpoo2r96SAVOPzJEOLGioWaMBu8SPg="},{"Name":"label","Value":"_content/KinoTicketSystem/html/index.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1392"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022WUMNagkvH3fa6Rpoo2r96SAVOPzJEOLGioWaMBu8SPg=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/html/Loadingbar.24t24lay7m.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\html\Loadingbar.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"24t24lay7m"},{"Name":"integrity","Value":"sha256-HuiNlypsola44u/QPGCz2iVf7uQBiUfc0T5uEJpinUI="},{"Name":"label","Value":"_content/KinoTicketSystem/html/Loadingbar.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"400"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022HuiNlypsola44u/QPGCz2iVf7uQBiUfc0T5uEJpinUI=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/html/Loadingbar.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\html\Loadingbar.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-HuiNlypsola44u/QPGCz2iVf7uQBiUfc0T5uEJpinUI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"400"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022HuiNlypsola44u/QPGCz2iVf7uQBiUfc0T5uEJpinUI=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/html/Saal_1.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\html\Saal_1.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-SrT9hERLFla8gLHRiNUvVcrZGgZPyHrLITzSZ5B31aA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3340"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022SrT9hERLFla8gLHRiNUvVcrZGgZPyHrLITzSZ5B31aA=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 12:41:30 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/html/Saal_1.ipu1q0e3hu.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\html\Saal_1.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ipu1q0e3hu"},{"Name":"integrity","Value":"sha256-SrT9hERLFla8gLHRiNUvVcrZGgZPyHrLITzSZ5B31aA="},{"Name":"label","Value":"_content/KinoTicketSystem/html/Saal_1.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3340"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022SrT9hERLFla8gLHRiNUvVcrZGgZPyHrLITzSZ5B31aA=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 12:41:30 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/html/Saal_1_Summary.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\html\Saal_1_Summary.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-9Kf68I7mjH/T2bUx5f\u002BJRrkkzadPqTe3SBEGGszgvAU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"4643"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u00229Kf68I7mjH/T2bUx5f\u002BJRrkkzadPqTe3SBEGGszgvAU=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/html/Saal_1_Summary.wflatkss9p.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\html\Saal_1_Summary.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"wflatkss9p"},{"Name":"integrity","Value":"sha256-9Kf68I7mjH/T2bUx5f\u002BJRrkkzadPqTe3SBEGGszgvAU="},{"Name":"label","Value":"_content/KinoTicketSystem/html/Saal_1_Summary.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4643"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u00229Kf68I7mjH/T2bUx5f\u002BJRrkkzadPqTe3SBEGGszgvAU=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/html/Saal_2.gkyytx2ad8.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\html\Saal_2.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"gkyytx2ad8"},{"Name":"integrity","Value":"sha256-gBsHNOSlxZGefpawfJ4jxYS8Ph0YDVVv\u002BzZOsfPx\u002B/Q="},{"Name":"label","Value":"_content/KinoTicketSystem/html/Saal_2.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3351"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022gBsHNOSlxZGefpawfJ4jxYS8Ph0YDVVv\u002BzZOsfPx\u002B/Q=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 14:42:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/html/Saal_2.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\html\Saal_2.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-gBsHNOSlxZGefpawfJ4jxYS8Ph0YDVVv\u002BzZOsfPx\u002B/Q="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3351"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022gBsHNOSlxZGefpawfJ4jxYS8Ph0YDVVv\u002BzZOsfPx\u002B/Q=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 14:42:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/html/Saal_2_Summary.9fqh6g4fqt.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\html\Saal_2_Summary.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"9fqh6g4fqt"},{"Name":"integrity","Value":"sha256-Babg1Ma4HRQqvWLUA\u002BsyjNPLtGlax8Ywflj\u002BGjtSaMs="},{"Name":"label","Value":"_content/KinoTicketSystem/html/Saal_2_Summary.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4643"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022Babg1Ma4HRQqvWLUA\u002BsyjNPLtGlax8Ywflj\u002BGjtSaMs=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 14:38:59 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/html/Saal_2_Summary.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\html\Saal_2_Summary.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Babg1Ma4HRQqvWLUA\u002BsyjNPLtGlax8Ywflj\u002BGjtSaMs="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"4643"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022Babg1Ma4HRQqvWLUA\u002BsyjNPLtGlax8Ywflj\u002BGjtSaMs=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 14:38:59 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/img/Allesfu╠êrdieKatz.g7dplay1tj.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Allesfu╠êrdieKatz.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"g7dplay1tj"},{"Name":"integrity","Value":"sha256-5PPhjgCEYBSHwDTXHvfsVmYdfV6//ecBu4whEdaFIME="},{"Name":"label","Value":"_content/KinoTicketSystem/img/Allesfu\u2560\u00EArdieKatz.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"110462"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u00225PPhjgCEYBSHwDTXHvfsVmYdfV6//ecBu4whEdaFIME=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/img/Allesfu╠êrdieKatz.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Allesfu╠êrdieKatz.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-5PPhjgCEYBSHwDTXHvfsVmYdfV6//ecBu4whEdaFIME="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"110462"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u00225PPhjgCEYBSHwDTXHvfsVmYdfV6//ecBu4whEdaFIME=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/img/Ausgewählt.cjogbjl3w9.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Ausgewählt.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"cjogbjl3w9"},{"Name":"integrity","Value":"sha256-yPgEaLoI\u002B7CWVqYWLW6W0AqEEf7rRSsjSN4o5QNr\u002BVs="},{"Name":"label","Value":"_content/KinoTicketSystem/img/Ausgew\u00E4hlt.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3108"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022yPgEaLoI\u002B7CWVqYWLW6W0AqEEf7rRSsjSN4o5QNr\u002BVs=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/img/Ausgewählt.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Ausgewählt.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-yPgEaLoI\u002B7CWVqYWLW6W0AqEEf7rRSsjSN4o5QNr\u002BVs="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"3108"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022yPgEaLoI\u002B7CWVqYWLW6W0AqEEf7rRSsjSN4o5QNr\u002BVs=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/img/Besetzt.1j01kugtkq.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Besetzt.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"1j01kugtkq"},{"Name":"integrity","Value":"sha256-7cRKrDTOV5UT0rlRd2ijFsd91o3SO7ENbsUjleF2XFA="},{"Name":"label","Value":"_content/KinoTicketSystem/img/Besetzt.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4345"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00227cRKrDTOV5UT0rlRd2ijFsd91o3SO7ENbsUjleF2XFA=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/img/Besetzt.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Besetzt.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-7cRKrDTOV5UT0rlRd2ijFsd91o3SO7ENbsUjleF2XFA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"4345"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00227cRKrDTOV5UT0rlRd2ijFsd91o3SO7ENbsUjleF2XFA=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/img/BetterMan.w3ze206fq8.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\BetterMan.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"w3ze206fq8"},{"Name":"integrity","Value":"sha256-xPRnh/ZuX9PP10lq5n9ghecTopFE0/YJt9mXTFDEtxc="},{"Name":"label","Value":"_content/KinoTicketSystem/img/BetterMan.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"34556"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022xPRnh/ZuX9PP10lq5n9ghecTopFE0/YJt9mXTFDEtxc=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/img/BetterMan.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\BetterMan.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-xPRnh/ZuX9PP10lq5n9ghecTopFE0/YJt9mXTFDEtxc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"34556"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022xPRnh/ZuX9PP10lq5n9ghecTopFE0/YJt9mXTFDEtxc=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/img/BigBrain.gpqr7ejw8g.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\BigBrain.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"gpqr7ejw8g"},{"Name":"integrity","Value":"sha256-9E5qQSpDmDN1U\u002BnQoKoTdY/068W2ukPYtApq/8guEVA="},{"Name":"label","Value":"_content/KinoTicketSystem/img/BigBrain.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"37816"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u00229E5qQSpDmDN1U\u002BnQoKoTdY/068W2ukPYtApq/8guEVA=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/img/BigBrain.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\BigBrain.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-9E5qQSpDmDN1U\u002BnQoKoTdY/068W2ukPYtApq/8guEVA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"37816"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u00229E5qQSpDmDN1U\u002BnQoKoTdY/068W2ukPYtApq/8guEVA=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/img/Blockiert.8nr1lvjs9n.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Blockiert.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"8nr1lvjs9n"},{"Name":"integrity","Value":"sha256-zHyYFdggZJ6Wt75NYqNgeIlj66Kb5aIh36IrqroPA4k="},{"Name":"label","Value":"_content/KinoTicketSystem/img/Blockiert.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3098"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022zHyYFdggZJ6Wt75NYqNgeIlj66Kb5aIh36IrqroPA4k=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/img/Blockiert.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Blockiert.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-zHyYFdggZJ6Wt75NYqNgeIlj66Kb5aIh36IrqroPA4k="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"3098"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022zHyYFdggZJ6Wt75NYqNgeIlj66Kb5aIh36IrqroPA4k=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/img/booking-not-selected.2v7dwm7zgz.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\booking-not-selected.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"2v7dwm7zgz"},{"Name":"integrity","Value":"sha256-DtF/ZZoIAcV8tb7bx6NWrJhDSnghiJz9SA8/KUHx17I="},{"Name":"label","Value":"_content/KinoTicketSystem/img/booking-not-selected.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"8865"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022DtF/ZZoIAcV8tb7bx6NWrJhDSnghiJz9SA8/KUHx17I=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/img/booking-not-selected.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\booking-not-selected.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-DtF/ZZoIAcV8tb7bx6NWrJhDSnghiJz9SA8/KUHx17I="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"8865"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022DtF/ZZoIAcV8tb7bx6NWrJhDSnghiJz9SA8/KUHx17I=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/img/booking-selected.h2xh2vtehy.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\booking-selected.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"h2xh2vtehy"},{"Name":"integrity","Value":"sha256-qS9P0qdv0eFgJlGzSvdKZGSbU0ZPhkFjgzj38CxZ5jQ="},{"Name":"label","Value":"_content/KinoTicketSystem/img/booking-selected.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"7861"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022qS9P0qdv0eFgJlGzSvdKZGSbU0ZPhkFjgzj38CxZ5jQ=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/img/booking-selected.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\booking-selected.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-qS9P0qdv0eFgJlGzSvdKZGSbU0ZPhkFjgzj38CxZ5jQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"7861"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022qS9P0qdv0eFgJlGzSvdKZGSbU0ZPhkFjgzj38CxZ5jQ=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/img/clock.1qzpd8g69d.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\clock.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"1qzpd8g69d"},{"Name":"integrity","Value":"sha256-57Fnm1oPvgqURkDkEB3nOPOKcIYHlTLqt1NkhpJA/N0="},{"Name":"label","Value":"_content/KinoTicketSystem/img/clock.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"9597"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u002257Fnm1oPvgqURkDkEB3nOPOKcIYHlTLqt1NkhpJA/N0=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/img/clock.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\clock.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-57Fnm1oPvgqURkDkEB3nOPOKcIYHlTLqt1NkhpJA/N0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"9597"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u002257Fnm1oPvgqURkDkEB3nOPOKcIYHlTLqt1NkhpJA/N0=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/img/credit-card.ha0amwuxgl.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\credit-card.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ha0amwuxgl"},{"Name":"integrity","Value":"sha256-B2qSA9vuhiHWZxA1f5o77RJ8SeyMxkizY8p/niH\u002B3nc="},{"Name":"label","Value":"_content/KinoTicketSystem/img/credit-card.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5750"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022B2qSA9vuhiHWZxA1f5o77RJ8SeyMxkizY8p/niH\u002B3nc=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/img/credit-card.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\credit-card.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-B2qSA9vuhiHWZxA1f5o77RJ8SeyMxkizY8p/niH\u002B3nc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"5750"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022B2qSA9vuhiHWZxA1f5o77RJ8SeyMxkizY8p/niH\u002B3nc=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/img/CriminalSquad.pbxg6cfmof.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\CriminalSquad.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"pbxg6cfmof"},{"Name":"integrity","Value":"sha256-Sw0rLfeWi26rn37l6QsgBPT3GWrzuiUOBo/g\u002B\u002BzyX4A="},{"Name":"label","Value":"_content/KinoTicketSystem/img/CriminalSquad.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"21878"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022Sw0rLfeWi26rn37l6QsgBPT3GWrzuiUOBo/g\u002B\u002BzyX4A=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:02 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/img/CriminalSquad.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\CriminalSquad.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Sw0rLfeWi26rn37l6QsgBPT3GWrzuiUOBo/g\u002B\u002BzyX4A="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"21878"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022Sw0rLfeWi26rn37l6QsgBPT3GWrzuiUOBo/g\u002B\u002BzyX4A=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:02 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/img/GhostInTheShell.ga8c6l5m5d.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\GhostInTheShell.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ga8c6l5m5d"},{"Name":"integrity","Value":"sha256-CEHQk\u002BE0iaGzZJlAb0ZquN86pgAhtvwq3fFj0oVgeyI="},{"Name":"label","Value":"_content/KinoTicketSystem/img/GhostInTheShell.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"29770"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022CEHQk\u002BE0iaGzZJlAb0ZquN86pgAhtvwq3fFj0oVgeyI=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/img/GhostInTheShell.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\GhostInTheShell.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-CEHQk\u002BE0iaGzZJlAb0ZquN86pgAhtvwq3fFj0oVgeyI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"29770"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022CEHQk\u002BE0iaGzZJlAb0ZquN86pgAhtvwq3fFj0oVgeyI=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/img/greater-than.ne7s7fp9hl.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\greater-than.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ne7s7fp9hl"},{"Name":"integrity","Value":"sha256-f\u002BcUTweQfGR59KBP8DdUG72/fSakTpo18AVAilx/sL0="},{"Name":"label","Value":"_content/KinoTicketSystem/img/greater-than.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"8157"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022f\u002BcUTweQfGR59KBP8DdUG72/fSakTpo18AVAilx/sL0=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:02 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/img/greater-than.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\greater-than.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-f\u002BcUTweQfGR59KBP8DdUG72/fSakTpo18AVAilx/sL0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"8157"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022f\u002BcUTweQfGR59KBP8DdUG72/fSakTpo18AVAilx/sL0=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:02 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/img/info.1kn8ao06ow.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\info.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"1kn8ao06ow"},{"Name":"integrity","Value":"sha256-QVNDsfZNn09HuTpfx4xZzT1v/u42ahXHnXy4yjy\u002BvGI="},{"Name":"label","Value":"_content/KinoTicketSystem/img/info.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"13771"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022QVNDsfZNn09HuTpfx4xZzT1v/u42ahXHnXy4yjy\u002BvGI=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/img/info.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\info.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-QVNDsfZNn09HuTpfx4xZzT1v/u42ahXHnXy4yjy\u002BvGI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"13771"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022QVNDsfZNn09HuTpfx4xZzT1v/u42ahXHnXy4yjy\u002BvGI=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/img/LebenIstJetzt.e0akcrwbku.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\LebenIstJetzt.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"e0akcrwbku"},{"Name":"integrity","Value":"sha256-UvhTNPtTrIfDv8tphyPnlmc7ou9PpKOd9XY6cPzV\u002Bek="},{"Name":"label","Value":"_content/KinoTicketSystem/img/LebenIstJetzt.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"32148"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022UvhTNPtTrIfDv8tphyPnlmc7ou9PpKOd9XY6cPzV\u002Bek=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:02 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/img/LebenIstJetzt.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\LebenIstJetzt.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-UvhTNPtTrIfDv8tphyPnlmc7ou9PpKOd9XY6cPzV\u002Bek="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"32148"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022UvhTNPtTrIfDv8tphyPnlmc7ou9PpKOd9XY6cPzV\u002Bek=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:02 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/img/Loge.5nsqtaa39q.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Loge.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"5nsqtaa39q"},{"Name":"integrity","Value":"sha256-gRiHj9JIki4zg4q6gUJTI37yRrDrMsvGmrG9i3J8YJo="},{"Name":"label","Value":"_content/KinoTicketSystem/img/Loge.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2117"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022gRiHj9JIki4zg4q6gUJTI37yRrDrMsvGmrG9i3J8YJo=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/img/Loge.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Loge.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-gRiHj9JIki4zg4q6gUJTI37yRrDrMsvGmrG9i3J8YJo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"2117"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022gRiHj9JIki4zg4q6gUJTI37yRrDrMsvGmrG9i3J8YJo=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/img/Nosferatu.ob1fh0yvo0.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Nosferatu.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ob1fh0yvo0"},{"Name":"integrity","Value":"sha256-dEWgUbvLBuFaEzpUWXh28e9F0SgCL3FBBD\u002BYooIGzGM="},{"Name":"label","Value":"_content/KinoTicketSystem/img/Nosferatu.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"17274"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022dEWgUbvLBuFaEzpUWXh28e9F0SgCL3FBBD\u002BYooIGzGM=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:02 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/img/Nosferatu.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Nosferatu.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-dEWgUbvLBuFaEzpUWXh28e9F0SgCL3FBBD\u002BYooIGzGM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"17274"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022dEWgUbvLBuFaEzpUWXh28e9F0SgCL3FBBD\u002BYooIGzGM=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:02 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/img/Parkett.m3oesjkp9u.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Parkett.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"m3oesjkp9u"},{"Name":"integrity","Value":"sha256-fkarJTG1M0D9STsmoQ2F/K38i8eCB157Jgy0WBYMCCY="},{"Name":"label","Value":"_content/KinoTicketSystem/img/Parkett.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2117"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022fkarJTG1M0D9STsmoQ2F/K38i8eCB157Jgy0WBYMCCY=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/img/Parkett.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Parkett.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-fkarJTG1M0D9STsmoQ2F/K38i8eCB157Jgy0WBYMCCY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"2117"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022fkarJTG1M0D9STsmoQ2F/K38i8eCB157Jgy0WBYMCCY=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/img/Premium.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Premium.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-YJfV0\u002BTqdGz4NAAH0Wk9bscx83jDQ58/VumytxQP1oY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"2117"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022YJfV0\u002BTqdGz4NAAH0Wk9bscx83jDQ58/VumytxQP1oY=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:02 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/img/Premium.s5pl6k21cl.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Premium.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"s5pl6k21cl"},{"Name":"integrity","Value":"sha256-YJfV0\u002BTqdGz4NAAH0Wk9bscx83jDQ58/VumytxQP1oY="},{"Name":"label","Value":"_content/KinoTicketSystem/img/Premium.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2117"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022YJfV0\u002BTqdGz4NAAH0Wk9bscx83jDQ58/VumytxQP1oY=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:02 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/img/profile.01sndrupmw.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\profile.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"01sndrupmw"},{"Name":"integrity","Value":"sha256-XHmk5XjupMWecvx4aXe/UcDprDLP0TmSZlEjY8JoB5U="},{"Name":"label","Value":"_content/KinoTicketSystem/img/profile.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"7697"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022XHmk5XjupMWecvx4aXe/UcDprDLP0TmSZlEjY8JoB5U=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/img/profile.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\profile.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-XHmk5XjupMWecvx4aXe/UcDprDLP0TmSZlEjY8JoB5U="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"7697"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022XHmk5XjupMWecvx4aXe/UcDprDLP0TmSZlEjY8JoB5U=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/img/pwd.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\pwd.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-N9\u002B4/qam6ES7VztMq782PJ96M6A6NNwCxHVSldi/tC8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"29463"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022N9\u002B4/qam6ES7VztMq782PJ96M6A6NNwCxHVSldi/tC8=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/img/pwd.tzgj4shzms.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\pwd.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"tzgj4shzms"},{"Name":"integrity","Value":"sha256-N9\u002B4/qam6ES7VztMq782PJ96M6A6NNwCxHVSldi/tC8="},{"Name":"label","Value":"_content/KinoTicketSystem/img/pwd.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"29463"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022N9\u002B4/qam6ES7VztMq782PJ96M6A6NNwCxHVSldi/tC8=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/img/summary-not-selected.65o27uhk4i.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\summary-not-selected.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"65o27uhk4i"},{"Name":"integrity","Value":"sha256-Rmpip17wn3CwG2rDkpq01iI3pIER1ldI\u002B\u002B/21gJegh0="},{"Name":"label","Value":"_content/KinoTicketSystem/img/summary-not-selected.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"13748"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022Rmpip17wn3CwG2rDkpq01iI3pIER1ldI\u002B\u002B/21gJegh0=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:02 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/img/summary-not-selected.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\summary-not-selected.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Rmpip17wn3CwG2rDkpq01iI3pIER1ldI\u002B\u002B/21gJegh0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"13748"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022Rmpip17wn3CwG2rDkpq01iI3pIER1ldI\u002B\u002B/21gJegh0=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:02 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/img/summary-selected.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\summary-selected.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ZgC48DgoYhZTF9SrMTtepsBtdai8meiqiN8gp2UEy0g="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"13944"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022ZgC48DgoYhZTF9SrMTtepsBtdai8meiqiN8gp2UEy0g=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/img/summary-selected.uet6qrwalh.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\summary-selected.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"uet6qrwalh"},{"Name":"integrity","Value":"sha256-ZgC48DgoYhZTF9SrMTtepsBtdai8meiqiN8gp2UEy0g="},{"Name":"label","Value":"_content/KinoTicketSystem/img/summary-selected.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"13944"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022ZgC48DgoYhZTF9SrMTtepsBtdai8meiqiN8gp2UEy0g=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/img/tag.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\tag.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Fg/zbJtyLd9\u002Bwd5WpiGbvlJX61oqGLPjenFi\u002BC6x\u002BWE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"7917"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022Fg/zbJtyLd9\u002Bwd5WpiGbvlJX61oqGLPjenFi\u002BC6x\u002BWE=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/img/tag.ylsdl2kutl.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\tag.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ylsdl2kutl"},{"Name":"integrity","Value":"sha256-Fg/zbJtyLd9\u002Bwd5WpiGbvlJX61oqGLPjenFi\u002BC6x\u002BWE="},{"Name":"label","Value":"_content/KinoTicketSystem/img/tag.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"7917"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022Fg/zbJtyLd9\u002Bwd5WpiGbvlJX61oqGLPjenFi\u002BC6x\u002BWE=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/img/ticket-not-selected.ka17u1hplm.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\ticket-not-selected.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ka17u1hplm"},{"Name":"integrity","Value":"sha256-tCuOV71kZlOEqc\u002BEOuw/wj2K3psXJDrNT\u002BQNK37\u002BVNo="},{"Name":"label","Value":"_content/KinoTicketSystem/img/ticket-not-selected.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"24603"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022tCuOV71kZlOEqc\u002BEOuw/wj2K3psXJDrNT\u002BQNK37\u002BVNo=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/img/ticket-not-selected.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\ticket-not-selected.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-tCuOV71kZlOEqc\u002BEOuw/wj2K3psXJDrNT\u002BQNK37\u002BVNo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"24603"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022tCuOV71kZlOEqc\u002BEOuw/wj2K3psXJDrNT\u002BQNK37\u002BVNo=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/img/ticket-selected.kj1sey73vk.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\ticket-selected.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"kj1sey73vk"},{"Name":"integrity","Value":"sha256-MEPoFP4\u002BuyKUsP96z425p\u002BouJF1l9\u002B545Rmm6O/6WHc="},{"Name":"label","Value":"_content/KinoTicketSystem/img/ticket-selected.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"14938"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022MEPoFP4\u002BuyKUsP96z425p\u002BouJF1l9\u002B545Rmm6O/6WHc=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:02 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/img/ticket-selected.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\ticket-selected.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-MEPoFP4\u002BuyKUsP96z425p\u002BouJF1l9\u002B545Rmm6O/6WHc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"14938"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022MEPoFP4\u002BuyKUsP96z425p\u002BouJF1l9\u002B545Rmm6O/6WHc=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:02 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/img/user.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\user.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Ob9G3kr4z1g2VR5DN82rA7e8ZJVzkkXVdTHlA76MHsU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"9735"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022Ob9G3kr4z1g2VR5DN82rA7e8ZJVzkkXVdTHlA76MHsU=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/img/user.t7ut92psme.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\user.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"t7ut92psme"},{"Name":"integrity","Value":"sha256-Ob9G3kr4z1g2VR5DN82rA7e8ZJVzkkXVdTHlA76MHsU="},{"Name":"label","Value":"_content/KinoTicketSystem/img/user.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"9735"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022Ob9G3kr4z1g2VR5DN82rA7e8ZJVzkkXVdTHlA76MHsU=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/js/Buchungsbestätigung.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\Buchungsbestätigung.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-szvtzgomg8Pmks3SbWObfoSc\u002BTukM/VxA14d4ISMyIc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3102"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022szvtzgomg8Pmks3SbWObfoSc\u002BTukM/VxA14d4ISMyIc=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/js/Buchungsbestätigung.xj4dcweu7v.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\Buchungsbestätigung.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xj4dcweu7v"},{"Name":"integrity","Value":"sha256-szvtzgomg8Pmks3SbWObfoSc\u002BTukM/VxA14d4ISMyIc="},{"Name":"label","Value":"_content/KinoTicketSystem/js/Buchungsbest\u00E4tigung.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3102"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022szvtzgomg8Pmks3SbWObfoSc\u002BTukM/VxA14d4ISMyIc=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/js/Homescreen.1prxo11h0z.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\Homescreen.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"1prxo11h0z"},{"Name":"integrity","Value":"sha256-i\u002BlYO\u002BCC0bvGw1fwgBk9q12Qdx\u002Bvq3hnliRj971/iIo="},{"Name":"label","Value":"_content/KinoTicketSystem/js/Homescreen.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"17802"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022i\u002BlYO\u002BCC0bvGw1fwgBk9q12Qdx\u002Bvq3hnliRj971/iIo=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 12:52:59 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/js/Homescreen.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\Homescreen.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-i\u002BlYO\u002BCC0bvGw1fwgBk9q12Qdx\u002Bvq3hnliRj971/iIo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"17802"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022i\u002BlYO\u002BCC0bvGw1fwgBk9q12Qdx\u002Bvq3hnliRj971/iIo=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 12:52:59 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/js/redirect.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\redirect.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-8/JY7OEsFLM\u002BHQcMgKSEp4zI5XxmYHj9waMooerzK2k="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"181"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00228/JY7OEsFLM\u002BHQcMgKSEp4zI5XxmYHj9waMooerzK2k=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/js/redirect.vxfpavfvlj.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\redirect.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"vxfpavfvlj"},{"Name":"integrity","Value":"sha256-8/JY7OEsFLM\u002BHQcMgKSEp4zI5XxmYHj9waMooerzK2k="},{"Name":"label","Value":"_content/KinoTicketSystem/js/redirect.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"181"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00228/JY7OEsFLM\u002BHQcMgKSEp4zI5XxmYHj9waMooerzK2k=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/js/Saal_1.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\Saal_1.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-n0ELH4XtvNiexx1BJLTQLdSGWGxjKb4E2TujN\u002BvvOoM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"8044"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022n0ELH4XtvNiexx1BJLTQLdSGWGxjKb4E2TujN\u002BvvOoM=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 15:37:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/js/Saal_1.ljyahkv2hl.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\Saal_1.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ljyahkv2hl"},{"Name":"integrity","Value":"sha256-n0ELH4XtvNiexx1BJLTQLdSGWGxjKb4E2TujN\u002BvvOoM="},{"Name":"label","Value":"_content/KinoTicketSystem/js/Saal_1.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"8044"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022n0ELH4XtvNiexx1BJLTQLdSGWGxjKb4E2TujN\u002BvvOoM=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 15:37:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/js/Saal_1_Summary.gsd13jxjal.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\Saal_1_Summary.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"gsd13jxjal"},{"Name":"integrity","Value":"sha256-ENtFhnWCbRlJQbXG/R9\u002BZgcNKQvmeGy0UQ0wPeRyoK0="},{"Name":"label","Value":"_content/KinoTicketSystem/js/Saal_1_Summary.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3080"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022ENtFhnWCbRlJQbXG/R9\u002BZgcNKQvmeGy0UQ0wPeRyoK0=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/js/Saal_1_Summary.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\Saal_1_Summary.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ENtFhnWCbRlJQbXG/R9\u002BZgcNKQvmeGy0UQ0wPeRyoK0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3080"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022ENtFhnWCbRlJQbXG/R9\u002BZgcNKQvmeGy0UQ0wPeRyoK0=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/js/Saal_2.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\Saal_2.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-CU3dbVp1UKEEjN5apdiv8eyGdPfsAzKtSJBLHInGers="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"6065"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022CU3dbVp1UKEEjN5apdiv8eyGdPfsAzKtSJBLHInGers=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 15:30:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/js/Saal_2.p8ds7xxqvt.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\Saal_2.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"p8ds7xxqvt"},{"Name":"integrity","Value":"sha256-CU3dbVp1UKEEjN5apdiv8eyGdPfsAzKtSJBLHInGers="},{"Name":"label","Value":"_content/KinoTicketSystem/js/Saal_2.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"6065"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022CU3dbVp1UKEEjN5apdiv8eyGdPfsAzKtSJBLHInGers=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 15:30:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/js/Saal_2_Summary.gsd13jxjal.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\Saal_2_Summary.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"gsd13jxjal"},{"Name":"integrity","Value":"sha256-ENtFhnWCbRlJQbXG/R9\u002BZgcNKQvmeGy0UQ0wPeRyoK0="},{"Name":"label","Value":"_content/KinoTicketSystem/js/Saal_2_Summary.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3080"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022ENtFhnWCbRlJQbXG/R9\u002BZgcNKQvmeGy0UQ0wPeRyoK0=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/js/Saal_2_Summary.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\Saal_2_Summary.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ENtFhnWCbRlJQbXG/R9\u002BZgcNKQvmeGy0UQ0wPeRyoK0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3080"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022ENtFhnWCbRlJQbXG/R9\u002BZgcNKQvmeGy0UQ0wPeRyoK0=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/js/script.g3rzh5oyys.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\script.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"g3rzh5oyys"},{"Name":"integrity","Value":"sha256-7Fhy9NdZM\u002B8JxzfRTRlMmNUJZmzMjQ7auZcqYUrgwtY="},{"Name":"label","Value":"_content/KinoTicketSystem/js/script.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4084"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00227Fhy9NdZM\u002B8JxzfRTRlMmNUJZmzMjQ7auZcqYUrgwtY=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KinoTicketSystem/js/script.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\script.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-7Fhy9NdZM\u002B8JxzfRTRlMmNUJZmzMjQ7auZcqYUrgwtY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"4084"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00227Fhy9NdZM\u002B8JxzfRTRlMmNUJZmzMjQ7auZcqYUrgwtY=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 07:34:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

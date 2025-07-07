@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/Saal_2.css">
+    <script src="../js/Saal_2.js" defer></script>
+    <title>Sitzplatzbuchung</title>
+</head>
+<body>
+    <div class="content-header-bg">
+        <h1 id="filmname"></h1>
+        <p class="reservMin" id="reservMin"></p>
+    </div>
+    <div class="place-content">
+        <div class="content-main-bg">
+            <div class="front">
+                <p id= "datetime" class="Date">Sonntag, 19.Januar 2025 - 16:45 Uhr</p>
+                <h2 id="hallname"></h2>
+                <div class="Leinwand">
+                <p>Leinwand</p>
+                </div>        
+            </div>
+            <div id="seat-container">
+    
+            </div>
+            <div class="back">
+                <div class="seat-selection">
+                    <div class="content-seat-selection">
+                        <img src="../img/Besetzt.png" alt="">
+                        <p>Besetzt</p>
+                    </div>
+                    <div class="content-seat-selection">
+                        <img src="../img/Blockiert.png" alt="">
+                    <p>Blockiert</p>
+                    </div>
+                    <div class="content-seat-selection">
+                        <img src="../img/Ausgewählt.png" alt="">
+                        <p>Ausgewählt</p>
+                    </div>                  
+                </div>
+                <div class="seat-cost">
+                    <div class="content-seat-cost">
+                        <img src="../img/Parkett.png" alt="">
+                        <p>Parkett ab 7,50 €</p>
+                    </div>
+                    <div class="content-seat-cost">
+                        <img src="../img/Loge.png" alt="">
+                        <p>Loge ab 7,50 €</p>
+                    </div>
+                    <div class="content-seat-cost">
+                        <img src="../img/Premium.png" alt="">
+                        <p>Premium ab 8,50 €</p>
+                    </div>          
+                </div> 
+            </div>
+        </div>
+         <div class="content-ticket-bg">       
+            <div class="content-ticket_1">   
+                <img class ="ticket-img" src="../img/ticket-selected.png" alt="">          
+                <p id="ticket-count">0 Tickets</p>
+                <p id="total-price">0 €</p>              
+            </div>
+            <div class="content-ticket_2">       
+                    <p id="SelectionInfo">Wähle deine Plätze</p>                  
+            </div>
+            <div class="content-ticket_3">
+                <img class ="ticket-img" src="../img/summary-not-selected.png" alt="">
+                <p>Deine Daten</p>
+            </div>
+            <div class="content-ticket_4">
+                <img class ="ticket-img" src="../img/booking-not-selected.png" alt="">
+                <p>Buchungsbestätigung</p>
+            </div>
+            <div class="place-btn">
+                <button onclick=redirectToSummary();><img src="../img/greater-than.png">Weiter</button>
+            </div>
+          
+         </div>
+    </div>
+   
+
+    
+
+</body>
+</html>

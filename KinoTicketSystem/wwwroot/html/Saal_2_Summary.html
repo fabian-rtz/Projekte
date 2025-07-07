@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/Saal_2_Summary.css">
+    <title>Sitzplatzbuchung</title>
+</head>
+<body>
+    <div class="content-header-bg">
+        <h1>Zusammenfassung</h1>
+    </div>
+    <div class="place-content">
+        <div class="content-main-bg"> 
+            <h2>Kontaktformular</h2>
+            <form onsubmit="redirectToSummary(event);">
+                <div class="row">
+                    <input id ="vorname" class="InputField" type="text" placeholder="Vorname" minlength="3" maxlength="50" required value="Fabian"> 
+                    <input id ="Nachname" class="InputField" type="text" placeholder="Nachname" minlength="3" maxlength="50" required value="Reitz">
+                </div>  
+                <div class="row">
+                    <input id ="Benutzername" class="InputField" type="text" placeholder="Benutzername" minlength="5" maxlength="20" required value="Fabian">
+                    <input id ="email" class="InputField" type="email" placeholder="E-Mail-Adresse" required value="reitz.Fabian@gmx.net">
+                </div>  
+                <div class="row">
+                    <input id ="PLZ" class="InputField" type="number" placeholder="PLZ" min="0" pattern="[0-9]{5}" required value="35216">
+                    <input id ="Ort" class="InputField" type="text" placeholder="Ort" required value="Biedenkopf">
+                </div>  
+                <div class="row">
+                    <input id ="Straße" class="InputField" type="text" placeholder="Straße" required value="Zum Endenberg">
+                    <input id ="Hausnummer" class="InputField" type="text" placeholder="Hausnummer" required value="27">
+                </div>  
+                <h3>Zahlungsmethode</h3>
+                <h4>Kreditkarte</h4>
+                <div class="pay-methode">      
+                    <input class="radio" type="radio" id="radio" onclick="toggleDiv(this)">
+                    <p>Mastercard</p>
+                </div>
+                <h5>--Oder schneller bezahlen mit--</h5>
+                <div class="fastpay">
+                    <button class="Paypal" type="button" onclick="window.location.href='https://www.paypal.com/de/signin';"> Paypal</button>
+                    <button class="AmazonPay" type="button" onclick="window.location.href='https://pay.amazon.de/signin';"> AmazonPay</button>
+                </div>
+                <div class="Mastercard-Payment" style="display: none;">
+                    <h3>Mastercard</h3>
+                    <div class="row">
+                        <input class="InputField" type="number" placeholder="Kartennummer" min="0" required disabled>
+                    </div>  
+                    <div class="row">
+                        <input class="InputField" type="text" placeholder="Ablaufdatum (MM/YY)" pattern="(0[1-9]|1[0-2])\/\d{2}" required disabled>
+                        <input class="InputField" type="number" placeholder="CVV" min="0" pattern="[0-9]{3}" required disabled>
+                    </div>  
+                    <div class="row">
+                        <input class="InputField" type="text" placeholder="Ort" required disabled>
+                        <input class="InputField" type="number" placeholder="PLZ" min="0" pattern="[0-9]{5}" required disabled>
+                    </div>  
+                    <div class="row">
+                        <input class="InputField" type="text" placeholder="Name des Kartenbesitzers" required disabled>
+                    </div>  
+                </div>
+                <button class="SubmitBtn" type="submit">Bezahlen</button>
+            </form>
+        </div>
+         <div class="content-ticket-bg">       
+            <div class="content-ticket_1">   
+                <img class ="ticket-img" src="../img/ticket-not-selected.png" alt="">          
+                <p id="ticket-count">0 Tickets</p>
+                <p id="total-price">0 €</p>              
+            </div>        
+            <div class="content-ticket_3">
+                <img class ="ticket-img" src="../img/summary-selected.png" alt="">
+                <p>Deine Daten</p>
+            </div>
+            <div class="content-ticket_4">
+                <img class ="ticket-img" src="../img/booking-not-selected.png" alt="">
+                <p>Buchungsbestätigung</p>
+            </div>
+         </div>
+    </div>
+    <script src="../js/Saal_2_Summary.js" ></script>
+</body>
+</html>
