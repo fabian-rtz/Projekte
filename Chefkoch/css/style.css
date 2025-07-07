@@ -1,0 +1,174 @@
+body {
+  margin: 0; /* Kein Außenabstand für den Body */
+}
+
+.container {
+  padding: 100px; /* Innenabstand: 100px */
+  font-family: "Raleway"; /* Schriftart für die Klasse container */
+}
+
+.container2 {
+  font-family: "Raleway"; /* Schriftart für die Klasse container2 */
+  display: flex; /* Verwendet Flexbox für Layout */
+  flex-direction: column; /* Anordnung in Spaltenrichtung */
+  text-align: center; /* Zentrierter Text */
+  justify-content: space-evenly; /* Gleichmäßiger Abstand zwischen den Flex-Elementen */
+  background-color: rgb(241, 241, 241); /* Hintergrundfarbe */
+  padding: 40px 100px 100px 100px; /* Innenabstand: oben 40px, rechts und links 100px, unten 100px */
+}
+
+.container3 {
+  font-family: "Raleway"; /* Schriftart für die Klasse container3 */
+  padding: 40px 150px 150px 150px; /* Innenabstand: oben 40px, rechts und links 150px, unten 150px */
+}
+
+.PlaceItems {
+  display: flex; /* Verwendet Flexbox für Layout */
+  justify-content: center; /* Zentriert den Inhalt horizontal */
+}
+
+.HomePic {
+  height: 350px; /* Höhe des Bildes */
+  border-radius: 15px; /* Abgerundete Ecken */
+}
+
+.FoodText {
+  display: flex; /* Verwendet Flexbox für Layout */
+  flex-direction: column; /* Anordnung in Spaltenrichtung */
+  justify-content: space-between; /* Gleichmäßiger Abstand zwischen den Flex-Elementen */
+  max-width: 600px; /* Maximale Breite: 600px */
+  margin-left: 50px; /* Außenabstand links: 50px */
+}
+
+.button {
+  background-color: rgb(1, 146, 25); /* Hintergrundfarbe */
+  width: 250px; /* Breite der Schaltfläche */
+  height: 50px; /* Höhe der Schaltfläche */
+  font-size: 20px; /* Schriftgröße */
+  color: white; /* Schriftfarbe */
+  border: none; /* Kein Rahmen */
+  margin-bottom: 50px; /* Außenabstand unten: 50px */
+  transition: ease-in-out all 25ms; /* Übergangseffekt für alle Eigenschaften */
+  transform: scale(1); /* Anfangstransformation: Maßstab 1 */
+  display: flex; /* Verwendet Flexbox für Layout */
+  align-items: center; /* Zentriert den Inhalt vertikal */
+  justify-content: center; /* Zentriert den Inhalt horizontal */
+  margin-top: 20px; /* Außenabstand oben: 20px */
+}
+
+.button:active {
+  transform: scale(0.97); /* Verkleinert die Schaltfläche leicht beim Klick */
+}
+
+.MainHeaderText {
+  font-size: 30px; /* Schriftgröße des Hauptüberschrift-Textes */
+}
+
+.MainText {
+  font-size: 19px; /* Schriftgröße des Haupttextes */
+}
+
+.PlacePic {
+  display: flex; /* Verwendet Flexbox für Layout */
+  justify-content: space-around; /* Verteilt die Flex-Elemente gleichmäßig */
+}
+
+.Pic {
+  height: 300px; /* Höhe des Bildes */
+  border-radius: 15px; /* Abgerundete Ecken */
+  cursor: pointer; /* Zeigt an, dass das Element anklickbar ist */
+}
+
+.Headline {
+  padding-bottom: 40px; /* Innenabstand unten: 40px */
+  margin-block-start: 0; /* Kein Block-Außenabstand oben */
+  margin-block-end: 0; /* Kein Block-Außenabstand unten */
+}
+
+.Wok {
+  height: 250px; /* Höhe des Wok-Bildes */
+  border-radius: 15px; /* Abgerundete Ecken */
+}
+
+.PlaceWok {
+  display: flex; /* Verwendet Flexbox für Layout */
+}
+
+.HeadlineWok {
+  text-align: center; /* Zentrierter Text */
+}
+
+.Pic:active {
+  height: 290px; /* Verkleinerte Höhe beim Klick */
+  padding-right: 8px; /* Innenabstand rechts: 8px */
+  transform: translate(3px, 3px); /* Verschiebt das Bild um 3px */
+}
+
+@media (max-width: 1050px) {
+  .PlacePic {
+    display: flex; /* Verwendet Flexbox für Layout */
+    flex-direction: column; /* Anordnung in Spaltenrichtung */
+  }
+  .HomePic {
+    height: 400px; /* Erhöhte Höhe für HomePic */
+  }
+  .HeadlineWok {
+    margin-left: 10px; /* Außenabstand links: 10px */
+    margin-right: 10px; /* Außenabstand rechts: 10px */
+  }
+  .PlaceWok {
+    flex-direction: column; /* Anordnung in Spaltenrichtung */
+    align-items: center; /* Zentriert den Inhalt horizontal */
+    margin-left: 10px; /* Außenabstand links: 10px */
+    margin-right: 10px; /* Außenabstand rechts: 10px */
+  }
+  .PlaceItems {
+    flex-direction: column; /* Anordnung in Spaltenrichtung */
+    align-items: center; /* Zentriert den Inhalt horizontal */
+  }
+  .container {
+    padding: 0; /* Kein Innenabstand */
+    padding-top: 75px; /* Innenabstand oben: 75px */
+    padding-bottom: 100px; /* Innenabstand unten: 100px */
+  }
+  .FoodText {
+    margin-left: 15px; /* Außenabstand links: 15px */
+    margin-right: 15px; /* Außenabstand rechts: 15px */
+  }
+  .container2 {
+    padding: 0; /* Kein Innenabstand */
+    padding-top: 50px; /* Innenabstand oben: 50px */
+    padding-bottom: 50px; /* Innenabstand unten: 50px */
+  }
+  .container3 {
+    padding: 0; /* Kein Innenabstand */
+    padding-top: 50px; /* Innenabstand oben: 50px */
+    padding-bottom: 50px; /* Innenabstand unten: 50px */
+  }
+  .PicContainer {
+    margin-bottom: 20px; /* Außenabstand unten: 20px */
+  }
+}
+
+@media (max-width: 630px) {
+  .HomePic {
+    height: 150px; /* Verringerte Höhe für HomePic */
+  }
+  .FoodText {
+    margin-left: 5px; /* Außenabstand links: 5px */
+    margin-right: 5px; /* Außenabstand rechts: 5px */
+  }
+  .FoodText .MainHeaderText {
+    text-align: center; /* Zentrierter Text */
+  }
+  .FoodText .MainText {
+    text-align: center; /* Zentrierter Text */
+  }
+
+  .FoodText .button {
+    align-self: center; /* Zentriert die Schaltfläche */
+  }
+  p {
+    margin: 20px; /* Außenabstand: 20px */
+  }
+}

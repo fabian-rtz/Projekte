@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="./style.css">   
+    <script src="./script.js"></script>  
+</head>
+	<body>
+	  <div class="container">
+        <div class="form">
+            <h1>Captcha</h1>
+            <div class="captcha-img-form">
+                <h1 id="captcha-text"></h1>
+                <img src="./img/captcha-bg.png" alt="">
+                <button onclick="getCaptcha()"><img id= "refresh" src="./img/refresh-arrow.png" alt=""></button>
+            </div>
+            <div class="captcha-input-form">
+                <input id="captcha-input" type="text">
+                <button onclick="checkCaptcha()" id="btnCheck">Check</button>
+            </div>
+        </div>
+      </div>
+	</body>
+</html>

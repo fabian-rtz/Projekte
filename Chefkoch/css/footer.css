@@ -1,0 +1,85 @@
+/* Footer-Stile */
+footer {  
+    display: flex; /* Setze den Inhalt des Footers in ein Flex-Layout */
+    background-color: rgb(70, 70, 70); /* Dunkle Hintergrundfarbe */
+    font-family: 'Raleway'; /* Schriftfamilie für den Text im Footer */
+    padding-left: 25px; /* Linker Innenabstand */
+    padding-right: 25px; /* Rechter Innenabstand */
+    color: white; /* Textfarbe */
+    height: 185px; /* Setze die Höhe des Footers */
+    align-items: center; /* Zentriere den Inhalt vertikal */
+    margin-top: auto; /* Platziere den Footer unten im Container */
+ 
+}
+
+/* Stile für Elemente, die rechts ausgerichtet sind */
+.PlaceTextRight {
+    display: flex; /* Setze den Inhalt in ein Flex-Layout */
+    flex-direction: column; /* Staple Elemente vertikal */
+    text-align: center; /* Zentriere den Text */
+}
+
+/* Container für den Standort */
+.Location {
+    width: 100%; /* Nimm die volle Breite ein */
+}
+
+/* Text im Standortcontainer */
+.LocationText {
+    margin: 0; /* Entferne Standardränder */
+}
+
+/* Stil für Überschriftstext */
+.FooterHeaderText {
+    font-size: 20px; /* Setze die Schriftgröße */
+    margin: 0; /* Entferne Standardränder */
+}
+
+/* Stil für Haupttext */
+.FooterMainText {
+    text-align: justify; /* Justiere den Text */
+    font-size: 12px; /* Setze die Schriftgröße */
+    margin-right: 40px; /* Rechter Rand */
+}
+
+/* Media-Abfrage für Bildschirme mit geringerer Höhe */
+@media (max-height: 1050px) {
+    footer {
+        position: static; /* Setze Position zurück */
+        width: auto; /* Setze Breite zurück */
+    }
+}
+
+/* Media-Abfrage für Bildschirme mit geringerer Breite */
+@media (max-width: 750px) {
+    footer {
+        flex-direction: column-reverse; /* Ändere die Flex-Richtung für das Stapeln */
+        justify-content: center; /* Zentriere den Inhalt vertikal */
+        padding-left: 0; /* Linken Innenabstand entfernen */
+        padding-right: 0; /* Rechten Innenabstand entfernen */
+    }
+    
+    /* Anpassungen für Standortcontainer */
+    .Location {
+        margin-top: 20px; /* Oberen Rand hinzufügen */
+        text-align: center; /* Text zentrieren */
+    }
+    
+    /* Anpassungen für Haupttext */
+    .FooterMainText {
+        margin-right: 20px; /* Rechten Rand verringern */
+        margin-left: 20px; /* Linken Rand hinzufügen */
+        font-size: 10px; /* Schriftgröße verringern */
+    }
+    
+    /* Anpassungen für Standorttext */
+    .LocationText {
+        font-size: 10px; /* Schriftgröße verringern */
+    }
+    
+    /* Anpassungen für Überschriftstext */
+    .FooterHeaderText {
+        font-size: 18px; /* Schriftgröße verringern */
+        margin-bottom: 10px; /* Unteren Rand hinzufügen */
+    }
+}

@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to right bottom, rgb(8, 0, 122), rgb(0, 117, 172));
+    align-items: center;
+    justify-content: center;
+    font-family: 'Raleway';
+    color: white;
+}
+h1{
+    font-size: 70px;
+}
+.Form{
+    display: flex;
+    align-items: center;
+    padding: 25px;
+    border-radius: 10px;
+    background-color: rgba(0, 140, 255, 0.411);
+    
+}
+#Age{
+    font-size: 25px;
+    padding: 5px;
+    border: 0;
+    outline: none;
+    height: 40px;
+    font-family: 'Raleway';
+    border-radius: 10px;
+}
+button{
+    margin-left: 25px;
+    font-size: 25px;
+    padding: 10px 10px 10px 10px;
+    border: 0;
+    border-radius: 10px;
+    font-family: 'Raleway';
+}
+button:active{
+    transform: scale(0.95);
+}
+
