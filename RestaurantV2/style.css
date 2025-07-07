@@ -1,0 +1,30 @@
+.container{
+  padding-top: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.Welcome{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: center; 
+  
+}
+h2{
+  font-size: clamp(20px,3vw,50px);
+  margin:20px;
+}
+p{
+  font-size: clamp(12px,1.2vw,18px);
+  text-align: center;
+
+}
+@media(max-width:1000px){
+  p{
+  text-align: justify;
+  text-align-last: center;
+  }
+}
+
+

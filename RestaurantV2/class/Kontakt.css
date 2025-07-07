@@ -1,0 +1,39 @@
+.Kontaktformular{
+  display: flex;
+  flex-direction: column;
+  color: azure;
+  align-items: center;
+  margin-top: 125px;
+  padding: 25px;
+}
+.AlignText{
+  display: flex;
+  flex-direction: column;
+  color: azure;
+}
+textarea {
+  resize: none;
+  height: 125px;
+}
+label{
+  font-size: 30px;
+  margin-top: 20px;
+}
+input{
+  font-size: 20px;
+}
+
+
+@media(max-width:1000px){
+  label{
+    font-size: 20px;
+  }
+
+}
+@media(max-width:600px){ 
+  .checkboxtext{
+    font-size: 11px;
+  }
+}
+
+

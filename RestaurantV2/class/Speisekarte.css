@@ -1,0 +1,82 @@
+.container{
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+label{
+  padding: 0px;
+  color:white;
+}
+
+.Pic{
+  height: 350px;
+  padding: 20px;
+  margin-top: 8px;
+}
+
+.Pizza{
+  display: flex;
+  justify-content: center;
+}
+
+.Schnitzel{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+}
+
+table,tr,th{
+  border: 1px solid;
+  color:white;
+}
+
+.tbPizza{
+  margin-left: 100px;
+  margin-right: 20px;
+}
+
+.tbSchnitzel{
+  margin-right: 100px;
+  margin-left: 20px;
+}
+
+caption{
+  font-size: 25px;
+}
+
+th{
+  width: 400px;
+}
+
+@media(max-width:1300px){
+  .Pic{
+    height: 200px;   
+  }
+  .tbPizza{
+    margin-left: 0;
+   
+  }
+  
+  .tbSchnitzel{
+    margin-right: 0; 
+  }
+  
+}
+
+@media(max-width:350px){
+  .Pic{
+    height: 110px;    
+  }
+  .Schnitzel{ 
+    align-items: center;
+  }
+  .Pizza{
+    align-items: center;
+  }
+  
+}
+
+
