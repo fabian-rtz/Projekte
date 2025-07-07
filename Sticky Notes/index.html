@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StickyNotes</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>  
+</head>
+<body>
+    <div class="container">
+        <div class="wrap-class">
+            <div onclick="openCreateNote()" class="AddNote">
+                <p class="plus">+</p>
+            </div> 
+            <div id="list-container">
+                <ul id="notes-list"></ul>
+            </div>
+        </div>    
+    </div>
+    <div id="popupContainer">
+        <h1>Neue Notiz</h1>
+        <textarea id="taCreateNote" class="NoteText"></textarea>
+        <div class="CreateNoteButton">          
+            <button type="button" onclick="createNote()" class="btn">Erstellen</button>
+            <button type="button" onclick="closeCreateNote('1')" class="btn">Schließen</button>
+        </div>       
+    </div>
+</body>
+</html>

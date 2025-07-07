@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+}
+.container{
+    background-image: linear-gradient(to bottom right , rgb(167, 167, 167),rgb(51, 51, 51));
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-size: 125px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 500px;
+
+}
+
+.buttons button{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    border: 0;
+}
+button:active{
+   transform: scale(0.95);
+}
+.buttons button img{
+    height: 50px;
+ 
+}
+.Play_Pause{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+}
+

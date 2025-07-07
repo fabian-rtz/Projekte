@@ -1,0 +1,65 @@
+body{
+    margin:0;
+}
+.container{
+    background-image: linear-gradient(to bottom right,rgb(151, 213, 255),rgb(0, 113, 121));
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculator{
+    border-radius: 15px;
+    background-color: rgb(37, 37, 54);
+    height: 700px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+}
+#display{
+    height: 75px;
+    width: 430px;
+    padding-block: 0;
+    padding-inline: 0;
+    border:0;
+    background-color: rgb(37, 37, 54);
+    color: white;
+    font-size: 70px;
+    outline: none;
+    text-align: end;
+}
+.NumberField{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.row, .row_ {
+    display: flex;
+    flex-direction: row;
+    gap: 10px; 
+    margin-top: 10px;
+}
+
+#numbers{
+    height: 100px;
+    width: 100px;
+    padding: 0;
+    border:0;
+    background-color: rgb(37, 37, 54);
+    color: white;
+    box-shadow: -8px -8px 15px rgba(163, 163, 163, 0.5);
+    border-radius: 10px;
+    font-size: 30px;
+}
+#numbers:active{
+    transform: scale(0.95);
+}
+.row_ #numbers:nth-child(3) {
+    width: 210px;
+}
+
