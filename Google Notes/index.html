@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Keep Layout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="renderNotes()"> 
+    <div class="sidebar">
+        <ul>
+            <li><a onclick="toggleActiveSection('home')" id="home-link" href="#home" class="active">Notizen</a></li>
+            <li><a onclick="toggleActiveSection('trash')" id="trash-link" href="#trash">Papierkorb</a></li>
+        </ul>
+    </div>
+    <div class="main">
+        <section  id="home">
+            <header>
+                <h1>Notizen</h1>
+                <div>
+                    <div>
+                        <button id="add-note-btn" onclick="addNote()">+</button>
+                        <input id="note-input" type="text" placeholder="Notiz erstellen..." class="note-input">
+                    </div>            
+                </div>              
+            </header>
+            <div  class="content" id="notes-container">   
+            </div>
+        </section>
+        <section  id="trash" style="display: none;">
+            <header>
+                <h1>Papierkorb</h1>
+            </header>
+            <div  class="content" id="trash-container">
+            </div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
