@@ -1,0 +1,46 @@
+body{
+    margin:0;
+}
+.container{
+    height: 100vh;
+    background-image: linear-gradient(to bottom right,rgb(59, 255, 239),rgb(0, 43, 134));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgdiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 25px;
+  border-radius: 50px;
+  width: 1070px;
+}
+.imgdiv #left,#right{
+    border-radius: 100%;
+    background-color: rgb(11, 2, 61);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgdiv #left,#right img{
+      padding: 4px;
+}
+.imgdiv #left{
+   margin-right: 25px;
+}
+.imgdiv #right{
+    margin-left: 25px;
+}
+.img-slider{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden; 
+}
+.img-slider img{
+    height: 602px; 
+    border-radius: 30px;
+    transform: translateX(0%);
+}
+

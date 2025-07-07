@@ -1,0 +1,75 @@
+body{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.calender{
+    display: flex;
+    flex-direction: column;
+   
+}
+.header{
+   background-color: aqua;
+   color: black;
+   border-top-left-radius: 15px;
+   border-top-right-radius: 15px;
+   text-align: center;
+   width: 500px;
+   height: 100px;
+   padding-left: 5px;
+   padding-right: 5px;
+}
+.main{
+    background-color: rgb(41, 41, 41);
+    width: 500px;
+    height: 225px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+h2,h1{
+    margin: 0;
+}
+p{
+  font-size: 18px;
+}
+
+.days {
+  display: flex;
+  flex-direction: row;  
+  justify-content: space-between;
+  width: 500px;
+}
+.days p {
+  flex: 1 0 14.28%;
+  text-align: center;
+  margin: 0;
+  padding: 8px 0;
+}
+
+#daysNumber {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#daysNumber p,.today {
+    flex: 1 0 14.28%; 
+    text-align: center;
+    padding: 8px 0;
+    margin: 0;
+    color: white;
+    box-sizing: border-box;
+}
+#daysNumber p:hover {
+   background-color: grey;
+   border-radius: 15px;
+}
+
+
+
+
