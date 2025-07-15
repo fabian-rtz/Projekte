@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontakt</title>
+  <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./class/Kontakt.css">
+
+  <script src="./js/includeHTML.js"></script> 
+</head>
+<body onload="includeHTML()">
+  <header w3-include-html="./models/header.html" class="menu">                            
+    </header> 
+    <div class ="Kontaktformular">
+     <form action="SENDEADRESSE" id="ft-form" method="POST" accept-charset="UTF-8">    
+        <div class ="AlignText">
+        <label>
+          Name        
+        </label>
+        <input type="text" name="Name" required>
+        <label>
+          E-Mail-Adresse     
+        </label>
+        <input type="email" name="E-Mail" required>
+        <label>
+          Ihre Nachricht        
+        </label>    
+        <textarea rows="3" name="Nachricht" required></textarea>
+      </div>
+        <div>   
+            <input type="checkbox" name="Datenverarbeitung bestätigt" value="Ja" required>
+            <label class="checkboxtext"> 
+              Ich bestätige, dass ich mit der Verarbeitung meiner Eingaben <br>zum Zwecke der Anfragebearbeitung, einverstanden bin.
+          </label>
+        </div>   
+      <div class="btns">
+        <input type="text" name="_gotcha" value="" style="display:none;">
+        <input type="submit" value="Absenden">
+      </div>
+    </form>  
+  </div>                            
+  <footer>          
+    <div class ="smedia">
+      <a href ="https://de-de.facebook.com/"><img class = "platformpic" src="./img/fb-icon.png"></a>
+      <a href ="https://www.instagram.com/"><img class = "platformpic" src="./img/ig-icon.png"></a>
+      <a href ="https://de.linkedin.com/"><img class = "platformpic" src="./img/li-icon.png"></a>
+      <a href ="https://twitter.com/"><img class = "platformpic" src="./img/tw-icon.png"></a>
+    </div>
+  </footer> 
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schere Stein Papier</title>
+    <link rel="stylesheet" href="./style.css">   
+    <script src="./script.js"></script>  
+</head>
+	<body>
+	  <div class="container">   
+      <h1 id="WinnerText"></h1>
+         <div class="gameform">        
+              <div class="game">
+                <img id="player" src="./img/rock.png" alt="">
+                <img id="ki" src="./img/rock.png" alt="">
+              </div>
+              <h1 id="GameinProgress">Lass uns Spielen !!</h1>
+              <div class="Selection">
+                 <div id ="rock">
+                    <img onclick="selectHand('rock')" src="./img/rock.png" alt="">
+                    <h2>Stein</h2>
+                 </div>
+                 <div id="paper">
+                    <img onclick="selectHand('paper')" src="./img/paper.png" alt="">
+                    <h2>Papier</h2>
+                 </div>
+                 <div id="scissors">
+                    <img onclick="selectHand('scissors')" src="./img/scissors.png" alt="">
+                    <h2>Schere</h2>
+                 </div>
+                 
+              </div>
+         </div>
+      </div>
+	</body>
+</html>

@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+}
+.container{ 
+   height: 100vh;
+  
+}
+.wrap-class{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.AddNote{
+    background-color: rgba(204, 204, 204, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    user-select: none;
+    width:440px;
+    height: 440px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow:  9px 9px 18px #b3b3b3,-9px -9px 18px #ffffff;
+}
+
+.plus{
+    font-size: 150px;
+}
+.AddNote:active{ 
+    transform: scale(0.97);
+
+}
+#editBtn{
+    height: 40px;
+    width: 120px;
+    margin-top: 15px;
+}
+#deleteBtn{
+    height: 40px;
+    width: 120px;
+    margin-top: 15px;
+}
+#popupContainer {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999; /* Stellen Sie sicher, dass das Popup über anderen Inhalten liegt */
+    background-color: brown;
+    width: 750px;
+    height: 500px;
+    text-align: center;
+    display: none;
+    
+}
+h1{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.NoteText{
+    height: 325px;
+    width: 650px;
+    resize: none;
+}
+.CreateNoteButton{
+    display: flex;
+    justify-content: space-around;
+}
+.btn{
+    height: 40px;
+    width: 120px;
+    margin-top: 15px;
+}
+
+
+#list-container {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+li {
+    background-color: #fff385;
+   
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; /* Added to align buttons to the right */
+    width:400px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow:  9px 9px 18px #b3b3b3,-9px -9px 18px #ffffff;
+}
+
+li span {
+    font-size: 25px;
+    flex-grow: 1;  
+}

@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    animation: pulse 1s infinite;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to bottom right, rgb(169, 179, 252), rgb(36, 32, 80));
+  }
+  
+  .container { 
+    width: 30%;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background: #fff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .5);
+  }
+  
+  .Loading {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 10px;
+    background: #f1f1f1;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, .2);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .Loading:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 100%;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+    animation: load 2s infinite;
+    animation-delay: 500ms; 
+  }
+  
+  @keyframes load {
+    0% {
+      width: 0;
+      background: black;
+    }
+     
+    100% {
+      width: 100%;
+      background: black;
+    }
+  }

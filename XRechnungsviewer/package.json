@@ -1,0 +1,29 @@
+{
+  "name": "quellcode",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://f-reitz: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@github.com/f-reitz/XRechnungsviewer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/f-reitz/XRechnungsviewer/issues"
+  },
+  "homepage": "https://github.com/f-reitz/XRechnungsviewer#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "fast-xml-parser": "^5.2.1",
+    "multer": "^1.4.5-lts.2",
+    "pdfkit": "^0.17.1",
+    "pdfmake": "^0.2.20",
+    "sqlite3": "^5.1.7"
+  },
+  "description": ""
+}

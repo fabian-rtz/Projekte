@@ -1,0 +1,118 @@
+/* Body-Stile */
+body {
+  margin: 0; /* Nullaußenabstand */
+}
+
+/* Stile für den Formularbereich */
+.PlaceFormular {
+  display: flex; /* Flexbox für das Layout */
+  justify-content: center; /* Zentrierung des Inhalts horizontal */
+  align-items: center; /* Zentrierung des Inhalts vertikal */
+  height: 69vh; /* 69% der Bildschirmhöhe */
+}
+
+/* Stile für Labels */
+label {
+  color: white; /* Textfarbe */
+  font-size: 25px; /* Schriftgröße */
+}
+
+/* Stile für Eingabefelder */
+input {
+  font-size: 20px; /* Schriftgröße */
+  width: 100%; /* Breite */
+  padding: 0; /* Null Innenabstand */
+  outline: none; /* Kein Standard-Umriss */
+}
+
+/* Stile für primäre Schaltfläche */
+.btn-btn-primary {
+  width: 322px; /* Breite */
+}
+
+/* Stile für Textareas */
+textarea {
+  font-size: 20px; /* Schriftgröße */
+  resize: none; /* Nicht skalierbar */
+  min-width: 100%; /* Mindestbreite */
+  height: 150px; /* Höhe */
+  outline: none; /* Kein Standard-Umriss */
+}
+
+/* Stile für das Formular */
+form {
+  background-color: rgb(70, 70, 70); /* Hintergrundfarbe */
+  padding: 25px; /* Innenabstand */
+  border-radius: 15px; /* Abrundung der Ecken */
+  box-shadow: 10px 7px 5px rgb(37, 37, 37); /* Schatten */
+}
+
+/* Stile für ungültige Eingabefelder nach dem Absenden */
+.submitted input:invalid,
+.submitted textarea:invalid {
+  background-color: red; /* Hintergrundfarbe */
+}
+
+/* Stile für die Gruppe von Formularelementen */
+.form-group {
+  margin-top: 5px; /* Außenabstand oben */
+  display: flex; /* Flexbox für das Layout */
+  justify-content: center; /* Zentrierung des Inhalts horizontal */
+}
+
+/* Stile für Text mit Außenabstand */
+.MarginText {
+  margin-top: 20px; /* Außenabstand oben */
+}
+
+/* Stile für kleinen Text */
+small {
+  color: white; /* Textfarbe */
+}
+
+/* Stile für rote Farbe */
+.red-color {
+  background-color: #ff9393; /* Hintergrundfarbe */
+}
+
+/* Stile für Platzhaltertext */
+::placeholder {
+  color: rgb(36, 36, 36); /* Textfarbe */
+}
+
+/* Media-Abfrage für kleine Bildschirme */
+@media (max-width: 450px) {
+  /* Anpassungen für das Formular */
+  form {
+    padding: 23px; /* Innenabstand */
+  }
+
+  /* Anpassungen für Labels */
+  label {
+    font-size: 20px; /* Schriftgröße */
+  }
+
+  /* Anpassungen für Eingabefelder */
+  input {
+    font-size: 20px; /* Schriftgröße */
+    padding: 0; /* Null Innenabstand */
+  }
+
+  /* Anpassungen für den Formularbereich */
+  .PlaceFormular {
+    padding-top: 20px; /* Innenabstand oben */
+    padding-bottom: 20px; /* Innenabstand unten */
+  }
+
+  /* Anpassungen für die primäre Schaltfläche */
+  .btn-btn-primary {
+    width: 255px; /* Breite */
+  }
+
+  /* Anpassungen für Textareas */
+  textarea {
+    font-size: 20px; /* Schriftgröße */
+    resize: none; /* Nicht skalierbar */
+    height: 150px; /* Höhe */
+  }
+}

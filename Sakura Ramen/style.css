@@ -1,0 +1,343 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin:0;
+}
+
+section{
+    padding: 64px 125px;
+}
+
+.bg-img{
+    display: flex;
+    background-image: url("./img/bgr1.jpg");
+    height: 100vh;
+    background-position: bottom;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;   
+}
+
+.container{
+    position: absolute;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    top:0;
+    left:0;
+    right:0;
+    margin: 64px 125px;
+}
+
+.saku{
+    width: 100px;
+}
+
+.topnav{
+    display: flex;
+}
+
+.topnav a{
+    display: flex;
+    text-decoration: none;
+    color:white;
+    font-family:'Raleway';
+    font-weight: bold;
+    font-size: 25px; 
+    margin-left: 64px;
+    align-items: center;
+}
+
+.navb:hover{
+text-decoration: underline;
+}
+
+.phoneImg{
+    width:30px;
+    padding: 7px; 
+}
+
+.phoneBtn {
+    background-color: rgb(156,8,8);
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 5px 15px;
+    text-align: center;
+}
+.phoneBtn:hover {
+    background-color: rgb(200,8,8);
+
+}
+
+.Headline{ 
+    color:white;
+    font-family:'Raleway' ;
+    text-align: center;
+    margin-bottom: 32px; 
+}
+
+h1{
+   font-size: 100px;
+}
+.p{
+    margin-top: -60px;
+    font-size: 23px;
+}
+
+.hl{
+    color: rgb(156,8,8);
+    font-size: 65px;
+    text-align: center;
+    font-family: 'Economica';
+    margin: 0;
+}
+
+.tutorial{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tutorialtext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 64px;
+}
+
+.p2{
+    font-family: 'Economica';
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0;
+}
+
+.bg-img2{
+    display: flex;
+    background-image: url("./img/background.jpg");
+    background-position: center;
+    background-size: cover;
+    flex-direction: column;
+}
+
+.menu{
+    margin: 0;
+}
+
+.hl2{
+    color:  rgb(156,8,8);
+    font-size: 65px;
+    text-align: center;
+    margin : 0;
+    font-family: 'Economica';
+    font-weight: bold;
+}
+
+.menucontainer{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-block: 100px;   
+}
+
+.menucontainer2{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-block: 100px;   
+}
+
+.menupic{
+    width: 450px;
+    transition: 125ms;
+}
+
+.tableheader{
+    font-family: 'Economica';
+    font-weight: bold;
+    font-size: 50px;
+}
+
+td{
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-size: 35px;
+    color:rgb(99, 100, 95);
+}
+
+.tdinside{
+    padding-right :50px;
+}
+
+.tdoutside{
+    padding-left :50px;
+}
+
+.findusat{
+    padding-left: 0;
+    padding-right: 0;
+
+ }
+
+.hl3{
+    color:  rgb(156,8,8);
+    font-size: 65px;
+    text-align: center;
+    margin :0;
+    font-family: 'Economica';
+    font-weight: bold;
+}
+
+.streetcontainer{
+    font-family: 'Raleway';  
+    display:flex;
+    margin:24px;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.streetimg{
+   width: 20px;
+   height: 30px;
+   margin-right: 15px;
+
+}
+
+.maps{
+    height:600px;
+    width:100%;
+ }
+
+ .Contact{
+    padding: 0 125px;
+    padding-bottom: 64px;  
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .platformpic{
+    margin-left: 20px;
+    height: 78px;
+    width: 78px;
+    transition: 125ms;   
+    border-radius: 50px;
+ }
+ .platformpic:hover{
+    box-shadow: 10px 10px 2px darkgrey
+   
+
+ }
+
+ .saklogobottom{
+    transition: 125ms;
+ }
+
+
+
+
+
+
+
+
+ @media(max-width:425px){
+    h1{
+        font-size: 75px;
+    }
+  }
+ @media(max-width:500px){
+    .menupic{
+        width: 300px;
+    }
+  }
+  @media(max-width:850px){
+    .topnav {
+       display: flex;
+       flex-direction: column-reverse;
+       justify-content: center; 
+       
+    }
+    .topnav a{
+        margin-left: 0px;   
+        margin-top: 25px;
+    }
+    .navb{
+        
+        display: none !important;
+    }
+
+  }
+
+ @media(max-width:1000px){
+   .tutorial{
+    flex-direction: column;
+   }
+
+   .container{    
+    flex-direction: column;
+    margin: 0;
+   }
+   .platformpic{
+    height: 50px;
+    width: 50px;  
+   }
+
+   .saklogobottom{
+    width: 300px;
+    height: 48px;
+   }
+
+   section{
+        padding: 64px 0;
+   }
+
+   .Contact{
+        padding: 64px 0;  
+   } 
+ }
+
+ @media(max-width:1400px){
+
+    .tdinside{
+        padding: 0;
+    }
+
+    .tdoutside{
+        padding: 0;
+    }
+
+
+
+    .menucontainer{       
+        flex-direction: column;
+    }
+
+    table{
+       padding-top: 50px;
+    }
+
+    .menucontainer2{
+        flex-direction: column;
+    }
+
+    .Contact{
+         flex-direction: column;        
+    }
+
+    .smedia{
+        padding: 50px;
+    } 
+}
+
+
+ 
+
+
+
+
+
+

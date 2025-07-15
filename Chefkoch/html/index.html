@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Kochwelt</title>
+    
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/style.css"> 
+
+    <script src="../js/HomeToRecipe.js"></script>
+   
+    <script src="../js/includeHTML.js"></script>  
+</head>
+<body onload="includeHTML();">
+    <header w3-include-html="../html/header.html" class="headermenu">  
+    </header>
+    <div class="container">
+        <div class="PlaceItems">
+            <img class="HomePic" src="../img/Pfannkuchen.jpg" alt="">
+            <div class="FoodText">
+                <div>
+                    <h1 class="MainHeaderText">Pfannkuchen</h1>
+                    <p class="MainText">Pfannkuchen, golden gebraten und mit süßem Sirup beträufelt, sind ein beliebtes Frühstücksgericht, 
+                        das mit einer Vielzahl von Toppings wie Früchten, Schokoladensplittern oder Sahne köstlich verfeinert werden kann.</p>                 
+                </div> 
+                <a class="button" href="../html/RecipeDay.html?recipe=pancake">Rezept öffnen</a>
+            </div>
+        </div>    
+    </div>
+    <div class="container2">
+        <h1 class="Headline">Lust auf was Neues?</h1>
+        <div class="PlacePic">
+            <div class="PicContainer">
+                <img onclick="imageClick('../html/RecipeDay.html?recipe=RedLenses')" class="Pic" src="../img/Gericht1.PNG" alt="">
+                <p >Rote Linsen Kokos Suppe<p>
+            </div>
+            <div class="PicContainer">
+                <img onclick="imageClick('../html/RecipeDay.html?recipe=Hamburger')" class="Pic" src="../img/Gericht2.PNG" alt="">
+                <p >Hamburger<p>
+            </div>
+            <div class="PicContainer">
+                <img onclick="imageClick('../html/RecipeDay.html?recipe=CheeseS')" class="Pic" src="../img/Gericht3.PNG" alt="">
+                <p >Käsespätzle<p>
+            </div>
+        </div>  
+    </div> 
+    <div class="container3">
+        <h1 class="HeadlineWok">Pfanne vs. Wok - Was ist besser?</h1>
+        <div class="PlaceWok">
+            <p>Die Debatte darüber, ob die Pfanne oder der Wok besser ist, hält an. Während die Pfanne eine gleichmäßige Hitzeverteilung bietet, 
+                punktet der Wok mit seiner Fähigkeit, schnell zu erhitzen und eine vielfältige Palette an Gerichten zuzubereiten.</p>
+            <img class="Wok" src="../img/Wok.png" alt="">
+        </div>       
+    </div>
+    <footer w3-include-html="../html/footer.html" class="footermenu">
+    </footer> 
+</body>
+</html>

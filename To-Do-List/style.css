@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, rgb(0, 86, 156), rgb(0, 173, 173));
+    justify-content: center;
+    align-items: center;
+}
+
+.To-Do-Form {
+    background-color: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 10px 7px 10px 5px #616161b9;
+    width: 60%;
+    position: relative; /* Hinzugefügt */
+}
+
+.Inputbar {
+    display: flex;
+    justify-content: center;
+}
+
+#task {
+    width: 100%;
+    height: 40px;
+    font-size: 22px;
+}
+
+#btnTask {
+    height: 50px;
+    margin-left: 20px;
+}
+
+#btnTask:active {
+    transform: scale(0.95);
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+li {
+    font-size: 25px;
+    list-style: none;
+    padding-top: 15px;
+    position: relative; /* Hinzugefügt */
+}
+ul li span:hover{
+    background-color: rgb(102, 102, 102,0.2);
+    border-radius: 100%;
+    cursor: pointer;
+}
+li span {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 40px;
+    height: 40px;
+    font-size: 32px;
+    color: #555;
+    line-height: 40px;
+    text-align: center;
+}
+
+#list-container {
+    padding: 0px;
+}

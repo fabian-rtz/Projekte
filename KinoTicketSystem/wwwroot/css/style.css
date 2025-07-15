@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+}
+img{
+    height: 49px;
+}
+p{
+   font-size: 35px;
+   margin-bottom: 50px;
+   font-family: "Edu AU VIC WA NT Pre", serif;
+}
+.AlignBtn{
+    display: flex;
+    justify-content: space-around;
+}
+input:focus{
+    outline: none;
+}
+
+/* Grundstil des Buttons */
+button {
+    padding: 10px 20px; /* Innenabstand */
+    background-color: rgb(169, 179, 252);
+    color: white; /* Textfarbe */
+    border: none; /* Keine Umrandung */
+    border-radius: 12px; /* Abgerundete Ecken */
+    font-size: 16px; /* Schriftgröße */
+    cursor: pointer; /* Zeigt den Mauszeiger an, dass es klickbar ist */
+    transition: all 0.3s ease; /* Weiche Übergänge für Interaktionen */
+    width: 120px;
+}
+  
+  /* Hover-Effekt für den Button */
+button:hover {
+    box-shadow: 5px 5px 10px #888888;
+    transform: translateY(-2px); /* Button "hebt" sich an */
+  }
+input{
+    height: 40px;
+    margin-left: -10px;
+    border: 0;
+    background-color: rgb(169, 179, 252);
+    padding: 0;
+    width: 250px;
+    font-size: 15px;
+    color: white;
+}
+.login-bg{
+    background-image: linear-gradient(to bottom right, rgb(169, 179, 252), rgb(36, 32, 80));
+    height: 100vh;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.login-container{
+    display: flex;
+    align-items: center;
+    height: 50vh;
+    background-color: white;
+    width: 500px;
+    justify-content: center;
+    border-radius: 20px;
+    flex-direction:column;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+   
+}
+#loginForm{
+    display: flex;
+    flex-direction: column;
+
+}
+#RegisterForm{
+    display: flex;
+    flex-direction: column;
+
+}
+.AlignItems{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15px;
+}
+label{   
+     color: black;
+}
+button{
+   margin-top: 40px;
+}

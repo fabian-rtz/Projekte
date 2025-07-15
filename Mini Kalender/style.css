@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to bottom right,rgb(78, 0, 78),rgb(21, 0, 97));
+}
+
+.calendar{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Poppins', sans-serif;
+}
+.Left{
+    background-color: white;
+    width: 225px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+ 
+}
+.Left,.Right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+}
+.Right{
+    background-color: #f4351e;
+    color: white; 
+    width: 150px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+h1,h2{
+    margin: 0;
+}
+h1{
+    font-size: 100px;
+}
+h2{
+    font-size: 25px;
+}

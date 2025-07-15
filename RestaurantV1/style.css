@@ -1,0 +1,145 @@
+
+.bg-img {
+    /* The image used */
+    background-image: url("./img/header.jpg");
+    min-height: 400px;
+    background-position: right;
+    background-size: cover;
+    
+}
+
+
+.container {
+    position: absolute; 
+    top: 160px; 
+    left: 60px;
+}
+
+.topnav a{
+    text-decoration: none;
+    color: white;
+    margin: 32px;
+    font-size: 45px; 
+    text-align:center;
+}
+
+body{
+    margin: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+.Headline{
+    font-family:'Comic Sans MS';
+    font-size: 40px;
+    text-align: center;
+    margin-top: 125px; 
+   
+}
+
+p{  
+    text-align: center;  
+    font-size: 25px;
+    margin: 0 32px;
+    margin-top : 25px;
+}
+
+.FoodHeader{
+    margin-top: 125px;
+    font-family:'Comic Sans MS';
+    font-size: 40px;
+
+    text-align: center;
+   
+}
+
+.Food{
+    font-family:'Comic Sans MS';
+    font-size: 40px;
+    text-align: center;
+
+   
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+   
+    padding-top: 125px;
+   
+    
+
+}
+
+table th{ 
+    font-size: 20px; 
+    text-align: left;
+}
+
+
+
+
+.bg-img2{
+    
+    background-image: url("./img/FoodBG.png");
+  
+    min-height: 400px;
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.bg-img3{
+    background-image: url("./img//body.png");
+    width : 50vw;
+    display:flex;
+    justify-content: right;
+    align-items: center;
+    background-size: cover;
+
+    
+}
+.maps{
+   height:450px;
+   width:50vw;
+}
+p2{
+    font-size: 30px;
+    color:white;
+
+}
+.dflex{
+   display: flex;
+
+}
+
+@media(max-width:800px){
+    .dflex{
+        flex-direction: column;
+    }
+    .bg-img3{
+        width:100%;
+
+    }
+    .maps{
+        width:100%;    
+    }
+    .bg-img3{
+         justify-content: center;
+         height: 500px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

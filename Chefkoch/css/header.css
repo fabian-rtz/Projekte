@@ -1,0 +1,134 @@
+/* Header-Stile */
+header {
+  box-shadow: 0px 4px 5px rgba(185, 185, 185, 0.5);
+  font-family: "Raleway";
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+img {
+  height: 75px; /* Höhe des Bildes */
+}
+
+.PlaceHeader {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 10px;
+}
+/* Stile für das Header-Icon */
+.HeaderIcon {
+  display: flex; /* Setze den Inhalt in ein Flex-Layout */
+  flex-direction: row; /* Ausrichtung der Elemente in einer Reihe */
+  padding: 30px 0 30px 30px; /* Innenabstand */
+  align-items: center; /* Zentriere die Elemente vertikal */
+}
+
+
+.HeaderIcon img {
+  width: 50px;
+  height: 50px;
+}
+
+.IconText {
+  font-size: 24px;
+  margin-left: 10px;
+}
+
+.PlaceNav .nav-menu {
+  display: flex;
+  gap: 20px;
+  font-size: 20px; /* Schriftgröße */
+}
+a {
+  text-decoration: underline; /* Unterstrich */
+  text-underline-offset: 10px; /* Abstand des Unterstrichs */
+  text-decoration-thickness: 5px; /* Dicke des Unterstrichs */
+  text-decoration-color: rgba(0, 124, 21, 0); /* Farbe des Unterstrichs */
+  cursor: pointer; /* Zeiger-Cursor */
+  color: black; /* Textfarbe */
+  transition: all 250ms ease-in; /* Übergangseffekt */
+}
+
+/* Stile für den Link-Hover */
+a:hover {
+  text-decoration-color: rgb(1, 146, 25); /* Farbe des Unterstrichs bei Hover */
+}
+
+/* Hamburger Menu Styles */
+.toggle-menu-checkbox {
+  display: none;
+}
+
+.hamburger {
+  font-size: 30px;
+  cursor: pointer;
+  display: none;
+  position: absolute;
+  top: 0px; /* Position anpassen, um es an der richtigen Stelle zu platzieren */
+  right: 20px;
+  z-index: 1100; /* Höher als der z-index des mobilen Menüs */
+}
+
+.toggle-menu-checkbox:checked + .hamburger + .mobile-menu {
+  z-index: 1000;
+}
+.mobile-menu {
+  display: none;
+}
+
+.toggle-menu-checkbox:checked + .hamburger + .mobile-menu {
+  display: block;
+  top: 60px;
+  background-color: #fff;
+  width: 100%;
+  box-shadow: 0px -4px 5px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.mobile-menu .nav-menu {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+
+.mobile-menu .nav-menu li {
+  list-style: none;
+}
+
+.mobile-menu .nav-menu li a {
+  display: block;
+  padding: 15px;
+  color: #333;
+  text-decoration: none;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: underline; /* Unterstrich */
+  text-underline-offset: 10px; /* Abstand des Unterstrichs */
+  text-decoration-thickness: 5px; /* Dicke des Unterstrichs */
+  text-decoration-color: rgba(0, 124, 21, 0); /* Farbe des Unterstrichs */
+  cursor: pointer; /* Zeiger-Cursor */
+  color: black; /* Textfarbe */
+  transition: all 250ms ease-in; /* Übergangseffekt */
+}
+
+.mobile-menu .nav-menu li a:hover {
+  text-decoration-color: rgb(1, 146, 25); /* Farbe des Unterstrichs bei Hover */
+}
+
+/* Show Hamburger on smaller screens */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .PlaceNav {
+    display: none;
+  }
+}
+@media (min-width: 769px) {
+  #toggle-menu:checked ~ .mobile-menu {
+      display: none;
+  }
+}

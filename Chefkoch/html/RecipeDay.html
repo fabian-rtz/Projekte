@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Kochwelt</title>
+
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/Recipestyle.css">  
+
+ 
+    <script src="../js/includeHTML.js"></script> 
+    <script src="../js/RecipeOfTheDay.js"></script> 
+</head>
+<body onload="includeHTML(); loadRecipeFromUrlParams();">
+    <header w3-include-html="../html/header.html" class="headermenu">
+    </header>
+    <div class="container">   
+      <div>
+        <h1 id="heading">Griechischer Salat</h1>  
+            <div id="imageContainer"></div>
+        <div class ="AlignInfo">  
+            <div class="Info">
+            <img class="Pic" src="../img/uhr.png" alt="">
+            <p id ="MinutesTop" class="InfoText">15 Min.</p>
+            </div>
+           <div class="Info">
+            <img class="Pic" src="../img/gehirn.png" alt="">
+            <p id ="difficultyTop" class="InfoText">simpel</p>
+           </div>
+           <div class="Info">
+            <img class="Pic" src="../img/kalender.png" alt="">
+            <p class="InfoText">28.09.2020</p>
+           </div>        
+        </div>
+        <hr></hr>
+        <div class="AlignPortion">
+            <p>Zutaten für</p>
+            <input type="text" id="portion" name="Name" value="1" onchange="checkInputquantity()">
+            <a class="button"onclick="createTableElement(tableData)">Portionen</a>    
+        </div>
+        <div>
+          <table>         
+              <tbody id="dynamic-table">
+              </tbody>
+          </table>
+         </div>      
+            <h1 class="preparation">Zubereitung</h1>
+          <div class ="AlignInfo2">  
+            <div class="Info">
+            <img class="Pic" src="../img/uhr.png" alt="">
+            <p id="MinutesBottomOne" class="InfoText">ca. 15 Min.</p>
+            </div>
+           <div class="Info">
+            <img class="Pic" src="../img/uhr.png" alt="">
+            <p id="MinutesBottomTwo" class="InfoText">Gesamtzeit ca. 15 Minuten</p> 
+           </div>
+        </div>
+       <p id="preparationText">Zuerst wasche und schneide frische Zutaten vor: Tomaten, Gurken, rote Zwiebeln und grüne Paprika. Füge in eine große Schüssel gehackte Salatblätter hinzu und schneide Feta-Käse in kleine Würfel, den du auf den Salat legst. Füge die vorbereiteten Tomaten, Gurken, Zwiebeln und Paprika hinzu und bestreue alles mit Oliven und Oregano. Für das Dressing mische Olivenöl, Zitronensaft, Salz und Pfeffer in einer kleinen Schüssel und gieße es über den Salat. Vermische alles vorsichtig und serviere den griechischen Salat sofort.</p>
+       <h2>Rezept erstellt von</h2>
+       <div class="CreateForm">
+        <img class="UserIcon" src="../img/user.png" alt="">
+        <p class="UserText">Fabian</p> 
+       </div>
+      </div>
+      
+    </div>
+    <footer w3-include-html="../html/footer.html" class="footermenu">
+    </footer> 
+</body>
+</html>

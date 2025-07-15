@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="./style.css">   
+    <script src="./script.js"></script>  
+</head>
+	<body>
+		<div class="container">
+            <div class="TicTacToe">
+                <div class="players">
+                  <span class="background"></span>
+                  <span class="XsActive">X's Zug</span>
+                  <span class="OsActive">O's Zug</span>
+                </div>
+                <div class="Gamefield">
+                    <span id="WinnerLine"></span>
+                    <div class="row1">
+                        <span onclick="placeItem('1')"></span>
+                        <span onclick="placeItem('2')"></span>
+                        <span onclick="placeItem('3')"></span>
+                    </div>
+                    <div class="row2">
+                        <span onclick="placeItem('4')"></span>
+                        <span onclick="placeItem('5')"></span>
+                        <span onclick="placeItem('6')"></span>
+                    </div>
+                    <div class="row3">
+                        <span onclick="placeItem('7')"></span>
+                        <span onclick="placeItem('8')"></span>
+                        <span onclick="placeItem('9')"></span>                       
+                    </div>
+                </div>
+            </div>   
+        </div>
+	</body>
+</html>

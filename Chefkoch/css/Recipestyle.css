@@ -1,0 +1,190 @@
+.container {
+  display: flex; /* Verwendet Flexbox zur Layoutgestaltung */
+  justify-content: center; /* Zentriert den Inhalt horizontal */
+  align-items: center; /* Zentriert den Inhalt vertikal */
+  margin: 75px 125px 0; /* Abstand oben: 75px, rechts und links: 125px */
+}
+
+h1 {
+  font-size: 35px; /* Schriftgröße des h1-Tags */
+}
+
+body {
+  font-family: "Raleway"; /* Schriftart für den gesamten Body */
+  margin: 0; /* Kein Außenabstand für den Body */
+}
+
+.RecipePic {
+  width: 100%; /* Breite 100% des übergeordneten Elements */
+  height: auto; /* Automatische Höhe basierend auf dem Seitenverhältnis */
+  border-radius: 15px; /* Abgerundete Ecken */
+}
+
+.AlignInfo {
+  display: flex; /* Verwendet Flexbox für Layout */
+  gap: 50px; /* Abstand zwischen Flex-Elementen */
+  margin-top: 40px; /* Abstand oben: 40px */
+  margin-bottom: 75px; /* Abstand unten: 75px */
+}
+
+.AlignInfo2 {
+  display: flex; /* Verwendet Flexbox für Layout */
+  gap: 30px; /* Abstand zwischen Flex-Elementen */
+  margin-top: 15px; /* Abstand oben: 15px */
+  margin-bottom: 30px; /* Abstand unten: 30px */
+}
+
+.Info {
+  background-color: rgb(228, 228, 228); /* Hintergrundfarbe */
+  border-radius: 10px; /* Abgerundete Ecken */
+  padding: 5px 10px; /* Innenabstand: oben und unten 5px, rechts und links 10px */
+  display: flex; /* Verwendet Flexbox für Layout */
+  justify-content: center; /* Zentriert den Inhalt horizontal */
+  align-items: center; /* Zentriert den Inhalt vertikal */
+  gap: 10px; /* Abstand zwischen Flex-Elementen */
+}
+
+.InfoText {
+  font-size: 18px; /* Schriftgröße des InfoText */
+}
+
+.Pic {
+  height: 20px; /* Höhe der Bilder */
+}
+
+.button {
+  background-color: rgb(1, 146, 25); /* Hintergrundfarbe */
+  width: 200px; /* Breite der Schaltfläche */
+  height: 50px; /* Höhe der Schaltfläche */
+  font-size: 20px; /* Schriftgröße */
+  color: white; /* Schriftfarbe */
+  border: none; /* Kein Rahmen */
+  display: flex; /* Verwendet Flexbox für Layout */
+  align-items: center; /* Zentriert den Inhalt vertikal */
+  justify-content: center; /* Zentriert den Inhalt horizontal */
+  transition: transform 25ms ease-in-out; /* Übergangseffekt bei Transformation */
+}
+
+.button:active {
+  transform: scale(0.97); /* Verkleinert die Schaltfläche leicht beim Klick */
+}
+
+.AlignPortion {
+  display: flex; /* Verwendet Flexbox für Layout */
+  align-items: center; /* Zentriert den Inhalt vertikal */
+  padding: 5px 0 10px; /* Innenabstand: oben 5px, unten 10px */
+}
+
+input {
+  width: 200px; /* Breite des Eingabefelds */
+  height: 46px; /* Höhe des Eingabefelds */
+  margin-left: 20px; /* Außenabstand links: 20px */
+  font-size: 20px; /* Schriftgröße */
+  border-radius: 15px 0 0 15px; /* Abgerundete Ecken links */
+  border: 1px solid rgb(231, 231, 231); /* Rahmenfarbe */
+}
+
+p {
+  font-size: 20px; /* Schriftgröße */
+  margin: 0; /* Kein Außenabstand */
+}
+
+#dynamic-table tr:nth-child(even) {
+  background-color: rgb(238, 238, 238); /* Hintergrundfarbe für gerade Reihen */
+}
+
+table {
+  width: 100%; /* Tabellenbreite */
+  font-size: 20px; /* Schriftgröße */
+  border-collapse: collapse;
+}
+
+
+#dynamic-table tr {
+  height: 60px; 
+  margin: 0;
+  padding: 0;
+  border: none; 
+}
+
+.hMenge{
+  text-align: center;
+}
+.hZutat{
+  text-align: left;
+  padding-left: 10px;
+}
+
+.quantitycolm{
+  width: 130px;
+  text-align: right;
+  padding-left: 10px;
+}
+
+.elementcolm {
+  position: relative;
+  left: -3px; 
+  padding-left: 10px;
+}
+
+.preparation {
+  font-size: 30px; /* Schriftgröße */
+  margin: 50px 0 20px; /* Abstand: oben 50px, unten 20px */
+}
+
+h2 {
+  margin: 50px 0 20px; /* Abstand: oben 50px, unten 20px */
+}
+
+.CreateForm {
+  display: flex; /* Verwendet Flexbox für Layout */
+  align-items: center; /* Zentriert den Inhalt vertikal */
+  gap: 20px; /* Abstand zwischen Flex-Elementen */
+  margin-bottom: 100px; /* Abstand unten: 100px */
+}
+
+.UserText {
+  font-size: 20px; /* Schriftgröße */
+}
+
+.red-color {
+  background-color: rgb(255, 0, 0); /* Hintergrundfarbe */
+}
+
+
+
+
+@media (max-width: 450px) {
+  .AlignInfo, .AlignInfo2 {
+    gap: 10px; /* Reduzierter Abstand zwischen Flex-Elementen */
+    flex-direction: column; /* Anordnung in Spaltenrichtung */
+    align-items: center; /* Zentriert den Inhalt horizontal */
+  }
+
+  .CreateForm {
+    margin-left: 10px; /* Außenabstand links: 10px */
+  }
+}
+
+@media (max-width: 550px) {
+  .AlignPortion {
+    flex-direction: column; /* Anordnung in Spaltenrichtung */
+  }
+
+  input {
+    margin-left: 0; /* Kein Außenabstand links */
+  }
+
+  .preparation, #heading, h2 {
+    text-align: center; /* Zentrierter Text */
+  }
+
+  #preparationText {
+    margin: 0 10px; /* Außenabstand: rechts und links 10px */
+  }
+
+  #portion {
+    border-radius: 0; /* Keine abgerundeten Ecken */
+    padding: 0; /* Kein Innenabstand */
+  }
+}

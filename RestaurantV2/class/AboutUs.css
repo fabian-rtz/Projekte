@@ -1,0 +1,29 @@
+.placemaps{
+   text-align: center;
+}
+h2{
+  font-size: clamp(25px,3vw,50px);
+  color: azure;
+}
+p{ 
+  font-size: clamp(12px,1vw,25px);
+  color: azure;
+
+}
+.text{
+   text-align: center;
+   margin-top: 225px;
+}
+.maps{ 
+  width: clamp(350px,50vw,750px);
+  height: clamp(150px,20vw,250px);
+}
+
+@media(max-height:700px){
+  .text{
+    text-align: center;
+     margin-top: 75px;
+  }
+}
+
+

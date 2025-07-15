@@ -1,0 +1,57 @@
+body{
+    background-image: linear-gradient(to bottom right, rgb(0, 44, 80), rgb(0, 30, 70)); 
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.QuizForm{
+    background-color: white;
+    width: 60%;
+    height: 650px;
+    border-radius: 40px;
+    padding: 25px;
+}
+hr {  
+    background-color: #000000;
+    height: 4px;
+    border: none;
+    margin:0;
+}
+#AlignAnswer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75%;  
+    gap: 10%;  
+}
+button{   
+    width: 50%;
+    height: 60px;  
+    background-color: white;
+    color: rgb(0, 44, 80);
+    border: 4px solid rgb(0, 44, 80);
+    border-radius: 10px;
+    font-size: 17px;
+}
+button:hover:not([disabled]){
+    background-image: linear-gradient(to bottom right, rgba(0, 44, 80, 0.432), rgba(0, 30, 70, 0.685)); 
+}
+#next-btn{
+    background-image: linear-gradient(to bottom right, rgb(0, 44, 80), rgb(0, 30, 70)); 
+    color:white;
+    width: 20%;
+    height: 30px; 
+    border-radius: 10px;
+  
+}
+.correct{
+    background-color: #9aeabc;
+}
+.incorrect{
+    background-color: #ff9393;
+}
+

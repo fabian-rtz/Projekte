@@ -1,0 +1,283 @@
+function loadRecipeFromUrlParams() { 
+    const urlParams = new URLSearchParams(window.location.search);
+    const recipe = urlParams.get('recipe');
+
+    switch (recipe) {
+        case 'pancake':              
+        setObjectForRecipePancake();    
+        setTableDataForRecipePancake();
+        setImgForRecipe('../img/Pfannkuchen.png');
+            break;
+        case 'RedLenses':              
+        setObjectForRecipeRedLenses();  
+        setTableDataForRecipeRedLenses();
+        setImgForRecipe('../img/RedLenses.png');
+            break;
+        case 'CheeseS':         
+        setObjectForRecipeCheeseS();
+        setTableDataForRecipeCheeseS();      
+        setImgForRecipe('../img/CheeseS.png');   
+            break;
+        case 'Hamburger':       
+        setObjectForRecipeHamburger();
+        setTableDataForRecipeHamburger();    
+        setImgForRecipe('../img/Hamburger.png');             
+            break;
+        case 'salat':
+        setTableDataForRecipeSalat();     
+        setImgForRecipe('../img/RecipeOfTheDay.png');                      
+            break;  
+    }
+        updateIngredients(tableData);  
+}
+
+function setObjectForRecipePancake(){
+    let test = {
+        recipe: 'Pfannkuchen',
+        minutes: '20min',
+        difficulty:'simpel',
+        minutesapprox:'ca 20 Min',
+        overalltime: 'Gesamtzeit ca. 20 Minuten',        
+        preparation:`
+        Vermische das Mehl in einer Schüssel mit Eiern und Milch, bis ein geschmeidiger Teig entsteht. 
+        Lasse diesen Teig für etwa 10 Minuten ruhen, damit sich die Aromen gut verbinden können. 
+        Erhitze dann eine Pfanne bei mittlerer Hitze und gib etwas Butter oder Öl hinzu, um ein Ankleben zu verhindern. 
+        Gieße eine kleine Menge Teig in die Pfanne und verteile ihn gleichmäßig. Brate die Pfannkuchen 
+        auf beiden Seiten goldbraun, bis sie eine perfekte Textur und Farbe haben. Staple sie auf einem Teller, 
+        garniere nach Belieben und serviere sie warm. So kannst du deine selbstgemachten Pfannkuchen mit Ahornsirup,
+        frischen Früchten oder anderen Lieblingstoppings genießen!`
+    }
+    parseInformationforRecipe(test)
+}
+
+function setTableDataForRecipePancake(){
+    tableData = [
+        ["200 g Mehl" ],
+        ["2 Eier" ],
+        ["250 ml Milch" ],
+        ["1 Prise Salz" ],
+        ["1 TL Zucker" ],
+        ["Butter zum Braten" ],      
+    ];
+}
+
+function setObjectForRecipeRedLenses(){
+    let test = {
+        recipe: 'Rote Linsen Kokos Suppe',
+        minutes: '30 Min',
+        difficulty:'simpel',
+        minutesapprox:'ca 30 Min',
+        overalltime: 'Gesamtzeit ca. 40 Minuten',        
+        preparation:`
+        Um Rote Linsen Kokos Suppe zuzubereiten, Zwiebel und Knoblauch anbraten, 
+        Karotten, Süßkartoffeln, Linsen, Kokosmilch, Gemüsebrühe und Gewürze hinzufügen, 
+        köcheln lassen. Pürieren, abschmecken, mit frischem Koriander garnieren. 
+        Perfekt für kalte Tage, mit Brot oder Reis servieren. Guten Appetit!`
+    }
+    parseInformationforRecipe(test)
+}
+
+function setTableDataForRecipeRedLenses(){
+    tableData = [
+        ["1 Tasse(n) rote Linsen" ],
+        ["1 Zwiebel(n), gehackt" ],
+        ["2 Knoblauchzeh(en), gehackt" ],
+        ["1 Karotte(n), gewürfelt" ],
+        ["1 Süßkartoffel(n), gewürfelt" ],
+        ["1 Dose(n) Kokosmilch" ],
+        ["4 Tass(en) Gemüsebrühe" ],
+        ["1 EL Currypulver" ],
+        ["1 TL Kreuzkümmel" ],
+        ["Salz und Pfeffer" ],
+        ["Frischer Koriander oder Petersilie zum Garnieren" ]             
+    ];
+}
+
+function setObjectForRecipeCheeseS(){
+    let test = {
+        recipe: 'Käsespätzle',
+        minutes: '30 Min',
+        difficulty:'simple',
+        minutesapprox:'ca 30 Min',
+        overalltime: 'Gesamtzeit ca. 40 Minuten',        
+        preparation:`
+        Um Käsespätzle zuzubereiten, zunächst Spätzle kochen. 
+        In einer Pfanne Zwiebeln anbraten. Spätzle mit Zwiebeln und geriebenem Käse schichten, 
+        bis alle Zutaten aufgebraucht sind. Mit gerösteten Zwiebeln garnieren und servieren. 
+        Ein köstliches und herzhaftes Gericht für alle Käseliebhaber!`
+    }
+    parseInformationforRecipe(test);
+}
+
+function setTableDataForRecipeCheeseS(){
+    tableData = [
+        ["500 g Spätzle" ],
+        ["200 g Emmentaler Käse, gerieben" ],
+        ["2 Zwiebel(n), in Ringe geschnitten" ],
+        ["1 Karotte(n), gewürfelt" ],
+        ["2 EL Butter" ],
+        ["Salz und Pfeffer" ],
+        ["100 g Bergkäse, gerieben für zusätzlichen Geschmack" ]         
+    ];
+}
+
+function setObjectForRecipeHamburger(){
+    let test = {
+        recipe: 'Hamburger',
+        minutes: '20 min',
+        difficulty:'medium',
+        minutesapprox:'ca 20 Min',
+        overalltime: 'Gesamtzeit ca. 30 Minuten',        
+        preparation:`
+        Um Hamburger zuzubereiten, würzen Sie 500g Rinderhackfleisch 
+        mit Salz und Pfeffer, formen Patties und braten sie auf mittlerer Hitze. 
+        Toasten Sie die Burgerbrötchen, belegen Sie sie mit Belägen und servieren 
+        Sie sie heiß. Mit Ketchup, Senf oder Mayonnaise nach Geschmack verfeinern. 
+        Schnell, einfach und köstlich!`
+    }
+    parseInformationforRecipe(test)
+}
+
+function setTableDataForRecipeHamburger(){ 
+    tableData = [
+        ["500 g Rinderhackfleisch" ],
+        ["4 Burger-Brötchen" ],
+        ["4 Blatt/Blätter Salat" ],
+        ["1 Tomate(n)" ],
+        ["1 Zwiebel(n)" ],
+        ["4 Scheiben Käse" ],
+        ["4 Esslöffel Mayonnaise oder Burger-Sauce" ],
+        ["2 Esslöffel Ketchup" ],
+        ["2 Esslöffel Senf" ],
+        ["Salz und Pfeffer" ],
+        ["2 Esslöffel Öl zum Braten" ]              
+    ];
+}
+
+function setTableDataForRecipeSalat(){
+    tableData = [
+        ["1 Salzgurke (n)" ],
+        ["2 Paprikaschot(n),rot und grün" ],
+        ["500 g Tomate (n)" ],
+        ["2 Zwiebel(n)" ],
+        ["200 g Schafskäse (n)" ],
+        ["1 Glas/Gläser Oliven" ],
+        ["Salz und Pfeffer" ],
+        ["1 Zitrone(n)" ],
+        ["125 ml Olivenöl" ],
+        ["Oregano" ]     
+    ];
+}
+
+function setImgForRecipe(imgSrc){
+    var img = document.createElement('img');
+    img.src = imgSrc; 
+    img.classList.add('RecipePic'); 
+    var imageContainer = document.getElementById('imageContainer'); 
+    imageContainer.appendChild(img);
+}
+
+function parseInformationforRecipe(test){
+    var heading = document.getElementById('heading');
+    heading.textContent = test.recipe;
+    var MinutesTop = document.getElementById('MinutesTop');
+    MinutesTop.textContent = test.minutes;
+    var difficultyTop = document.getElementById('difficultyTop');
+    difficultyTop.textContent = test.difficulty;
+    var MinutesBottomOne = document.getElementById('MinutesBottomOne');
+    MinutesBottomOne.textContent = test.minutesapprox;
+    var MinutesBottomTwo = document.getElementById('MinutesBottomTwo');     
+    MinutesBottomTwo.textContent = test.overalltime;       
+    var preparationText = document.getElementById('preparationText');     
+    preparationText.textContent = test.preparation;
+}
+
+function IniExtract(){
+    var portion = document.getElementById('portion').value;
+    var numberData = []; 
+    var textData = []; 
+    var tableDataNew = []; 
+    
+    extractNumbersAndText(numberData,textData);
+    parseDataInTableDataNew(textData,numberData,tableDataNew,portion);
+    updateIngredients(tableDataNew) 
+}
+
+function extractNumbersAndText(numberData,textData){
+    // Extrahiere Zahlen und Text aus tableData
+    for (var i = 0; i < tableData.length; i++) {
+        var itemNumber = tableData[i][0]; // Aktuelles Element aus der tableData-Liste
+        var itemText = itemNumber.replace(/\d+|/g, '').trim(); // Extrahiere Text
+        var numbers = itemNumber.match(/\d+/g); // Extrahiere Zahlen
+     
+        pushNumbers(numberData,numbers);
+        pushText(textData,itemText);         
+    }  
+}
+
+function pushNumbers(numberData,numbers){
+    if (numbers !== null) {
+        for (var j = 0; j < numbers.length; j++) {          
+            numberData.push(parseInt(numbers[j]));
+        }
+    }
+    else{
+        numberData.push(0);
+    }
+}
+
+function pushText(textData,itemText){
+    if (itemText !== "") {
+        textData.push(itemText);
+    }
+}
+
+function parseDataInTableDataNew(textData,numberData,tableDataNew,portion){   
+    for (var k = 0; k < textData.length; k++) {
+        if(numberData[k] != 0){
+            tableDataNew.push([numberData[k] * portion +" "+ textData[k]]);    
+        }
+        else{
+            tableDataNew.push([textData[k]]);         
+        }     
+    }        
+}
+
+function updateIngredients(tableData) {
+    var portion = document.getElementById('portion').value;
+    var portionElement = document.getElementById('portion');
+ 
+    if(portion != "" && portion > 0){
+       var tableBody = document.querySelector("#dynamic-table tbody");
+       tableBody.innerHTML = "";
+       createTableElement(tableBody,tableData);         
+    }
+    else{
+        alert("Überprüfen Side ihre Angaben!");
+        portionElement.classList.add('red-color');     
+    } 
+}
+
+function createTableElement(tableBody,tableData){
+    for (var i = 0; i < tableData.length; i++) {
+        var rowData = tableData[i];
+        var row = document.createElement("tr");
+           
+        for (var j = 0; j < rowData.length; j++) {
+            var cellData = rowData[j];
+            var cell = document.createElement("td");
+            cell.textContent = cellData;
+            row.appendChild(cell);
+        }
+        tableBody.appendChild(row);
+    }
+}
+
+function checkInputquantity(){
+    
+        let portionElement = document.getElementById('portion');
+        
+        if (portionElement.value !== '') {          
+            portionElement.classList.remove('red-color');    
+        } 
+    }

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>XRechnungsviewer</title>
+  <link rel="stylesheet" href="/CSS/style.css" />
+</head>
+<body>
+
+  <main class="layout">
+    <section>
+      <div class="section-header">
+        <input type="text" id="search" class="search" placeholder="Suchen..." />
+      </div>
+    
+      <!-- NEU: Wrapper für List -->
+      <div class="list-wrapper">
+        <div class="list">
+          <table>
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Dateiname</th>
+                <th>Status</th>
+                <th>Format</th>
+                <th>Upload</th>
+              </tr>
+            </thead>
+            <tbody id="tabellenBody">
+              <!-- Zeilen werden per JS eingefügt -->
+            </tbody>
+          </table>
+          
+        </div>
+      </div>
+    
+      <div class="section-footer">
+        <button id="validation">Validieren</button>
+        <button id="save">Speichern</button>
+        <input type="file" id="upload" style="display: none;" />
+        <button id="triggerUpload">Hochladen</button>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-header">
+        <span id= "file-label" class="file-label"></span>
+        <div class="icon-bar">
+          <img id="green" src="/IMG/green.png" alt="Grün" />
+          <img id="red" src="/IMG/red.png" alt="Rot" />
+        </div>
+      </div>
+      <div class="viewer-wrapper">
+        <div id="lds-ring" class="lds-ring"><div></div><div></div><div></div><div></div></div>
+        <pre id="viewer" class="viewer"><code></code></pre>
+      </div>
+      <div class="section-footer-viewer">
+        <input id="checkbox" class="checkbox" type="checkbox">
+       </div>
+    </section>
+
+    <section>
+      <div class="section-header"></div>
+      <div class="error">
+        <p id="errormessage"></p>
+      </div>
+    </section>
+
+
+
+  </main>
+  <script src="/JS/script.js"></script>
+</body>
+</html>
