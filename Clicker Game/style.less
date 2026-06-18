@@ -1,0 +1,356 @@
+
+@font-face {
+    font-family: "DynaPuff-Regular";
+    src: url("./fonts/DynaPuff-Regular.ttf") format("truetype");
+}
+
+*{
+    font-family:'DynaPuff-Regular';
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(to right, #8f00bb, #ff00dd);
+    display: flex;
+    justify-content: center;
+    touch-action: none;
+}
+ 
+.MainContainer{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    #btnShop{
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        background: transparent;
+        border: none;
+        padding: 0;
+        z-index: 1000;
+
+        img{
+            height: 50px;
+        }
+    }
+    
+    #btnArchievement{
+        position: absolute;
+        left: 20px;
+        top: 20px;
+        width: 80px;
+        height: 80px;
+        display: flex;
+        background: transparent;
+        border: none;
+        padding: 0;
+        z-index: 1000;
+
+        img{
+            height: 50px;
+        }
+    }
+    #PopUpContainer {
+        position: fixed;
+        bottom: 10px;             
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        z-index: 9999;
+
+        .PopUp {
+            background: rgba(0,0,0,0.8);
+            padding: 10px 20px;
+            border-radius: 10px;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            opacity: 0;
+            transform: translateY(0);
+
+            img{
+                height: 30px;
+            }
+            
+            p{
+                color: white;
+            }
+        }
+        .PopUp.show {
+            opacity: 1;
+        }
+    }
+
+    .PointsContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .PointsHeaderContainer{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap:15px;
+
+            .HeaderContainer{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 15px;
+                img{
+                    height: 40px;
+                }
+
+                h1{
+                    color: white;
+                    font-size: 40px;
+                    margin: 0;
+                }
+            }
+
+            #Points{
+                color: white;
+                font-size: 40px;
+                margin: 0;               
+            }
+        }
+
+        #ClicksPerSecond{
+            margin: 0;
+            color: white;
+            font-size: 15px;  
+            font-weight: 200;                  
+        }
+    }
+
+    #btnClick{
+        background: transparent;
+        border: none;
+        margin: 50px;
+        height: 450px;
+        width: 560px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;     
+
+        img{
+            height: 450px;
+            width: 560px;
+        }
+    }
+        
+    #btnClick:hover{
+        transform: scale(1.02);
+        cursor: pointer;
+    }
+        
+    #btnClick:active{
+        transform: scale(1);
+    }
+
+    #level{
+        color: white;
+        font-size: 27px;            
+    }  
+}
+
+#Shop{
+    right: 0;
+    position: fixed;     
+    width: 320px;
+    height: 100vh;
+    background-color: rgba(39, 39, 39, 0.568);
+    z-index: 999;
+    transform: translateX(100%);  
+    transition: transform 0.4s ease; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+
+    h1{
+        color: white;
+        margin: 25px 20px;
+    }
+
+    #levelAutoClickOne,#levelAutoClickFive,#levelAutoClickTen,#levelAutoClickFifty,#levelAutoClickOneHundred{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 50px;
+        background: linear-gradient(to right, #8f00bb, #ff00dd);
+        box-shadow: 2.4px 4.8px 4.8px hsl(0deg 0% 0% / 0.43);
+        padding: 10px;
+        border-radius: 15px;
+        width: 290px;
+        height: 55px;
+        border: none;
+
+        .TopRow{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+
+            :first-child{
+                margin: 0;
+                margin-right:10px;
+                font-size: 20px;  
+                color: white;        
+                font-weight: 600;
+            }
+
+            :nth-child(2){
+                margin: 0 10px;
+                font-size: 20px;
+                color: white;       
+                font-weight: 600;                                
+            }
+        }
+
+        .BottomRow{
+            width: 100%;
+            display:flex;
+            align-items: center;
+            gap: 5px;
+
+            img{
+                height: 13px;
+            }
+
+            #levelAutoClickerSkullPointsOne,#levelAutoClickerSkullPointsFive,#levelAutoClickerSkullPointsTen,#levelAutoClickerSkullPointsFifty,#levelAutoClickerSkullPointsOneHundred{
+                text-align: left;
+                margin:0;
+                margin-top: 3px;
+                font-size: 11px;
+                color: red;
+            }
+        }
+    }
+    #levelAutoClickFive,#levelAutoClickTen,#levelAutoClickFifty,#levelAutoClickOneHundred{
+        margin-top: 10px;
+    }
+
+    #levelAutoClickOne:hover,#levelAutoClickFive:hover,#levelAutoClickerSkullPointsTen:hover,#levelAutoClickerSkullPointsFifty:hover,#levelAutoClickerSkullPointsOneHundred:hover{
+        transform: scale(1.03);
+        cursor: pointer;
+    }
+
+    #levelAutoClickOne:active,#levelAutoClickFive:active,#levelAutoClickerSkullPointsTen:active,#levelAutoClickerSkullPointsFifty:active,#levelAutoClickerSkullPointsOneHundred:active{
+        transform: scale(1);            
+    }
+}
+
+#Shop.open {
+    transform: translateX(0);  
+}
+
+#Archievement{
+    left: 0;
+    position: fixed;     
+    width: 320px;
+    height: 100vh;
+    background-color: rgba(39, 39, 39, 0.568);
+    z-index: 999;
+    transform: translateX(-100%);  
+    transition: transform 0.4s ease; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;   
+    overflow-x: hidden; 
+    
+    #FirstBlood,#GettingStarted,#DoubleTrouble,#Collector,#NoviceClicker,#FirstUpgrade,#AutoArmy,#SkullGrinder,#ImageAddict,#UpgradeSpecialist{
+        display: flex;  
+        align-items: center;
+        margin-bottom: 10px;
+        background: linear-gradient(to right, #8f00bb, #ff00dd);
+        box-shadow: 2.4px 4.8px 4.8px hsl(0deg 0% 0% / 0.43);
+        padding: 10px;
+        border-radius: 15px;
+        width: 250px;
+        height: 40px;
+        border: 3px solid black;
+        gap: 10px;
+
+        img{
+            height: 20px;
+        }
+
+        .textContainer{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: left;
+            h2{
+                margin: 0;
+                font-size: 18px;
+                color: rgb(0, 0, 0);
+            }
+            p{
+                margin: 0;
+                font-size: 12px;
+                color: rgb(0, 0, 0);
+            }
+        }
+    }
+    #FirstBlood{
+        margin-top: 95px;
+    }
+    #FirstBlood.archieved,#GettingStarted.archieved,#DoubleTrouble.archieved,#Collector.archieved,#NoviceClicker.archieved,#FirstUpgrade.archieved,#AutoArmy.archieved,#SkullGrinder.archieved,#ImageAddict.archieved,#UpgradeSpecialist.archieved{
+        border: 3px solid white;
+  
+        h2,p{
+            color: white;
+        }
+    }
+}
+#Archievement.open {
+    transform: translateX(0%); 
+}
+
+@media(max-width:600px){
+
+    .MainContainer{
+        .PointsContainer{
+            .PointsHeaderContainer{
+                flex-direction: column;
+                gap: 0;
+                .HeaderContainer{
+                    gap: 5px;
+                    img{
+                        height: 20px;
+                    }
+                    h1{
+                         font-size: 20px;                       
+                    }
+                }
+                #Points{
+                    font-size: 20px;
+                }
+            }
+        }
+        #btnClick{
+            height: 290px;
+            width: 300px;             
+            img{
+                height: 250px;
+                width: 300px;
+            }
+        }
+    }
+}
+

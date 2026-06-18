@@ -1,0 +1,206 @@
+body {
+    margin: 0;
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column; 
+}
+
+header {
+    img {
+        height: 80px;         
+        margin-left: 20px;
+        margin-top: 20px;
+
+    }
+}
+
+h2 {
+    margin: 0;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 300;
+
+    @media (max-width: 900px) {
+        font-size: 18px;
+        width: 90%;  
+    }
+}
+
+#weiter-btn {
+    margin-top: 50px;
+    background-color: #64748b; 
+    color: #ffffff; 
+    border: none; 
+    padding: 10px 24px; 
+    font-size: 16px;
+    border-radius: 6px; 
+    cursor: pointer; 
+    transition: background-color 0.2s ease, transform 0.1s ease; 
+
+    &:hover {
+        background-color: #475569;
+    }
+}
+
+main {
+    flex-grow: 1; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    #question-container-outer {
+        width: 100%;
+        max-width: 960px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .question-container {
+            background-color: rgb(255, 255, 255);
+            border-radius: 15px;
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.35);
+            width: 95%;          
+            max-width: 900px;            
+            min-height: 520px;
+            height: auto;
+            box-sizing: border-box;
+
+            @media (max-width: 900px) {
+                padding: 20px;
+                min-height: 420px;
+                width: 90%;    
+            }
+
+            p {
+                margin: 0;
+                font-size: 25px;
+                margin-bottom: 20px;
+                text-align: center;
+
+                @media (max-width: 900px) {
+                    font-size: 16px;
+                }
+            }
+
+            /* --- NEU: STYLING FÜR DAS DEMOGRAFIE-FORMULAR --- */
+            label {
+                font-size: 18px;
+                margin-top: 15px;
+                margin-bottom: 8px;
+                color: #334155;
+                font-weight: 500;
+
+                @media (max-width: 900px) {
+                    font-size: 16px;
+                }
+            }
+            
+            /* Versteckt die <br></br> aus deinem JS, damit die Abstände stimmen */
+            br {
+                display: none;
+            }
+
+            input[type="number"],
+            select {
+                display: block; /* Zwingt die Felder unter das Label */
+                margin: 0 auto; /* Zentriert sie */
+                width: 100%;
+                max-width: 300px; /* Begrenzt die Breite der Felder */
+                padding: 12px 15px;
+                font-size: 16px;
+                border: 1px solid #cbd5e1;
+                border-radius: 8px;
+                background-color: #f8fafc;
+                box-sizing: border-box;
+                font-family: inherit;
+                color: #1e293b;
+                transition: border-color 0.2s ease, box-shadow 0.2s ease;
+                cursor: pointer;
+
+                &:focus {
+                    outline: none;
+                    border-color: #64748b;
+                    box-shadow: 0 0 0 3px rgba(100, 116, 139, 0.2);
+                }
+            }
+
+            input[type="number"] {
+                text-align: center;
+                cursor: text;
+            }
+
+            select {
+                appearance: none; 
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2364748b' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+                background-repeat: no-repeat;
+                background-position: right 15px center;
+                background-size: 16px;
+                padding-right: 40px;
+                
+                option {
+                    color: #1e293b;
+                    background-color: #ffffff;
+                    font-size: 16px;
+                }
+            }
+
+            .radio-group-container {
+                margin-top: 50px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .radio-group {
+                    display: flex;
+                    justify-content: center;
+                    align-items: flex-start; 
+                    gap: 40px;
+
+                    @media (max-width: 780px) {
+                        gap: 15px;
+                        flex-wrap: wrap;
+                    }
+
+                    label {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 10px;
+                        cursor: pointer;
+                        margin-top: 0; 
+                        margin-bottom: 0;
+                    }
+
+                    span {
+                        width: 100px;
+                        text-align: center;
+                        font-size: 14px;
+                        line-height: 1.2;
+                        display: block; 
+
+                        @media (max-width: 600px) {
+                            width: 80px;
+                            font-size: 12px;
+                        }
+                    }
+
+                    input[type="radio"] {
+                        margin: 0;
+                        cursor: pointer;
+                        width: 18px;
+                        height: 18px;
+                    }
+                }
+            }
+        }
+    }
+}

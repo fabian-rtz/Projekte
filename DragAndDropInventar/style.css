@@ -1,0 +1,243 @@
+
+@font-face {
+    font-family: "PixelifySans-Regular";
+    src: url("./fonts/Pixelify_Sans/PixelifySans-Regular.ttf") format("truetype");
+}
+
+*{
+    font-family:'PixelifySans-Regular';
+    font-weight: 100;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    background-image: url("/img/Background/bg_blur.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    color: white;
+    transform: translateX(-50%);
+    text-decoration: underline;    
+    text-shadow: 2px 2px 0 #000
+}
+#sectionItems {
+    width: 30%;
+    padding: 80px 5px 50px 50px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+
+    .Items {
+        flex: 1;
+        background-color: #a8733b;
+        padding-top: 50px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        border: 10px solid transparent;
+        border-radius: 5px;
+        border-image: url("/img/UI/card.png") 6 fill repeat;
+
+        h2 {
+            color: white;
+            text-align: center;
+            margin: 0 0 20px 0;
+            text-decoration: underline;
+            text-shadow: 2px 2px 0 #000
+        }
+
+        #ItemContainer {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(48px, 1fr));
+            grid-auto-flow: row;
+            gap: 20px;
+            background-color: #a8733b;
+            padding: 20px;
+            box-sizing: border-box;
+            justify-content: start;
+            align-content: start;
+            width: 100%; 
+            margin: 0 auto; 
+            overflow-y: auto;
+            overflow-x: hidden; 
+            max-height: 70vh;
+
+            .ItemSlot {
+                width: 55px;
+                height: 55px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: 6px solid transparent;
+                border-image: url("/img/UI/card.png") 6 repeat;
+                background-color: #6e4c28;
+                box-sizing: border-box; 
+
+                img {
+                    width: 100%;  
+                    height: 100%; 
+                    object-fit: contain;
+                    image-rendering: pixelated; 
+                }
+            }
+        }
+    }
+}
+
+#sectionQuickAccess {
+    width: 940px;
+    min-width: 670px;
+    padding: 80px 5px 50px 5px;
+    box-sizing: border-box;
+    flex: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .QuickAccess {
+        height: 200px;          
+        background-color: #a8733b;
+        padding: 0 10px 10px;    
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        border: 10px solid transparent;
+        border-radius: 5px;
+        border-image: url("/img/UI/card.png") 6 fill repeat;
+
+        h2 {
+            color: white;
+            text-align: center;
+            margin-top: 48px ;
+            text-decoration: underline;
+            text-shadow: 2px 2px 0 #000;    
+        }
+
+        .QuickAccessContainer {
+            display:  flex;
+            justify-content: center;
+            align-items: end;
+            height: 150px;
+            gap: 10px;
+
+            .ItemSlot {
+                width: 60px;
+                height: 60px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: 6px solid transparent;
+                border-image: url("/img/UI/card.png") 6 repeat;
+                background-color: #6e4c28;
+                box-sizing: border-box; 
+
+                img {
+                    width: 100%;  
+                    height: 100%; 
+                    object-fit: contain;
+                    image-rendering: pixelated; 
+                }
+            }
+        }
+    }
+
+    #ItemInfoContainer{
+        display: none;
+        margin-top: 5px;
+        box-sizing: border-box;
+        flex: none;
+        background-color: #a8733b;
+        border: 10px solid transparent;
+        border-radius: 5px;
+        border-image: url("/img/UI/card.png") 6 fill repeat;
+        width: 750px;
+        height: 250px;
+        color: white;
+        text-shadow: 2px 2px 0 #000;
+
+        h2{
+            text-decoration: underline;
+        }
+    }
+}
+
+#sectionCharacter {
+    width: 400px;
+    padding: 80px 50px 50px 5px;
+    box-sizing: border-box;
+    flex: none;
+
+    .Character {
+        height: 500px;
+        background-color: #a8733b;
+        padding-top: 50px;
+        border: 10px solid transparent;
+        border-radius: 5px;
+        border-image: url("/img/UI/card.png") 6 fill repeat;
+
+        h2 {
+            color: white;
+            text-align: center;
+            margin: 0 0 20px 0;
+            text-decoration: underline;
+            text-shadow: 2px 2px 0 #000
+        }
+
+        .CharacterContainer {
+            background-color: #a8733b;
+            padding: 0 5px;
+            box-sizing: border-box;
+            height: 450px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;  
+            
+            .CharacterItems{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                align-items: end;
+                justify-content: center;
+                height: 100%;
+                margin-left: 5px;
+                
+                .ItemSlotContainer{
+                    display: flex;
+                    justify-content:end;
+                    align-items: center;
+                    gap: 10px;
+
+                    .ItemSlot {
+                        width: 60px;
+                        height: 60px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border: 6px solid transparent;
+                        border-image: url("/img/UI/card.png") 6 repeat;
+                        background-color: #6e4c28;
+                        box-sizing: border-box; 
+
+                        img {
+                            width: 100%;  
+                            height: 100%; 
+                            object-fit: contain;
+                            image-rendering: pixelated; 
+                        }
+                    }
+                }
+            }
+            img{
+                image-rendering: pixelated; 
+                height: 200px;
+                margin-right: 5px;
+            }
+        }
+    }
+}
