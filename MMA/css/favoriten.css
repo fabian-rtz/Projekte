@@ -1,0 +1,170 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background-color: #1a1a1a;
+}
+h1{
+    font-family: 'ufc';
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+.legend-container {
+    display: flex;
+    justify-content: center;  
+    margin: 0 50px 30px 50px;
+
+    .legend-inner {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        padding: 15px 25px;
+        background-color: #242424;
+        border-radius: 8px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
+        border-left: 4px solid #c8102e;
+
+        .legend-item {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+
+            .legend-label {
+                color: white;
+                font-family: 'ufc';
+                font-size: 16px;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                margin: 0;
+            }
+
+            .legend-value {
+                color: #c8102e;
+                font-family: 'ufc';
+                font-size: 16px;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                margin: 0;
+            }
+        }
+    }
+}
+#table-container {
+    margin: 30px 50px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
+
+    .favourite-table {
+        width: 100%;
+        border-collapse: collapse;
+        border-spacing: 0;
+
+        thead {
+            background-color: #c8102e;
+
+            tr th {
+                color: white;
+                padding: 12px 20px;
+                font-size: 20px;
+                letter-spacing: 1.5px;
+                text-transform: uppercase;
+                font-family: 'ufc';
+                
+            }
+        }
+
+        tbody {
+            tr {
+                background-color: #1a1a1a;
+                border-bottom: 1px solid #2e2e2e;
+                transition: background-color 0.2s ease;
+               
+
+                &:hover {
+                    background-color: #242424;
+                }
+
+                td {
+                    color: white;
+                    padding: 16px 20px;
+                    text-align: center;
+                    font-size: 16px;
+
+                    button {
+                        background: none;
+                        padding: 5px 5px;
+                        cursor: pointer;
+                        border: 2px solid #c8102e;
+                        border-radius: 50%;
+                        object-fit: cover;
+
+
+                        img {
+                            height: 30px;
+                            display: block;
+                        }
+                    }
+                }
+
+                .fighterInfo {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    justify-content: center;
+
+                    .fighterImg {
+                        height: 40px;
+                        width: 40px;
+                        border: 2px solid #c8102e;
+                        border-radius: 50%;
+                        object-fit: cover;
+                        cursor: pointer;
+                    }
+                    .UpcomingFightImg{
+                        height: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+.lds-ring {
+  color: #e8272b;
+  display: none;
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.lds-ring,
+.lds-ring div {
+    box-sizing: border-box;
+}
+.lds-ring {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin: 100px auto;
+}
+.lds-ring div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border: 8px solid currentColor;
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: currentColor transparent transparent transparent;
+}
+.lds-ring div:nth-child(1) { animation-delay: -0.45s; }
+.lds-ring div:nth-child(2) { animation-delay: -0.3s; }
+.lds-ring div:nth-child(3) { animation-delay: -0.15s; }
+
+@keyframes lds-ring {
+    0%   { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+

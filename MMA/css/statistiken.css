@@ -1,0 +1,437 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background-color: #1a1a1a;
+}
+
+.styling-container {
+    display: flex;
+    justify-content: space-between;
+    position: relative; 
+    width: 100%;
+
+    .left-fighter-container {
+        margin-left: 20px;
+        margin-right: 20px; 
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        flex: 1;
+
+        #favourite-btn-left{
+            margin-top: 20px;
+            padding: 0;
+            background-color: transparent;
+            border: none;
+            display: none;
+            img{
+                height: 40px;
+            }
+        }
+        #favourite-btn-left:hover{
+            transform: scale(1.05);
+        }
+        #favourite-btn-left:active{
+            transform: scale(1);
+        }
+        #searchFighter-left { 
+            height: 25px;
+            background-color: #1a1a1a;
+            color: white;
+            font-size: 20px;
+            border: 2px solid white;
+            padding: 5px;
+            border-radius: 15px;
+        }
+
+
+        #left-search-container {
+            border: 1px solid rgb(255, 255, 255);
+            margin-top: 5px;
+            display: none;
+            overflow-y: auto; 
+            width: 400px;         
+            max-width: 400px;
+            box-sizing: border-box;
+            max-height: 200px;
+            border-radius: 10px;
+            background-color: rgb(37, 37, 37);
+            p { 
+                margin: 0; 
+                color: white;
+                font-size: 20px;
+                margin-left: 10px;
+            }
+            hr { 
+                margin: 0; 
+            }
+        }
+
+        #fighter-card-left {
+            border-radius: 15px;
+            box-shadow: 5px 5px 15px 5px #0202022f;
+            overflow: hidden; 
+            display: none;
+            flex-direction: column;
+            margin-top: 5px;
+            background-color: white;
+
+            .stats-container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 5px;
+                border-top-left-radius: 15px;
+                border-top-right-radius: 15px;  
+                border-bottom: 2px solid rgb(69, 69, 69);
+
+                .pStats {
+                    margin: 0;
+                    width: 100%;
+                    text-align: center;
+                    background-color: rgb(69, 69, 69);
+                    border-top-left-radius: 15px;
+                    border-top-right-radius: 15px;
+                    color: white;
+                    font-family: 'ufc';
+                }
+
+                .stats-info-container {
+                    display: flex;
+                    justify-content: space-around;
+                    width: 100%;
+                    text-align: center;    
+                    margin-bottom: 5px;           
+                    p { 
+                        margin: 0; 
+                        font-family: 'ufc'; 
+                    }
+                }
+            }
+
+            .fighter-info-header-container-left {
+                display: flex;
+                align-items: start;
+                .info-main-container {
+                    display: flex;
+                    gap: 100px;
+                    .info-container-left {
+                        display: flex;
+                        img { 
+                            height: 215px; 
+                        }
+                        .Name-Container {
+                            .pFirstName { 
+                                font-size: 20px; 
+                                margin: 0; 
+                                margin-top: 20px; 
+                            }
+                            .pLastName { 
+                                font-size: 40px; 
+                                margin: 0; 
+                            }
+                            .flag-division-info {
+                                display: flex;
+                                align-items: center;
+                                justify-content: start;
+                                gap: 5px;
+                                img { 
+                                    height: 30px; 
+                                }
+                                .pFlagName, .pDivision { 
+                                    font-size: 15px; 
+                                }
+                            }
+                        }
+                    }
+                    .info-container-middle {
+                        .fighter-table {
+                            width: 100%;
+                            border-collapse: collapse;
+                            td, th { 
+                                border-bottom: 1px solid #ddd; 
+                                padding: 12px; 
+                                text-align: left; 
+                            }
+                            .tdLastChild { 
+                                border: none; 
+                            }
+                        }
+                    }
+                }
+            }
+            .previous-events-container {
+                display: flex;
+                flex-direction: column;
+                .event,.eventUpcoming {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    padding-left: 10px;
+                    background-color: rgb(69, 69, 69);
+                    color: white;
+                    border-top: 3px solid white;
+
+                    .pWinOrLoss { 
+                        margin-right: 10px;
+                     }
+                }
+                .eventUpcoming{
+                        background-color: #c8102e;
+                }
+            }
+        }
+    }
+
+    .VSContainer {
+        display: flex;
+        justify-content: center;
+        margin-top: 300px;
+
+        p {
+            font-size: 50px;
+            color: white;
+            font-family: 'ufc';
+            margin: 0;
+        }
+    }
+    .right-fighter-container {
+        margin-left: 20px;
+        margin-right: 20px; 
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        flex: 1;
+
+        #favourite-btn-right{
+            margin-top: 20px;
+            padding: 0;
+            background-color: transparent;
+            border: none;
+            display: none;
+            img{
+                height: 40px;
+            }
+        }
+        #favourite-btn-right:hover{
+            transform: scale(1.05);
+        }
+        #favourite-btn-right:active{
+            transform: scale(1);
+        }
+
+        #searchFighter-right { 
+            align-self: flex-end; 
+            height: 25px;
+            background-color: #1a1a1a;
+            color: white;
+            font-size: 20px;
+            border: 2px solid white;
+            padding: 5px;
+            border-radius: 15px;
+        }
+        #right-search-container {
+            border: 1px solid rgb(255, 255, 255);
+            margin-top: 5px;
+            display: none;
+            overflow-y: auto; 
+            width: 400px;         
+            max-width: 400px;
+            box-sizing: border-box;
+            max-height: 200px;
+            background-color: rgb(37, 37, 37);
+            border-radius: 10px;
+
+            p { 
+                margin: 0; 
+                color: white;
+                font-size: 20px;
+                margin-left: 10px;
+            }
+            hr { 
+                margin: 0; 
+            }
+        }
+
+        #fighter-card-right {
+            border-radius: 15px;
+            box-shadow: 5px 5px 15px 5px #0202022f;
+            overflow: hidden; 
+            display: none;
+            flex-direction: column;
+            margin-top: 5px;
+            background-color: white;
+
+            .stats-container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 5px;
+                border-top-left-radius: 15px;
+                border-top-right-radius: 15px;  
+                border-bottom: 2px solid rgb(69, 69, 69);
+
+                .pStats {
+                    margin: 0;
+                    width: 100%;
+                    text-align: center;
+                    background-color: rgb(69, 69, 69);
+                    border-top-left-radius: 15px;
+                    border-top-right-radius: 15px;
+                    color: white;
+                    font-family: 'ufc';
+                }
+                .stats-info-container {
+                    display: flex;
+                    justify-content: space-around;
+                    width: 100%;
+                    text-align: center;    
+                    margin-bottom: 5px;           
+                    p { margin: 0; font-family: 'ufc'; }
+                }
+            }
+
+            #fighter-card-right, .fighter-info-header-container-right {
+                flex-direction: row-reverse; 
+                display: flex;
+                align-items: start;
+
+                .info-main-container {
+                    display: flex;
+                    gap: 100px;
+                    flex-direction: row-reverse;
+                    text-align: right;
+
+                    .info-container-left {
+                        display: flex;
+                        flex-direction: row-reverse;
+
+                        img { 
+                            height: 215px; 
+                        }
+                        .Name-Container {
+                            .pFirstName { 
+                                font-size: 20px; 
+                                margin: 0; margin-top: 
+                                20px; 
+                            }
+                            .pLastName { 
+                                font-size: 40px; 
+                                margin: 0; 
+                            }
+                            .flag-division-info {
+                                display: flex;
+                                align-items: center;
+                                justify-content: start;
+                                gap: 5px;
+                                flex-direction: row-reverse;
+                                img { 
+                                    height: 30px; 
+                                }
+                                .pFlagName, .pDivision { 
+                                    font-size: 15px; 
+                                }
+                            }
+                        }
+                    }
+                    .info-container-middle {
+                        .fighter-table {
+                            width: 100%;
+                            border-collapse: collapse;
+                            td, th { 
+                                border-bottom: 1px solid #ddd; 
+                                padding: 12px; 
+                                text-align: right; 
+                            }
+                            .tdLastChild { 
+                                border: none; 
+                            }
+                        }
+                    }
+                }
+            }
+
+            .previous-events-container {
+                display: flex;
+                flex-direction: column;
+                .event,.eventUpcoming {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    padding-left: 10px;
+                    background-color: rgb(69, 69, 69);
+                    color: white;
+                    border-top: 3px solid white;
+                    .pWinOrLoss { 
+                        margin-right: 10px; 
+                    }
+                }
+                .eventUpcoming{
+                        background-color: #c8102e;
+                }
+            }
+        }
+    }
+}
+.lds-ring-left{
+    margin-left: 100px;
+    margin-top: 100px; 
+}
+.lds-ring-right{
+    margin-right: 100px;
+    margin-top: 100px;    
+}
+.lds-ring-left,
+.lds-ring-right {
+    color: #e8272b;  
+    display: none;  
+}
+.lds-ring-left,
+.lds-ring-left div,
+.lds-ring-right,
+.lds-ring-right div {
+    box-sizing: border-box;
+}
+.lds-ring-left,
+.lds-ring-right {
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+.lds-ring-left div,
+.lds-ring-right div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border: 8px solid currentColor;
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: currentColor transparent transparent transparent;
+}
+.lds-ring-left div:nth-child(1),
+.lds-ring-right div:nth-child(1) {
+    animation-delay: -0.45s;
+}
+.lds-ring-left div:nth-child(2),
+.lds-ring-right div:nth-child(2) {
+    animation-delay: -0.3s;
+}
+.lds-ring-left div:nth-child(3),
+.lds-ring-right div:nth-child(3) {
+    animation-delay: -0.15s;
+}
+@keyframes lds-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg); 
+    }
+}

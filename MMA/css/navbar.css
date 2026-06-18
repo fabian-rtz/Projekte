@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'ufc';
+    src: url('../font/Sternbach Bold Italic.otf');
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #c8102e;
+    padding: 20px 50px;
+
+    .pNavbarHeader{
+        font-size: 60px;
+        font-family: 'ufc';
+        margin: 0;
+        color: white;
+    }
+
+    nav{
+        display: flex;
+        gap: 20px;
+        a{
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            font-family: 'ufc';
+            font-size: 30px;
+        }
+        a:hover{
+            transform: scale(1.09);
+        }
+        a:active{
+            transform: scale(1);
+        }
+        a.red{
+            color: rgb(0, 0, 0);
+        }
+    }
+
+    .button-container{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+
+        form{
+            input{
+                padding: 5px 30px;
+                margin: 0;
+                border-radius: 10px;
+                background-color: rgb(69, 69, 69);
+                border: none;
+                border-radius: 10px;
+                color: white;
+                font-size: 17px;
+                font-family: 'ufc';
+            }
+            input:hover{
+                transform: scale(1.09);
+            }
+            input:active{
+                transform: scale(1);
+            }
+        }
+
+        .username-container{
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            justify-content: center;
+
+            .username-logout{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                p{
+                    font-size: 30px;
+                    margin: 0;
+                    font-family: 'ufc';
+                    color: white;
+                }
+                button{
+                    padding: 0;
+                    margin: 0;
+                    border: 0;
+                    background-color: transparent;
+
+                    img{
+                        height: 25px;
+                    }
+                }
+                button:hover{
+                    transform: scale(1.09);
+                }
+                button:active{
+                    transform: scale(1);
+                }
+
+            }
+            img{
+                height: 70px;
+            }
+
+        }
+    }
+}

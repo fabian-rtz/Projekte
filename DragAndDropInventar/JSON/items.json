@@ -1,0 +1,660 @@
+[
+    {
+        "name": "Blitzschnell",
+        "description": "Ein schneller Bogen, der wie ein Blitz durch die Luft gleitet.",
+        "img_path": "/img/items/boegen/Blitzschnell.png",
+        "cost_in_gold": 100,
+        "wearable_as": ["hand"]
+    },
+    {
+        "name": "Drachenjaeger",
+        "description": "Ein speziell fuer Drachenjaeger gefertigter Bogen.",
+        "img_path": "/img/items/boegen/Drachenjaeger.png",
+        "cost_in_gold": 150,
+        "wearable_as": ["hand"]
+    },
+    {
+        "name": "Dunkelhain",
+        "description": "Ein dunkler Bogen, der in den Tiefen des Waldes geschmiedet wurde.",
+        "img_path": "/img/items/boegen/Dunkelhain.png",
+        "cost_in_gold": 90,
+        "wearable_as": ["hand"]
+    },
+    {
+        "name": "Eissturm",
+        "description": "Ein eisiger Bogen, der kalte Winde herbeiruft.",
+        "img_path": "/img/items/boegen/Eissturm.png",
+        "cost_in_gold": 120,
+        "wearable_as": ["hand"]
+    },
+    {
+        "name": "Erdkraft",
+        "description": "Ein Bogen, der die Kraft der Erde in sich traegt.",
+        "img_path": "/img/items/boegen/Erdkraft.png",
+        "cost_in_gold": 80,
+        "wearable_as": ["hand"]
+    },
+    {
+        "name": "Ewiges Ziel",
+        "description": "Ein Bogen, der stets sein Ziel trifft.",
+        "img_path": "/img/items/boegen/Ewiges Ziel.png",
+        "cost_in_gold": 200,
+        "wearable_as": ["hand"]
+    },
+    {
+        "name": "Feuerpfeil",
+        "description": "Ein brennender Pfeil, der alles in Brand setzt.",
+        "img_path": "/img/items/boegen/Feuerpfeil.png",
+        "cost_in_gold": 110,
+        "wearable_as": ["hand"]
+    },
+    {
+        "name": "Flammenauge",
+        "description": "Ein Bogen, dessen Pfeile wie Feuerbaelle wirken.",
+        "img_path": "/img/items/boegen/Flammenauge.png",
+        "cost_in_gold": 130,
+        "wearable_as": ["hand"]
+    },
+    {
+        "name": "Frostschuss",
+        "description": "Ein eiskalter Bogen, der Frostschuesse abfeuert.",
+        "img_path": "/img/items/boegen/Frostschuss.png",
+        "cost_in_gold": 140,
+        "wearable_as": ["hand"]
+    },
+    {
+        "name": "GluhenderPfeil",
+        "description": "Ein gluehender Pfeil, der Feinde verbrennt.",
+        "img_path": "/img/items/boegen/GluhenderPfeil.png",
+        "cost_in_gold": 160,
+        "wearable_as": ["hand"]
+    },
+    {
+        "name": "Klingenbogen",
+        "description": "Ein Bogen mit scharfen Klingen.",
+        "img_path": "/img/items/boegen/Klingenbogen.png",
+        "cost_in_gold": 170,
+        "wearable_as": ["hand"]
+    },
+    {
+        "name": "Mondlichtbogen",
+        "description": "Ein Bogen, der im Mondlicht leuchtet.",
+        "img_path": "/img/items/boegen/Mondlichtbogen.png",
+        "cost_in_gold": 180,
+        "wearable_as": ["hand"]
+    },
+    {
+        "name": "Nebelbogen",
+        "description": "Ein Bogen, der Nebel erzeugt.",
+        "img_path": "/img/items/boegen/Nebelbogen.png",
+        "cost_in_gold": 190,
+        "wearable_as": ["hand"]
+    },
+    {
+        "name": "Phoenixfluegel",
+        "description": "Ein Bogen, der wie die Fluegel eines Phoenix sind.",
+        "img_path": "/img/items/boegen/Phoenixfluegel.png",
+        "cost_in_gold": 210,
+        "wearable_as": ["hand"]
+    },
+    {
+        "name": "Schwarze Rose",
+        "description": "Ein schwarzer Bogen, der wie eine Rose aussieht.",
+        "img_path": "/img/items/boegen/Schwarze Rose.png",
+        "cost_in_gold": 220,
+        "wearable_as": ["hand"]
+    },
+    {
+        "name": "Sonnenstrahl",
+        "description": "Ein Bogen, der Sonnenstrahlen abschießt.",
+        "img_path": "/img/items/boegen/Sonnenstrahl.png",
+        "cost_in_gold": 230,
+        "wearable_as": ["hand"]
+    },
+    {
+        "name": "Steinschleuder",
+        "description": "Eine Steinschleuder, die große Schaden verursacht.",
+        "img_path": "/img/items/boegen/Steinschleuder.png",
+        "cost_in_gold": 240,
+        "wearable_as": ["hand"]
+    },
+    {
+        "name": "Sternenfall",
+        "description": "Ein Bogen, der Sternenstaub abschießt.",
+        "img_path": "/img/items/boegen/Sternenfall.png",
+        "cost_in_gold": 250,
+        "wearable_as": ["hand"]
+    },
+    {
+        "name": "Sturmbrecher",
+        "description": "Ein Bogen, der Stuerme bricht.",
+        "img_path": "/img/items/boegen/Sturmbrecher.png",
+        "cost_in_gold": 260,
+        "wearable_as": ["hand"]
+    },
+    {
+        "name": "Tiefenwaechter",
+        "description": "Ein Bogen, der tief unten bewacht.",
+        "img_path": "/img/items/boegen/Tiefenwaechter.png",
+        "cost_in_gold": 270,
+        "wearable_as": ["hand"]
+    },
+    {
+        "name": "Windlaeufer",
+        "description": "Ein Bogen, der wie der Wind laeuft.",
+        "img_path": "/img/items/boegen/Windlaeufer.png",
+        "cost_in_gold": 280,
+        "wearable_as": ["hand"]
+    },
+    {
+        "name": "Wolkenbruch",
+        "description": "Ein Bogen, der Wolken bricht.",
+        "img_path": "/img/items/boegen/Wolkenbruch.png",
+        "cost_in_gold": 290,
+        "wearable_as": ["hand"]
+    },
+    {
+        "name": "AltesRelikt",
+        "description": "Ein altes Artefakt, das in der Tiefe eines verlassenen Tempels gefunden wurde.",
+        "img_path": "/img/items/loot/AltesRelikt.png",
+        "cost_in_gold": 50,
+        "wearable_as": []
+    },
+    {
+        "name": "AntikesAmulett",
+        "description": "Ein antikes Amulett, das magische Kraefte besitzt.",
+        "img_path": "/img/items/loot/AntikesAmulett.png",
+        "cost_in_gold": 60,
+        "wearable_as": ["hals"]
+    },
+    {
+        "name": "DunklesJuwel",
+        "description": "Ein dunkles Juwel, das unheilige Maechte birgt.",
+        "img_path": "/img/items/loot/DunklesJuwel.png",
+        "cost_in_gold": 70,
+        "wearable_as": []
+    },
+    {
+        "name": "EisernerZahnrad",
+        "description": "Ein eisernes Zahnrad, das in einer Maschine verwendet wird.",
+        "img_path": "/img/items/loot/EisernerZahnrad.png",
+        "cost_in_gold": 80,
+        "wearable_as": []
+    },
+    {
+        "name": "Erdschluessel",
+        "description": "Ein Schluessel, der die Geheimnisse der Erde enthuellt.",
+        "img_path": "/img/items/loot/Erdschluessel.png",
+        "cost_in_gold": 90,
+        "wearable_as": []
+    },
+    {
+        "name": "FeurigerSplitter",
+        "description": "Ein feuriger Splitter, der Hitze emittiert.",
+        "img_path": "/img/items/loot/FeurigerSplitter.png",
+        "cost_in_gold": 100,
+        "wearable_as": []
+    },
+    {
+        "name": "Flammenherz",
+        "description": "Ein Herz aus Flammen, das Leben spendet.",
+        "img_path": "/img/items/loot/Flammenherz.png",
+        "cost_in_gold": 110,
+        "wearable_as": []
+    },
+    {
+        "name": "GlanzenderKristall",
+        "description": "Ein glaenzender Kristall, der magisches Licht emittiert.",
+        "img_path": "/img/items/loot/GlanzenderKristall.png",
+        "cost_in_gold": 120,
+        "wearable_as": []
+    },
+    {
+        "name": "GluehendePerle",
+        "description": "Eine gluehende Perle, die Waerme spendet.",
+        "img_path": "/img/items/loot/GluehendePerle.png",
+        "cost_in_gold": 130,
+        "wearable_as": []
+    },
+    {
+        "name": "Lichtfaenger",
+        "description": "Ein Geraet, das Licht einfaengt.",
+        "img_path": "/img/items/loot/Lichtfaenger.png",
+        "cost_in_gold": 140,
+        "wearable_as": []
+    },
+    {
+        "name": "Luftkristall",
+        "description": "Ein Kristall, der Luftmagie enthaelt.",
+        "img_path": "/img/items/loot/Luftkristall.png",
+        "cost_in_gold": 150,
+        "wearable_as": []
+    },
+    {
+        "name": "MagischesFragment",
+        "description": "Ein magisches Fragment, das unbekannte Kraefte enthaelt.",
+        "img_path": "/img/items/loot/MagischesFragment.png",
+        "cost_in_gold": 160,
+        "wearable_as": []
+    },
+    {
+        "name": "MysterioeserSchluessel",
+        "description": "Ein mysterioeser Schluessel, der geheime Tueren oeffnet.",
+        "img_path": "/img/items/loot/MysterioeserSchluessel.png",
+        "cost_in_gold": 170,
+        "wearable_as": []
+    },
+    {
+        "name": "RunenverzierterRing",
+        "description": "Ein Ring, der mit Runen verziert ist.",
+        "img_path": "/img/items/loot/RunenverzierterRing.png",
+        "cost_in_gold": 180,
+        "wearable_as": ["hals", "hand"]
+    },
+    {
+        "name": "Schattenfluestern",
+        "description": "Ein Gegenstand, der Schattenfluestern erzeugt.",
+        "img_path": "/img/items/loot/Schattenfluestern.png",
+        "cost_in_gold": 190,
+        "wearable_as": []
+    },
+    {
+        "name": "Sternenstaub",
+        "description": "Der Staub von Sternen, der magische Kraefte enthaelt.",
+        "img_path": "/img/items/loot/Sternenstaub.png",
+        "cost_in_gold": 200,
+        "wearable_as": []
+    },
+    {
+        "name": "UnbekanntesSymbol",
+        "description": "Ein unbekanntes Symbol, das Raetsel aufgibt.",
+        "img_path": "/img/items/loot/UnbekanntesSymbol.png",
+        "cost_in_gold": 210,
+        "wearable_as": []
+    },
+    {
+        "name": "UralteMuenze",
+        "description": "Eine uralte Muenze, die Geschichte birgt.",
+        "img_path": "/img/items/loot/UralteMuenze.png",
+        "cost_in_gold": 220,
+        "wearable_as": []
+    },
+    {
+        "name": "VerborgenesGeheimnis",
+        "description": "Ein verborgenes Geheimnis, das gelueftet werden muss.",
+        "img_path": "/img/items/loot/VerborgenesGeheimnis.png",
+        "cost_in_gold": 230,
+        "wearable_as": []
+    },
+    {
+        "name": "VerscholleneKarte",
+        "description": "Eine verschollene Karte, die Orte zeigt.",
+        "img_path": "/img/items/loot/VerscholleneKarte.png",
+        "cost_in_gold": 240,
+        "wearable_as": []
+    },
+    {
+        "name": "VerzauberterStein",
+        "description": "Ein Stein, der magisch verzaubert wurde.",
+        "img_path": "/img/items/loot/VerzauberterStein.png",
+        "cost_in_gold": 250,
+        "wearable_as": []
+    },
+    {
+        "name": "Wasserperle",
+        "description": "Eine Perle, die Wasserkraefte enthaelt.",
+        "img_path": "/img/items/loot/Wasserperle.png",
+        "cost_in_gold": 260,
+        "wearable_as": []
+    },
+    {
+        "name": "WertvolleFibel",
+        "description": "Eine wertvolle Fibel, die als Schmuck dient.",
+        "img_path": "/img/items/loot/WertvolleFibel.png",
+        "cost_in_gold": 270,
+        "wearable_as": ["hals"]
+    },
+    {
+        "name": "Windesspur",
+        "description": "Ein Gegenstand, der Windesspuren hinterlaesst.",
+        "img_path": "/img/items/loot/Windesspur.png",
+        "cost_in_gold": 280,
+        "wearable_as": []
+    },
+    {
+        "name": "AltesRelikt",
+        "description": "Ein altes Artefakt, das in der Tiefe eines verlassenen Tempels gefunden wurde.",
+        "img_path": "/img/items/schilde/AltesRelikt.png",
+        "cost_in_gold": 300,
+        "wearable_as": ["koerper"]
+    },
+    {
+        "name": "Dunkelschild",
+        "description": "Ein dunkler Schild, der Schutz bietet.",
+        "img_path": "/img/items/schilde/Dunkelschild.png",
+        "cost_in_gold": 310,
+        "wearable_as": ["koerper"]
+    },
+    {
+        "name": "EisernerSchild",
+        "description": "Ein solider Schild, der jeden Angriff abwehren kann.",
+        "img_path": "/img/items/schilde/EisernerSchild.png",
+        "cost_in_gold": 320,
+        "wearable_as": ["koerper"]
+    },
+    {
+        "name": "Erdschild",
+        "description": "Ein Schild, der die Kraft der Erde in sich traegt.",
+        "img_path": "/img/items/schilde/Erdschild.png",
+        "cost_in_gold": 330,
+        "wearable_as": ["koerper"]
+    },
+    {
+        "name": "Feuerbarriere",
+        "description": "Ein Schild, der Feuerbarrieren erzeugt.",
+        "img_path": "/img/items/schilde/Feuerbarriere.png",
+        "cost_in_gold": 340,
+        "wearable_as": ["koerper"]
+    },
+    {
+        "name": "Flammenwand",
+        "description": "Ein Schild, der eine Flammenwand erzeugt.",
+        "img_path": "/img/items/schilde/Flammenwand.png",
+        "cost_in_gold": 350,
+        "wearable_as": ["koerper"]
+    },
+    {
+        "name": "Frostschirm",
+        "description": "Ein Schild, der Frostschirme erzeugt.",
+        "img_path": "/img/items/schilde/Frostschirm.png",
+        "cost_in_gold": 360,
+        "wearable_as": ["koerper"]
+    },
+    {
+        "name": "GlanzenderSchild",
+        "description": "Ein glaenzender Schild, der magisches Licht emittiert.",
+        "img_path": "/img/items/schilde/GlanzenderSchild.png",
+        "cost_in_gold": 370,
+        "wearable_as": ["koerper"]
+    },
+    {
+        "name": "Kristallschutz",
+        "description": "Ein Schild, der Kristallschutz bietet.",
+        "img_path": "/img/items/schilde/Kristallschutz.png",
+        "cost_in_gold": 380,
+        "wearable_as": ["koerper"]
+    },
+    {
+        "name": "Lichtbarriere",
+        "description": "Ein Schild, der Lichtbarrieren erzeugt.",
+        "img_path": "/img/items/schilde/Lichtbarriere.png",
+        "cost_in_gold": 390,
+        "wearable_as": ["koerper"]
+    },
+    {
+        "name": "Luftpanzer",
+        "description": "Ein Schild, der Luftpanzer bietet.",
+        "img_path": "/img/items/schilde/Luftpanzer.png",
+        "cost_in_gold": 400,
+        "wearable_as": ["koerper"]
+    },
+    {
+        "name": "MagischerWall",
+        "description": "Ein Schild, der einen magischen Wall bildet.",
+        "img_path": "/img/items/schilde/MagischerWall.png",
+        "cost_in_gold": 410,
+        "wearable_as": ["koerper"]
+    },
+    {
+        "name": "Mondschutz",
+        "description": "Ein Schild, der Mondschutz bietet.",
+        "img_path": "/img/items/schilde/Mondschutz.png",
+        "cost_in_gold": 420,
+        "wearable_as": ["koerper"]
+    },
+    {
+        "name": "Nebelbarriere",
+        "description": "Ein Schild, der Nebelbarrieren erzeugt.",
+        "img_path": "/img/items/schilde/Nebelbarriere.png",
+        "cost_in_gold": 430,
+        "wearable_as": ["koerper"]
+    },
+    {
+        "name": "Runenverstaerkt",
+        "description": "Ein Schild, der mit Runen verstaerkt wurde.",
+        "img_path": "/img/items/schilde/Runenverstaerkt.png",
+        "cost_in_gold": 440,
+        "wearable_as": ["koerper"]
+    },
+    {
+        "name": "Schattenpanzer",
+        "description": "Ein Schild, der Schattenpanzer bietet.",
+        "img_path": "/img/items/schilde/Schattenpanzer.png",
+        "cost_in_gold": 450,
+        "wearable_as": ["koerper"]
+    },
+    {
+        "name": "Sonnenschild",
+        "description": "Ein Schild, der Sonnenstrahlen absorbiert.",
+        "img_path": "/img/items/schilde/Sonnenschild.png",
+        "cost_in_gold": 460,
+        "wearable_as": ["koerper"]
+    },
+    {
+        "name": "Steinhart",
+        "description": "Ein Schild, der wie Stein hart ist.",
+        "img_path": "/img/items/schilde/Steinhart.png",
+        "cost_in_gold": 470,
+        "wearable_as": ["koerper"]
+    },
+    {
+        "name": "Sturmschild",
+        "description": "Ein Schild, der Stuerme abwehrt.",
+        "img_path": "/img/items/schilde/Sturmschild.png",
+        "cost_in_gold": 480,
+        "wearable_as": ["koerper"]
+    },
+    {
+        "name": "UnbekannterSchild",
+        "description": "Ein unbekannter Schild, der viele Geheimnisse birgt.",
+        "img_path": "/img/items/schilde/UnbekannterSchild.png",
+        "cost_in_gold": 490,
+        "wearable_as": ["koerper"]
+    },
+    {
+        "name": "VerborgeneBarriere",
+        "description": "Ein Schild, der eine verborgene Barriere bietet.",
+        "img_path": "/img/items/schilde/VerborgeneBarriere.png",
+        "cost_in_gold": 500,
+        "wearable_as": ["koerper"]
+    },
+    {
+        "name": "Waldwaechter",
+        "description": "Ein Schild, der wie ein Waechter des Waldes ist.",
+        "img_path": "/img/items/schilde/Waldwaechter.png",
+        "cost_in_gold": 510,
+        "wearable_as": ["koerper"]
+    },
+    {
+        "name": "Wasserschutz",
+        "description": "Ein Schild, der Wasserschutz bietet.",
+        "img_path": "/img/items/schilde/Wasserschutz.png",
+        "cost_in_gold": 520,
+        "wearable_as": ["koerper"]
+    },
+    {
+        "name": "Windwall",
+        "description": "Ein Schild, der Windwaelle erzeugt.",
+        "img_path": "/img/items/schilde/Windwall.png",
+        "cost_in_gold": 530,
+        "wearable_as": ["koerper"]
+    },
+    {
+        "name": "AltesRezept",
+        "description": "Ein altes Rezept, das das Geheimnis eines maechtigen Tranks enthuellt.",
+        "img_path": "/img/items/traenke/AltesRezept.png",
+        "cost_in_gold": 30,
+        "wearable_as": []
+    },
+    {
+        "name": "Dunkelkraft",
+        "description": "Ein Trank, der dunkle Kraefte enthaelt.",
+        "img_path": "/img/items/traenke/Dunkelkraft.png",
+        "cost_in_gold": 40,
+        "wearable_as": []
+    },
+    {
+        "name": "EisigerTrank",
+        "description": "Ein eisiger Trank, der Kaelte emittiert.",
+        "img_path": "/img/items/traenke/EisigerTrank.png",
+        "cost_in_gold": 50,
+        "wearable_as": []
+    },
+    {
+        "name": "Erdenelixier",
+        "description": "Ein Elixier, das die Kraft der Erde enthaelt.",
+        "img_path": "/img/items/traenke/Erdenelixier.png",
+        "cost_in_gold": 60,
+        "wearable_as": []
+    },
+    {
+        "name": "Erdsuppe",
+        "description": "Eine Suppe, die Erdenergie enthaelt.",
+        "img_path": "/img/items/traenke/Erdsuppe.png",
+        "cost_in_gold": 70,
+        "wearable_as": []
+    },
+    {
+        "name": "Feuerfluessigkeit",
+        "description": "Eine fluessige Substanz, die Feuerkraefte enthaelt.",
+        "img_path": "/img/items/traenke/Feuerfluessigkeit.png",
+        "cost_in_gold": 80,
+        "wearable_as": []
+    },
+    {
+        "name": "Feuertrank",
+        "description": "Ein Trank, der Feuerkraefte enthaelt.",
+        "img_path": "/img/items/traenke/Feuertrank.png",
+        "cost_in_gold": 90,
+        "wearable_as": []
+    },
+    {
+        "name": "Flammenelixier",
+        "description": "Ein Elixier, das Flammenkraefte enthaelt.",
+        "img_path": "/img/items/traenke/Flammenelixier.png",
+        "cost_in_gold": 100,
+        "wearable_as": []
+    },
+    {
+        "name": "GeheimesHeilmittel",
+        "description": "Ein heimliches Heilmittel, das Krankheiten heilt.",
+        "img_path": "/img/items/traenke/GeheimesHeilmittel.png",
+        "cost_in_gold": 110,
+        "wearable_as": []
+    },
+    {
+        "name": "Himmelsnektar",
+        "description": "Ein Nektar, der vom Himmel stammt.",
+        "img_path": "/img/items/traenke/Himmelsnektar.png",
+        "cost_in_gold": 120,
+        "wearable_as": []
+    },
+    {
+        "name": "Kristalltrank",
+        "description": "Ein Trank, der Kristalle enthaelt.",
+        "img_path": "/img/items/traenke/Kristalltrank.png",
+        "cost_in_gold": 130,
+        "wearable_as": []
+    },
+    {
+        "name": "Lichtelixier",
+        "description": "Ein Elixier, das Lichtkraefte enthaelt.",
+        "img_path": "/img/items/traenke/Lichtelixier.png",
+        "cost_in_gold": 140,
+        "wearable_as": []
+    },
+    {
+        "name": "Luftelixier",
+        "description": "Ein Elixier, das Luftkraefte enthaelt.",
+        "img_path": "/img/items/traenke/Luftelixier.png",
+        "cost_in_gold": 150,
+        "wearable_as": []
+    },
+    {
+        "name": "Luftkraft",
+        "description": "Ein Trank, der Luftkraefte enthaelt.",
+        "img_path": "/img/items/traenke/Luftkraft.png",
+        "cost_in_gold": 160,
+        "wearable_as": []
+    },
+    {
+        "name": "MagischeTinktur",
+        "description": "Eine magische Tinktur, die Zauberkraefte enthaelt.",
+        "img_path": "/img/items/traenke/MagischeTinktur.png",
+        "cost_in_gold": 170,
+        "wearable_as": []
+    },
+    {
+        "name": "MystischesElixier",
+        "description": "Ein mystisches Elixier, das unbekannte Kraefte enthaelt.",
+        "img_path": "/img/items/traenke/MystischesElixier.png",
+        "cost_in_gold": 180,
+        "wearable_as": []
+    },
+    {
+        "name": "Schattenelixier",
+        "description": "Ein Elixier, das Schattenkraefte enthaelt.",
+        "img_path": "/img/items/traenke/Schattenelixier.png",
+        "cost_in_gold": 190,
+        "wearable_as": []
+    },
+    {
+        "name": "Steinfusion",
+        "description": "Ein Trank, der Steinkraefte enthaelt.",
+        "img_path": "/img/items/traenke/Steinfusion.png",
+        "cost_in_gold": 200,
+        "wearable_as": []
+    },
+    {
+        "name": "Sturmsuppe",
+        "description": "Eine Suppe, die Sturmkraefte enthaelt.",
+        "img_path": "/img/items/traenke/Sturmsuppe.png",
+        "cost_in_gold": 210,
+        "wearable_as": []
+    },
+    {
+        "name": "UnbekannteMixtur",
+        "description": "Eine unbekannte Mixtur, die unbekannte Kraefte enthaelt.",
+        "img_path": "/img/items/traenke/UnbekannteMixtur.png",
+        "cost_in_gold": 220,
+        "wearable_as": []
+    },
+    {
+        "name": "VerborgeneKraft",
+        "description": "Ein Trank, der verborgene Kraefte enthaelt.",
+        "img_path": "/img/items/traenke/VerborgeneKraft.png",
+        "cost_in_gold": 230,
+        "wearable_as": []
+    },
+    {
+        "name": "Wasserelixier",
+        "description": "Ein Elixier, das Wasserkraefte enthaelt.",
+        "img_path": "/img/items/traenke/Wasserelixier.png",
+        "cost_in_gold": 240,
+        "wearable_as": []
+    },
+    {
+        "name": "Wasserglut",
+        "description": "Ein Trank, der Wasserglut enthaelt.",
+        "img_path": "/img/items/traenke/Wasserglut.png",
+        "cost_in_gold": 250,
+        "wearable_as": []
+    },
+    {
+        "name": "Windesschluck",
+        "description": "Ein Schluck, der Windkraefte enthaelt.",
+        "img_path": "/img/items/traenke/Windesschluck.png",
+        "cost_in_gold": 260,
+        "wearable_as": []
+    }
+]

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0">
+    <link rel="stylesheet/less" type="text/css" href="style.less">
+    <script src="vendors/less.js-4.4.2/dist/less.js" type="text/javascript"></script>
+    <title>Clicker Game</title>
+</head>
+<body>
+    <section id="Archievement">  
+    <div id="FirstBlood">
+        <img src="./img/erfolg.png" alt="" srcset="">
+        <div class="textContainer">
+            <h2>First Blood</h2>
+            <p>Verdiene deinen ersten Skull-Point.</p>
+        </div>
+
+    </div>    
+    <div id="GettingStarted">
+        <img src="./img/erfolg.png" alt="" srcset="">
+        <div class="textContainer">
+            <h2>Getting Started</h2>
+            <p>Kaufe deinen ersten Auto-Clicker.</p>                
+        </div>
+    </div>   
+    <div id="DoubleTrouble">
+        <img src="./img/erfolg.png" alt="" srcset="">
+        <div class="textContainer">
+            <h2>Double Trouble</h2>
+            <p>Erreiche 2 CPS (Clicks pro Sekunde).</p>             
+        </div>        
+    </div>    
+    <div id="Collector"> 
+        <img src="./img/erfolg.png" alt="" srcset="">
+        <div class="textContainer">
+            <h2>Collector</h2>
+            <p>Wechsle dein Bild 10 Mal.</p>            
+        </div>                 
+    </div>   
+    <div id="NoviceClicker">
+        <img src="./img/erfolg.png" alt="" srcset="">
+        <div class="textContainer">
+            <h2>Novice Clicker</h2>
+            <p>Klicke 100 Mal.</p>            
+        </div>                   
+    </div>
+    <div id="FirstUpgrade">
+        <img src="./img/erfolg.png" alt="" srcset="">
+        <div class="textContainer">
+            <h2>First Upgrade</h2>
+            <p>Level einen Auto-Clicker auf <br>Stufe 5.</p>            
+        </div>                  
+    </div>
+    <div id="AutoArmy">
+        <img src="./img/erfolg.png" alt="" srcset="">
+        <div class="textContainer">
+            <h2>Auto Army</h2>
+            <p>Besitze 10 Auto-Clicker (egal welche Art).</p>             
+        </div>                  
+    </div>
+    <div id="SkullGrinder">
+        <img src="./img/erfolg.png" alt="" srcset="">
+        <div class="textContainer">
+            <h2>Skull Grinder</h2>
+            <p>Verdiene 1.000 Skull-Points insgesamt.</p>             
+        </div>                
+    </div>
+    <div id="ImageAddict">
+        <img src="./img/erfolg.png" alt="" srcset="">
+        <div class="textContainer">
+            <h2>Image Addict</h2>
+            <p>Wechsle dein Tierbild 100 Mal.</p>          
+        </div>            
+    </div>
+    <div id="UpgradeSpecialist">
+        <img src="./img/erfolg.png" alt="" srcset="">
+        <div class="textContainer">
+            <h2>Upgrade Specialist</h2>
+            <p>Level einen Auto-Clicker auf <br>Stufe 25.</p>            
+        </div>            
+    </div> 
+    </section> 
+    <section class="MainContainer">
+        <button id="btnShop"><img src="img/store.png" alt=""></button>
+        <button id="btnArchievement"><img src="img/erfolg.png" alt=""></button>
+        <div id="PopUpContainer">
+        </div>
+        <div class="PointsContainer">
+            <div class="PointsHeaderContainer">
+                <div class="HeaderContainer">
+                    <img src="./img/skull.png" alt="">
+                    <h1>Skull-Points: </h1>
+                </div>
+                <h1 id="Points">0</h1>
+            </div>
+            <h2 id="ClicksPerSecond"></h2>
+        </div>
+        <button id="btnClick"><img id="imgClick" src="img/Dragon/Dragon_1.png" alt=""></button>
+    </section>
+    <section id="Shop">
+        <h1>Shop</h1>   
+        <button id="levelAutoClickOne">
+        <div class="TopRow">
+                <p>Auto-Clicker x1</p>
+                <p id="levelAutoClickerNumberOne">0</p>
+        </div>
+            <div class="BottomRow">
+                <img src="./img/skull.png" alt="">
+                <p id="levelAutoClickerSkullPointsOne">Skull-Points: 15</p>
+            </div>
+        </button>
+        <button id="levelAutoClickFive">
+        <div class="TopRow">
+                <p>Auto-Clicker x5</p>
+                <p id="levelAutoClickerNumberFive">0</p>
+        </div>
+            <div class="BottomRow">
+                <img src="./img/skull.png" alt="">
+                <p id="levelAutoClickerSkullPointsFive">Skull-Points: 75</p>
+            </div>
+        </button>
+        <button id="levelAutoClickTen">
+        <div class="TopRow">
+                <p>Auto-Clicker x10</p>
+                <p id="levelAutoClickerNumberTen">0</p>
+        </div>
+            <div class="BottomRow">
+                <img src="./img/skull.png" alt="">
+                <p id="levelAutoClickerSkullPointsTen">Skull-Points: 180</p>
+            </div>
+        </button>
+        <button id="levelAutoClickFifty">
+        <div class="TopRow">
+                <p>Auto-Clicker x50</p>
+                <p id="levelAutoClickerNumberFifty">0</p>
+        </div>
+            <div class="BottomRow">
+                <img src="./img/skull.png" alt="">
+                <p id="levelAutoClickerSkullPointsFifty">Skull-Points: 1000</p>
+            </div>
+        </button>
+        <button id="levelAutoClickOneHundred">
+        <div class="TopRow">
+                <p>Auto-Clicker x100</p>
+                <p id="levelAutoClickerNumberOneHundred">0</p>
+        </div>
+            <div class="BottomRow">
+                <img src="./img/skull.png" alt="">
+                <p id="levelAutoClickerSkullPointsOneHundred">Skull-Points: 2500</p>
+            </div>
+        </button>                
+    </section>    
+    <script type="module" src="./scripts/UI.js"></script>
+    <script type="module" src="./scripts/Shop.js"></script>
+    <script type="module" src="./scripts/Archievement.js"></script>
+    <script type="module" src="./scripts/level/levelAutoClickOne.js"></script>
+    <script type="module" src="./scripts/level/levelAutoClickFive.js"></script>
+    <script type="module" src="./scripts/level/levelAutoClickTen.js"></script>
+    <script type="module" src="./scripts/level/levelAutoClickFifty.js"></script>
+    <script type="module" src="./scripts/level/levelAutoClickOneHundred.js"></script>
+</body>
+</html>
