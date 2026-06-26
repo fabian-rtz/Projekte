@@ -32,10 +32,6 @@
      <script data-goatcounter="https://fabianrtz.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </head>
 <body>
-    <header>
-        <img src="./img/logo.png" alt="">
-    </header>
-
     <main>
     <div id="question-container-outer">
 

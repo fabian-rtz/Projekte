@@ -1,5 +1,5 @@
 <?php
-session_start(); // <-- NEU: Ganz oben die Session starten!
+session_start(); 
 
 $gemerkte_antwort = "";
 $umfrage_zuende = "";
@@ -20,7 +20,6 @@ if(isset($_POST['antwort'])){
     $gemerkte_antwort = $_POST['antwort'];
 
     if($gemerkte_antwort == "ja"){
-        // <-- NEU: Hier setzen wir den "Stempel", weil der Nutzer "Ja" geklickt hat
         $_SESSION['darf_umfrage_machen'] = true; 
         
         header("Location: umfrage.php"); 
@@ -44,10 +43,6 @@ if(isset($_POST['antwort'])){
      <script data-goatcounter="https://fabianrtz.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </head>
 <body>
-    <header>
-        <img src="./img/logo.png" alt="">
-    </header>
-
     <main>
         <div class="question-container">
             <?php if($umfrage_zuende == "ja"){ ?>
